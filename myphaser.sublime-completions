@@ -1,0 +1,295 @@
+{
+  "scope": "source.js",
+
+  "completions": 
+  [
+    {
+      "trigger": "game.add.text\tgame",
+      "contents": "game.add.text(${1:x},${2:y},${3:text},${4:style});"
+    },
+    {
+      "trigger": "game.add.sprite\tgame",
+      "contents": "game.add.sprite(${1:x},${2:y},${3:key});"
+    },
+    {
+      "trigger": "game.add.group\tgame",
+      "contents": "game.add.group"
+    },
+    {
+      "trigger": "game.add.audio\tgame",
+      "contents": "game.add.audio(${1:audio});"
+    },
+    {
+      "trigger": "game.add.graphics",
+      "contents": "game.add.graphics(${1:x},${2:y});"
+    },
+    {
+      "trigger": "game.add.tween",
+      "contents": "game.add.tween(${1:object});"
+    },
+    {
+      "trigger": "game.load.image\tgame",
+      "contents": "game.load.image(${1:key},${2:url});"
+    },
+    {
+      "trigger": "game.load.audio\tgame",
+      "contents": "game.load.audio(${1:key},${2:url});"
+    },
+    {
+      "trigger": "game.load.atlas\tgame",
+      "contents": "game.load.atlas(${1:key},${2:url});"
+    },
+    {
+      "trigger": "game.load.json\tgame",
+      "contents": "game.load.json(${1:key},${2:url});"
+    },
+    {
+      "trigger": "game.load.text\tgame",
+      "contents": "game.load.text(${1:key},${2:url});"
+    },
+    {
+      "trigger": "game.stage.backgroudColor\tgame",
+      "contents": "game.stage.backgroudColor"
+    },
+    {
+      "trigger": "game.state.start",
+      "contents": "game.state.start(${1:name});"
+    },
+    {
+      "trigger": "add.button\tadd",
+      "contents": "add.button(${1:x},${2:y},${3:text},${4:callback});"
+    },
+    {
+      "trigger": "add.text\tadd",
+      "contents": "add.text(${1:x},${2:y},${3:text},${4:style});"
+    },
+    {
+      "trigger": "add.sprite\tadd",
+      "contents": "add.sprite(${1:x},${2:y},${3:key});"
+    },
+    {
+      "trigger": "add.graphics\tadd",
+      "contents": "add.graphics"
+    },
+    {
+      "trigger": "addchild",
+      "contents": "addChild(${1:child});"
+    },
+    {
+      "trigger": "addchildat",
+      "contents": "addChildAt(${1:child},${2:index});"
+    },
+    {
+      "trigger": "addkey",
+      "contents": "addKey(${1:key});"
+    },
+    {
+      "trigger": "addonce",
+      "contents": "addOnce(${1:listener},${2:listenerContext});"
+    },
+    {
+      "trigger": "scale.setto",
+      "contents": "scale.setTo(${1:x},${2:y});"
+    },
+    {
+      "trigger": "beginfill",
+      "contents": "beginFill(${1:color},${2:alpha});"
+    },
+    {
+      "trigger": "drawrect",
+      "contents": "drawRect(${1:x},${2:y},${3:width},${4:height});"
+    },
+    {
+      "trigger": "drawcircle",
+      "contents": "drawCircle(${1:x},${2:y},${3:radius});"
+    },
+    {
+      "trigger": "parseint",
+      "contents": "parseInt(${1:number});"
+    },
+    {
+      "trigger": "settext",
+      "contents": "setText(${1:string});"
+    },
+    {
+      "trigger": "removechildren",
+      "contents": "removeChildren();"
+    },
+    {
+      "trigger": "getchildindex",
+      "contents": "getChildIndex(${1:index});"
+    },
+    {
+      "trigger": "game\tga",
+      "contents": "game"
+    },
+    {
+      "trigger": "add\tadd",
+      "contents": "add"
+    },
+    {
+      "trigger": "button\tbu",
+      "contents": "button"
+    },
+    {
+      "trigger": "text\tte",
+      "contents": "text"
+    },
+    {
+      "trigger": "sprite\tsp",
+      "contents": "sprite"
+    },
+    {
+      "trigger": "group\tgr",
+      "contents": "group"
+    },
+    {
+      "trigger": "image\tim",
+      "contents": "image"
+    },
+    {
+      "trigger": "audio\tau",
+      "contents": "audio"
+    },
+    {
+      "trigger": "world\two",
+      "contents": "world"
+    },
+    {
+      "trigger": "camera\tca",
+      "contents": "camera"
+    },
+    {
+      "trigger": "stage\tst",
+      "contents": "stage"
+    },
+    {
+      "trigger": "state\tst",
+      "contents": "state"
+    },
+    {
+      "trigger": "load\tlo",
+      "contents": "load"
+    },
+    {
+      "trigger": "scale\tsc",
+      "contents": "scale"
+    },
+    {
+      "trigger": "make\tma",
+      "contents": "make"
+    },
+    {
+      "trigger": "physics\tph",
+      "contents": "physics"
+    },
+    {
+      "trigger": "arcade\tar",
+      "contents": "arcade"
+    },
+    {
+      "trigger": "input\tin",
+      "contents": "input"
+    },
+    {
+      "trigger": "pointer\tpo",
+      "contents": "pointer"
+    },
+    {
+      "trigger": "keyboard\tke",
+      "contents": "keyboard"
+    },
+    {
+      "trigger": "mouse\tmo",
+      "contents": "mouse"
+    },
+    {
+      "trigger": "tween\ttw",
+      "contents": "tween"
+    },
+    {
+      "trigger": "width\twi",
+      "contents": "width"
+    },
+    {
+      "trigger": "height\the",
+      "contents": "height"
+    },
+    {
+      "trigger": "parent\tpa",
+      "contents": "parent"
+    },
+    {
+      "trigger": "transparent\ttr",
+      "contents": "transparent"
+    },
+    {
+      "trigger": "visible\tvi",
+      "contents": "visible"
+    },
+    {
+      "trigger": "time\tti",
+      "contents": "time"
+    },
+    {
+      "trigger": "name\tna",
+      "contents": "name"
+    },
+    {
+      "trigger": "font",
+      "contents": "font"
+    },
+    {
+      "trigger": "fill",
+      "contents": "fill"
+    },
+    {
+      "trigger": "align",
+      "contents": "align"
+    },
+    {
+      "trigger": "events",
+      "contents": "events"
+    },
+    {
+      "trigger": "cache\tca",
+      "contents": "cache"
+    },
+    {
+      "trigger": "anchor",
+      "contents": "anchor"
+    },
+    {
+      "trigger": "alpha",
+      "contents": "alpha"
+    },
+    {
+      "trigger": "velocity",
+      "contents": "velocity"
+    },
+    {
+      "trigger": "oninputdown\tonInputDown",
+      "contents": "onInputDown"
+    },
+    {
+      "trigger": "oninputout\tonInputOut",
+      "contents": "onInputOut"
+    },
+    {
+      "trigger": "oninputover\tonInputOver",
+      "contents": "onInputOver"
+    },
+    {
+      "trigger": "oninputup\tonInputUp",
+      "contents": "onInputUp"
+    },
+    {
+      "trigger": "inputEnable",
+      "contents": "inputEnable"
+    },
+    {
+      "trigger": "function",
+      "contents": "function ${1:name}(){}"
+    }
+  ]
+}

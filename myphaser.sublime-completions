@@ -1,22 +1,20 @@
 {
   "scope": "source.js",
-
-  "completions": 
-  [
+  "completions": [
     {
-      "trigger": "game.add.text\tgame",
+      "trigger": "game.add.text",
       "contents": "game.add.text(${1:x},${2:y},${3:text},${4:style});"
     },
     {
-      "trigger": "game.add.sprite\tgame",
+      "trigger": "game.add.sprite",
       "contents": "game.add.sprite(${1:x},${2:y},${3:key});"
     },
     {
-      "trigger": "game.add.group\tgame",
+      "trigger": "game.add.group",
       "contents": "game.add.group"
     },
     {
-      "trigger": "game.add.audio\tgame",
+      "trigger": "game.add.audio",
       "contents": "game.add.audio(${1:audio});"
     },
     {
@@ -28,27 +26,27 @@
       "contents": "game.add.tween(${1:object});"
     },
     {
-      "trigger": "game.load.image\tgame",
+      "trigger": "game.load.image",
       "contents": "game.load.image(${1:key},${2:url});"
     },
     {
-      "trigger": "game.load.audio\tgame",
+      "trigger": "game.load.audio",
       "contents": "game.load.audio(${1:key},${2:url});"
     },
     {
-      "trigger": "game.load.atlas\tgame",
+      "trigger": "game.load.atlas",
       "contents": "game.load.atlas(${1:key},${2:url});"
     },
     {
-      "trigger": "game.load.json\tgame",
+      "trigger": "game.load.json",
       "contents": "game.load.json(${1:key},${2:url});"
     },
     {
-      "trigger": "game.load.text\tgame",
+      "trigger": "game.load.text",
       "contents": "game.load.text(${1:key},${2:url});"
     },
     {
-      "trigger": "game.stage.backgroudColor\tgame",
+      "trigger": "game.stage.backgroudColor",
       "contents": "game.stage.backgroudColor"
     },
     {
@@ -56,19 +54,19 @@
       "contents": "game.state.start(${1:name});"
     },
     {
-      "trigger": "add.button\tadd",
+      "trigger": "add.button",
       "contents": "add.button(${1:x},${2:y},${3:text},${4:callback});"
     },
     {
-      "trigger": "add.text\tadd",
+      "trigger": "add.text",
       "contents": "add.text(${1:x},${2:y},${3:text},${4:style});"
     },
     {
-      "trigger": "add.sprite\tadd",
+      "trigger": "add.sprite",
       "contents": "add.sprite(${1:x},${2:y},${3:key});"
     },
     {
-      "trigger": "add.graphics\tadd",
+      "trigger": "add.graphics",
       "contents": "add.graphics"
     },
     {
@@ -120,119 +118,119 @@
       "contents": "getChildIndex(${1:index});"
     },
     {
-      "trigger": "game\tga",
+      "trigger": "game",
       "contents": "game"
     },
     {
-      "trigger": "add\tadd",
+      "trigger": "add",
       "contents": "add"
     },
     {
-      "trigger": "button\tbu",
+      "trigger": "button",
       "contents": "button"
     },
     {
-      "trigger": "text\tte",
+      "trigger": "text",
       "contents": "text"
     },
     {
-      "trigger": "sprite\tsp",
+      "trigger": "sprite",
       "contents": "sprite"
     },
     {
-      "trigger": "group\tgr",
+      "trigger": "group",
       "contents": "group"
     },
     {
-      "trigger": "image\tim",
+      "trigger": "image",
       "contents": "image"
     },
     {
-      "trigger": "audio\tau",
+      "trigger": "audio",
       "contents": "audio"
     },
     {
-      "trigger": "world\two",
+      "trigger": "world",
       "contents": "world"
     },
     {
-      "trigger": "camera\tca",
+      "trigger": "camera",
       "contents": "camera"
     },
     {
-      "trigger": "stage\tst",
+      "trigger": "stage",
       "contents": "stage"
     },
     {
-      "trigger": "state\tst",
+      "trigger": "state",
       "contents": "state"
     },
     {
-      "trigger": "load\tlo",
+      "trigger": "load",
       "contents": "load"
     },
     {
-      "trigger": "scale\tsc",
+      "trigger": "scale",
       "contents": "scale"
     },
     {
-      "trigger": "make\tma",
+      "trigger": "make",
       "contents": "make"
     },
     {
-      "trigger": "physics\tph",
+      "trigger": "physics",
       "contents": "physics"
     },
     {
-      "trigger": "arcade\tar",
+      "trigger": "arcade",
       "contents": "arcade"
     },
     {
-      "trigger": "input\tin",
+      "trigger": "input",
       "contents": "input"
     },
     {
-      "trigger": "pointer\tpo",
+      "trigger": "pointer",
       "contents": "pointer"
     },
     {
-      "trigger": "keyboard\tke",
+      "trigger": "keyboard",
       "contents": "keyboard"
     },
     {
-      "trigger": "mouse\tmo",
+      "trigger": "mouse",
       "contents": "mouse"
     },
     {
-      "trigger": "tween\ttw",
+      "trigger": "tween",
       "contents": "tween"
     },
     {
-      "trigger": "width\twi",
+      "trigger": "width",
       "contents": "width"
     },
     {
-      "trigger": "height\the",
+      "trigger": "height",
       "contents": "height"
     },
     {
-      "trigger": "parent\tpa",
+      "trigger": "parent",
       "contents": "parent"
     },
     {
-      "trigger": "transparent\ttr",
+      "trigger": "transparent",
       "contents": "transparent"
     },
     {
-      "trigger": "visible\tvi",
+      "trigger": "visible",
       "contents": "visible"
     },
     {
-      "trigger": "time\tti",
+      "trigger": "time",
       "contents": "time"
     },
     {
-      "trigger": "name\tna",
+      "trigger": "name",
       "contents": "name"
     },
     {
@@ -252,7 +250,7 @@
       "contents": "events"
     },
     {
-      "trigger": "cache\tca",
+      "trigger": "cache",
       "contents": "cache"
     },
     {
@@ -288,8 +286,1148 @@
       "contents": "inputEnable"
     },
     {
-      "trigger": "function",
-      "contents": "function ${1:name}(){}"
+      "trigger": "",
+      "contents": ""
+    },
+    {
+      "trigger": "",
+      "contents": ""
+    },
+    {
+      "trigger": "",
+      "contents": ""
+    },
+    {
+      "trigger": "",
+      "contents": ""
+    },
+    {
+      "trigger": "device",
+      "contents": "device"
+    },
+    {
+      "trigger": "tweens",
+      "contents": "tweens"
+    },
+    {
+      "trigger": "math",
+      "contents": "math"
+    },
+    {
+      "trigger": "net",
+      "contents": "net"
+    },
+    {
+      "trigger": "onBlur",
+      "contents": "onBlur"
+    },
+    {
+      "trigger": "onFocus",
+      "contents": "onFocus"
+    },
+    {
+      "trigger": "onPause",
+      "contents": "onPause"
+    },
+    {
+      "trigger": "onResume",
+      "contents": "onResume"
+    },
+    {
+      "trigger": "particles",
+      "contents": "particles"
+    },
+    {
+      "trigger": "raf",
+      "contents": "raf"
+    },
+    {
+      "trigger": "rnd",
+      "contents": "rnd"
+    },
+    {
+      "trigger": "sound",
+      "contents": "sound"
+    },
+    {
+      "trigger": "debug",
+      "contents": "debug"
+    },
+    {
+      "trigger": "canvas",
+      "contents": "canvas"
+    },
+    {
+      "trigger": "config",
+      "contents": "config"
+    },
+    {
+      "trigger": "context",
+      "contents": "context"
+    },
+    {
+      "trigger": "isBooted",
+      "contents": "isBooted"
+    },
+    {
+      "trigger": "antialias",
+      "contents": "antialias"
+    },
+    {
+      "trigger": "enableStep",
+      "contents": "enableStep"
+    },
+    {
+      "trigger": "step",
+      "contents": "step"
+    },
+    {
+      "trigger": "boot",
+      "contents": "boot"
+    },
+    {
+      "trigger": "focusGain",
+      "contents": "focusGain(${1:event});"
+    },
+    {
+      "trigger": "focusLoss",
+      "contents": "focusLoss(${1:event});"
+    },
+    {
+      "trigger": "gamePaused",
+      "contents": "gamePaused"
+    },
+    {
+      "trigger": "paused",
+      "contents": "paused${6:adfsd},"
+    },
+    {
+      "trigger": "pendingStep",
+      "contents": "pendingStep"
+    },
+    {
+      "trigger": "gameResumed",
+      "contents": "gameResumed();(${1:event});"
+    },
+    {
+      "trigger": "parseConfig",
+      "contents": "parseConfig();"
+    },
+    {
+      "trigger": "setUpRenderer",
+      "contents": "setUpRenderer();"
+    },
+    {
+      "trigger": "showDebugHeader",
+      "contents": "showDebugHeader();"
+    },
+    {
+      "trigger": "update",
+      "contents": "update(${1:time});"
+    },
+    {
+      "trigger": "destroy",
+      "contents": "destroy();"
+    },
+    {
+      "trigger": "physicsConfig",
+      "contents": "physicsConfig"
+    },
+    {
+      "trigger": "preserveDrawingBuffer",
+      "contents": "preserveDrawingBuffer"
+    },
+    {
+      "trigger": "renderType",
+      "contents": "renderType"
+    },
+    {
+      "trigger": "disableStep",
+      "contents": "disableStep();"
+    },
+    {
+      "trigger": "stepCount",
+      "contents": "stepCount"
+    },
+    {
+      "trigger": "stepping",
+      "contents": "stepping"
+    },
+    {
+      "trigger": "renderer",
+      "contents": "renderer"
+    },
+    {
+      "trigger": "animation",
+      "contents": "animation"
+    },
+    {
+      "trigger": "manager\tanimation",
+      "contents": "animationManager"
+    },
+    {
+      "trigger": "parser\tanimation",
+      "contents": "animationParser"
+    },
+    {
+      "trigger": "request\tanimation",
+      "contents": "requestAnimationFrame"
+    },
+    {
+      "trigger": "animation.oncomplete\toncomplete",
+      "contents": "animation.onComplete"
+    },
+    {
+      "trigger": "animation.onloop\tonloop",
+      "contents": "animation.onLoop"
+    },
+    {
+      "trigger": "animation.onstart\tonstart",
+      "contents": "animation.onStart"
+    },
+    {
+      "trigger": "animation.onupdate\tonupdate",
+      "contents": "animation.onUpdate"
+    },
+    {
+      "trigger": "animation.play",
+      "contents": "animation.play(${1:frameRate},${2:loop},${3:killOnComplete});"
+    },
+    {
+      "trigger": "animationmanager.currentanim\tcurrentanim",
+      "contents": "animationManager.currentAnim"
+    },
+    {
+      "trigger": "animationmanager.currentframe\tcurrentframe",
+      "contents": "animationManager.currentFrame"
+    },
+    {
+      "trigger": "animationmanager.framedata\tframedata",
+      "contents": "animationManager.frameData"
+    },
+    {
+      "trigger": "animationmanager.game\t",
+      "contents": "animationManager.game"
+    },
+    {
+      "trigger": "animationmanager.sprite",
+      "contents": "animationManager.sprite"
+    },
+    {
+      "trigger": "animationmanager.add",
+      "contents": "animationManager.add(${1:name},${2:frames},${3:frameRate},${4:loop},${5:useNumericIndex});"
+    },
+    {
+      "trigger": "animationmanager.getanimation\tgetanimation",
+      "contents": "animationManager.getAnimation(${1:name});"
+    },
+    {
+      "trigger": "animationmanager.play",
+      "contents": "animationManager.play(${1:name},${2:frameRate},${3:loop},${4:killOnComplete});"
+    },
+    {
+      "trigger": "animationparser.jsondata\tjsondata",
+      "contents": "animationParser.JSONData(${1:game},${2:json},${3:cacheKey});"
+    },
+    {
+      "trigger": "animationparser.jsondatahash\tjsondatahash",
+      "contents": "animationParser.JSONDataHash(${1:game},${2:json},${3:cacheKey});"
+    },
+    {
+      "trigger": "animationparser.xmldata\txmldata",
+      "contents": "animationParser.XMLData(${1:game},${2:xml},${3:cacheKey});"
+    },
+    {
+      "trigger": "animationparser.spritesheet\tspritesheet",
+      "contents": "animationParser.spriteSheet(${1:game},${2:key},${3:frameWidth},${4:frameHeight},${5:frameMax},${6:margin});"
+    },
+    {
+      "trigger": "tilesprite.play",
+      "contents": "tileSprite.play(${1:name},${2:frameRate},${3:loop},${4:killOnComplete});"
+    },
+    {
+      "trigger": "tilesprite.animations\tanimations",
+      "contents": "tileSprite.animations"
+    },
+    {
+      "trigger": "sprite.play",
+      "contents": "sprite.play(${1:name},${2:frameRate},${3:loop},${4:killOnComplete});"
+    },
+    {
+      "trigger": "sprite.animations\tanimations",
+      "contents": "sprite.animations"
+    },
+    {
+      "trigger": "button.animations\tanimations",
+      "contents": "button.animations"
+    },
+    {
+      "trigger": "rope.play",
+      "contents": "rope.play(${1:name},${2:frameRate},${3:loop},${4:killOnComplete});"
+    },
+    {
+      "trigger": "rope.animations\tanimations",
+      "contents": "rope.animations"
+    },
+    {
+      "trigger": "requestanimationframe.game",
+      "contents": "requestAnimationFrame.game"
+    },
+    {
+      "trigger": "animation.currentframe\tcurrentframe",
+      "contents": "animation.currentFrame"
+    },
+    {
+      "trigger": "events.onanimationcomplete\tonanimationcomplete",
+      "contents": "events.onAnimationComplete"
+    },
+    {
+      "trigger": "events.onanimationloop\tonanimationloop",
+      "contents": "events.onAnimationLoop"
+    },
+    {
+      "trigger": "events.onanimationstart\tonanimationstart",
+      "contents": "events.onAnimationStart"
+    },
+    {
+      "trigger": "game.raf\traf",
+      "contents": "game.raf"
+    },
+    {
+      "trigger": "particle.play",
+      "contents": "particle.play(${1:name},${2:frameRate},${3:loop},${4:killOnComplete});"
+    },
+    {
+      "trigger": "particle.animations\tanimations",
+      "contents": "particle.animations"
+    },
+    {
+      "trigger": "image.animations\tanimations",
+      "contents": "image.animations"
+    },
+    {
+      "trigger": "sprite.loadtexture\tloadtexture",
+      "contents": "sprite.loadTexture(${1:key},${2:frame},${3:stopAnimation});"
+    },
+    {
+      "trigger": "animation.isplaying\tisplaying",
+      "contents": "animation.isPlaying"
+    },
+    {
+      "trigger": "animation.killoncomplete\tkilloncomplete",
+      "contents": "animation.killOnComplete"
+    },
+    {
+      "trigger": "animation.loop\tloop",
+      "contents": "animation.loop"
+    },
+    {
+      "trigger": "rope.updateanimation\tupdateanimation",
+      "contents": "rope.updateAnimation"
+    },
+    {
+      "trigger": "requestanimationframe.updatesettimeout();\tupdatesettimeout",
+      "contents": "requestAnimationFrame.updateSetTimeout();"
+    },
+    {
+      "trigger": "requestanimationframe.updateraf();\tupdateraf",
+      "contents": "requestAnimationFrame.updateRAF();"
+    },
+    {
+      "trigger": "requestanimationframe.stop();\tstop",
+      "contents": "requestAnimationFrame.stop();"
+    },
+    {
+      "trigger": "requestanimationframe.start();\tstart",
+      "contents": "requestAnimationFrame.start();"
+    },
+    {
+      "trigger": "requestanimationframe.issettimeout();\tissettimeout",
+      "contents": "requestAnimationFrame.isSetTimeOut();"
+    },
+    {
+      "trigger": "requestanimationframe.israf();\tisraf",
+      "contents": "requestAnimationFrame.isRAF();"
+    },
+    {
+      "trigger": "requestanimationframe.isrunning\tisrunning",
+      "contents": "requestAnimationFrame.isRunning"
+    },
+    {
+      "trigger": "requestanimationframe.forcesettimeout\tforcesettimeout",
+      "contents": "requestAnimationFrame.forceSetTimeOut"
+    },
+    {
+      "trigger": "animation.loopcount\tloopcount",
+      "contents": "animation.loopCount"
+    },
+    {
+      "trigger": "animation.name",
+      "contents": "animation.name"
+    },
+    {
+      "trigger": "animation.paused\tpaused",
+      "contents": "animation.paused"
+    },
+    {
+      "trigger": "animation.speed\tspeed",
+      "contents": "animation.speed"
+    },
+    {
+      "trigger": "animation.complete();\tcomplete",
+      "contents": "animation.complete();"
+    },
+    {
+      "trigger": "animation.destroy();\tdestroy",
+      "contents": "animation.destroy();"
+    },
+    {
+      "trigger": "animation.generateframenames\tgenerateframenames",
+      "contents": "animation.generateFrameNames(${1:prefix},${2:start},${3:stop},${4:suffix},${5:zeroPad});"
+    },
+    {
+      "trigger": "animation.next\tnext",
+      "contents": "animation.next(${1:quantity});"
+    },
+    {
+      "trigger": "animation.onpause();\tonpause",
+      "contents": "animation.onPause();"
+    },
+    {
+      "trigger": "animation.onresume();\tonresume",
+      "contents": "animation.onResume();"
+    },
+    {
+      "trigger": "animation.previous\tprevious",
+      "contents": "animation.previous(${1:quantity});"
+    },
+    {
+      "trigger": "animation.restart();\trestart",
+      "contents": "animation.restart();"
+    },
+    {
+      "trigger": "animation.setframe\tsetframe",
+      "contents": "animation.setFrame(${1:frameId},${2:useLocalFrameIndex});"
+    },
+    {
+      "trigger": "animation.stop\tstop",
+      "contents": "animation.stop(${1:resetFrame},${2:dispatchComplete});"
+    },
+    {
+      "trigger": "animation.update();\tupdate",
+      "contents": "animation.update();"
+    },
+    {
+      "trigger": "animation.updateframedata\tupdateframedata",
+      "contents": "animation.updateFrameData(${1:frameData});"
+    },
+    {
+      "trigger": "animationmanager.frame\tframe",
+      "contents": "animationManager.frame"
+    },
+    {
+      "trigger": "animationmanager.framename\tframename",
+      "contents": "animationManager.frameName"
+    },
+    {
+      "trigger": "animationmanager.frametotal\tframetotal",
+      "contents": "animationManager.frameTotal"
+    },
+    {
+      "trigger": "animationmanager.isloaded\tisloaded",
+      "contents": "animationManager.isLoaded"
+    },
+    {
+      "trigger": "animationmanager.name",
+      "contents": "animationManager.name"
+    },
+    {
+      "trigger": "animationmanager.paused\tpaused",
+      "contents": "animationManager.paused"
+    },
+    {
+      "trigger": "animationmanager.updateifvisible\tupdateifvisible",
+      "contents": "animationManager.updateIfVisible"
+    },
+    {
+      "trigger": "animationmanager.destroy();\tdestroy",
+      "contents": "animationManager.destroy();"
+    },
+    {
+      "trigger": "animation.delay\tdelay",
+      "contents": "animation.delay"
+    },
+    {
+      "trigger": "animationmanager.next\tnext",
+      "contents": "animationManager.next(${1:quantity});"
+    },
+    {
+      "trigger": "animation.enableupdate\tenableupdate",
+      "contents": "animation.enableUpdate"
+    },
+    {
+      "trigger": "animation.frame\tframe",
+      "contents": "animation.frame"
+    },
+    {
+      "trigger": "animationmanager.previous\tprevious",
+      "contents": "animationManager.previous(${1:quantity});"
+    },
+    {
+      "trigger": "animationmanager.refreshframe();\trefreshframe",
+      "contents": "animationManager.refreshFrame();"
+    },
+    {
+      "trigger": "animationmanager.stop\tstop",
+      "contents": "animationManager.stop(${1:name},${2:resetFrame});"
+    },
+    {
+      "trigger": "animationmanager.validateframes\tvalidateframes",
+      "contents": "animationManager.validateFrames(${1:frames},${2:useNumericIndex});"
+    },
+    {
+      "trigger": "animationmanager.update();\tupdate",
+      "contents": "animationManager.update();"
+    },
+    {
+      "trigger": "animation.frametotal\tframetotal",
+      "contents": "animation.frameTotal"
+    },
+    {
+      "trigger": "animation.isfinished\tisfinished",
+      "contents": "animation.isFinished"
+    },
+    {
+      "trigger": "animation.ispaused\tispaused",
+      "contents": "animation.isPaused"
+    },
+    {
+      "trigger": "physics.p2\tp2",
+      "contents": "physics.p2"
+    },
+    {
+      "trigger": "physics.ninja\tninja",
+      "contents": "physics.ninja"
+    },
+    {
+      "trigger": "physics.arcade\tarcade",
+      "contents": "physics.arcade"
+    },
+    {
+      "trigger": "p2.game\tgame",
+      "contents": "p2.game"
+    },
+    {
+      "trigger": "p2.spring.game\tspring",
+      "contents": "p2.spring.game"
+    },
+    {
+      "trigger": "p2.rotationalspring.game\trotationalspring",
+      "contents": "p2.rotationalSpring.game"
+    },
+    {
+      "trigger": "p2.revoluteconstraint.game\trevoluteconstraint",
+      "contents": "p2.revoluteConstraint.game"
+    },
+    {
+      "trigger": "p2.prismaticconstraint.game\tprismaticconstraint",
+      "contents": "p2.prismaticConstraint.game"
+    },
+    {
+      "trigger": "p2.lockconstraint.game\tlockconstraint",
+      "contents": "p2.lockConstraint.game"
+    },
+    {
+      "trigger": "p2.onspringremoved\tonspringremoved",
+      "contents": "p2.onSpringRemoved"
+    },
+    {
+      "trigger": "p2.onspringadded\tonspringadded",
+      "contents": "p2.onSpringAdded"
+    },
+    {
+      "trigger": "p2.onendcontact\tonendcontact",
+      "contents": "p2.onEndContact"
+    },
+    {
+      "trigger": "p2.oncontactmaterialremoved\toncontactmaterialremoved",
+      "contents": "p2.onContactMaterialRemoved"
+    },
+    {
+      "trigger": "p2.oncontactmaterialadded\toncontactmaterialadded",
+      "contents": "p2.onContactMaterialAdded"
+    },
+    {
+      "trigger": "p2.onconstraintremoved\tonconstraintremoved",
+      "contents": "p2.onConstraintRemoved"
+    },
+    {
+      "trigger": "p2.onconstraintadded\tonconstraintadded",
+      "contents": "p2.onConstraintAdded"
+    },
+    {
+      "trigger": "p2.onbodyremoved\tonbodyremoved",
+      "contents": "p2.onBodyRemoved"
+    },
+    {
+      "trigger": "p2.onbodyadded\tonbodyadded",
+      "contents": "p2.onBodyAdded"
+    },
+    {
+      "trigger": "p2.onbegincontact\tonbegincontact",
+      "contents": "p2.onBeginContact"
+    },
+    {
+      "trigger": "p2.gearconstraint.game\tgearconstraint",
+      "contents": "p2.gearConstraint.game"
+    },
+    {
+      "trigger": "p2.distanceconstraint.game\tdistanceconstraint",
+      "contents": "p2.distanceConstraint.game"
+    },
+    {
+      "trigger": "p2.body.sprite",
+      "contents": "p2.body.sprite"
+    },
+    {
+      "trigger": "p2.body.onendcontact\tonendcontact",
+      "contents": "p2.body.onEndContact"
+    },
+    {
+      "trigger": "p2.body.onbegincontact\tonbegincontact",
+      "contents": "p2.body.onBeginContact"
+    },
+    {
+      "trigger": "p2.body.offset\toffset",
+      "contents": "p2.body.offset"
+    },
+    {
+      "trigger": "p2.body.gravity\tgravity",
+      "contents": "p2.body.gravity"
+    },
+    {
+      "trigger": "p2.body.game\tgame",
+      "contents": "p2.body.game"
+    },
+    {
+      "trigger": "ninja.tile.velocity\tvelocity",
+      "contents": "ninja.tile.velocity"
+    },
+    {
+      "trigger": "ninja.tile.pos\tpos",
+      "contents": "ninja.tile.pos"
+    },
+    {
+      "trigger": "ninja.tile.oldpos\toldpos",
+      "contents": "ninja.tile.oldpos"
+    },
+    {
+      "trigger": "ninja.time",
+      "contents": "ninja.time"
+    },
+    {
+      "trigger": "ninja.quadtree\tquadtree",
+      "contents": "ninja.quadTree"
+    },
+    {
+      "trigger": "ninja.game",
+      "contents": "ninja.game"
+    },
+    {
+      "trigger": "ninja.bounds\tbounds",
+      "contents": "ninja.bounds"
+    },
+    {
+      "trigger": "ninja.circle.velocity\tvelocity",
+      "contents": "ninja.circle.velocity"
+    },
+    {
+      "trigger": "ninja.circle.pos\tpos",
+      "contents": "ninja.circle.pos"
+    },
+    {
+      "trigger": "ninja.circle.oldpos\toldpos",
+      "contents": "ninja.circle.oldpos"
+    },
+    {
+      "trigger": "ninja.body.velocity\tbody.velocity",
+      "contents": "ninja.body.velocity"
+    },
+    {
+      "trigger": "ninja.body.sprite\tbody.sprite",
+      "contents": "ninja.body.sprite"
+    },
+    {
+      "trigger": "ninja.body.game\tbody.game",
+      "contents": "ninja.body.game"
+    },
+    {
+      "trigger": "ninja.aabb.velocity\taabb.velocity",
+      "contents": "ninja.aABB.velocity"
+    },
+    {
+      "trigger": "ninja.aabb.pos\taabb.pos",
+      "contents": "ninja.aABB.pos"
+    },
+    {
+      "trigger": "ninja.aabb.oldpos\taabb.oldpos",
+      "contents": "ninja.aABB.oldpos"
+    },
+    {
+      "trigger": "arcade.velocityfromrotation\tvelocityfromrotation",
+      "contents": "arcade.velocityFromRotation(${1:rotation},${2:speed},${3:point});"
+    },
+    {
+      "trigger": "arcade.velocityfromangle\tvelocityfromangle",
+      "contents": "arcade.velocityFromAngle(${1:angle},${2:speed},${3:point});"
+    },
+    {
+      "trigger": "arcade.accelerationfromrotation\taccelerationfromrotation",
+      "contents": "arcade.accelerationFromRotation(${1:rotation},${2:speed},${3:point});"
+    },
+    {
+      "trigger": "arcade.quadtree\tquadtree",
+      "contents": "arcade.quadTree"
+    },
+    {
+      "trigger": "arcade.gravity\tgravity",
+      "contents": "arcade.gravity"
+    },
+    {
+      "trigger": "arcade.game",
+      "contents": "arcade.game"
+    },
+    {
+      "trigger": "arcade.bounds\tbounds",
+      "contents": "arcade.bounds"
+    },
+    {
+      "trigger": "arcade.body.velocity\tbody.velocity",
+      "contents": "arcade.body.velocity"
+    },
+    {
+      "trigger": "arcade.body.tilepadding\tbody.tilepadding",
+      "contents": "arcade.body.tilePadding"
+    },
+    {
+      "trigger": "arcade.body.sprite\tbody.sprite",
+      "contents": "arcade.body.sprite"
+    },
+    {
+      "trigger": "arcade.body.prev\tbody.prev",
+      "contents": "arcade.body.prev"
+    },
+    {
+      "trigger": "arcade.body.position\tbody.position",
+      "contents": "arcade.body.position"
+    },
+    {
+      "trigger": "arcade.body.offset\tbody.offset",
+      "contents": "arcade.body.offset"
+    },
+    {
+      "trigger": "arcade.body.newvelocity\tbody.newvelocity",
+      "contents": "arcade.body.newVelocity"
+    },
+    {
+      "trigger": "arcade.body.maxvelocity\tbody.maxvelocity",
+      "contents": "arcade.body.maxVelocity"
+    },
+    {
+      "trigger": "arcade.body.gravity\tbody.gravity",
+      "contents": "arcade.body.gravity"
+    },
+    {
+      "trigger": "arcade.body.game\tbody.game",
+      "contents": "arcade.body.game"
+    },
+    {
+      "trigger": "arcade.body.drag\tbody.drag",
+      "contents": "arcade.body.drag"
+    },
+    {
+      "trigger": "arcade.body.deltamax\tbody.deltamax",
+      "contents": "arcade.body.deltaMax"
+    },
+    {
+      "trigger": "arcade.body.center\tbody.center",
+      "contents": "arcade.body.center"
+    },
+    {
+      "trigger": "arcade.body.bounce\tbody.bounce",
+      "contents": "arcade.body.bounce"
+    },
+    {
+      "trigger": "arcade.body.acceleration\tbody.acceleration",
+      "contents": "arcade.body.acceleration"
+    },
+    {
+      "trigger": "loader.physics\tphysics",
+      "contents": "loader.physics(${1:key},${2:url},${3:data},${4:format});"
+    },
+    {
+      "trigger": "box2d",
+      "contents": "box2d"
+    },
+    {
+      "trigger": "chipmunk",
+      "contents": "chipmunk"
+    },
+    {
+      "trigger": "ninja.aabb.system\taabb.system",
+      "contents": "ninja.aABB.system"
+    },
+    {
+      "trigger": "ninja.body.system\tbody.system",
+      "contents": "ninja.body.system"
+    },
+    {
+      "trigger": "ninja.circle.system\tcircle.system",
+      "contents": "ninja.circle.system"
+    },
+    {
+      "trigger": "p2.body.world\tbody.world",
+      "contents": "p2.body.world"
+    },
+    {
+      "trigger": "p2.distanceconstraint.world\tdistanceconstraint.world",
+      "contents": "p2.distanceConstraint.world"
+    },
+    {
+      "trigger": "p2.gearconstraint.world\tgearconstraint.world",
+      "contents": "p2.gearConstraint.world"
+    },
+    {
+      "trigger": "p2.lockconstraint.world\tlockconstraint.world",
+      "contents": "p2.lockConstraint.world"
+    },
+    {
+      "trigger": "p2.prismaticconstraint.world\tprismaticconstraint.world",
+      "contents": "p2.prismaticConstraint.world"
+    },
+    {
+      "trigger": "p2.revoluteconstraint.world\trevoluteconstraint.world",
+      "contents": "p2.revoluteConstraint.world"
+    },
+    {
+      "trigger": "p2.rotationalspring.world\trotationalspring.world",
+      "contents": "p2.rotationalSpring.world"
+    },
+    {
+      "trigger": "p2.spring.world\tspring.world",
+      "contents": "p2.spring.world"
+    },
+    {
+      "trigger": "ninja.tile.system\ttile.system",
+      "contents": "ninja.tile.system"
+    },
+    {
+      "trigger": "ninja.body.aabb\tbody.aabb",
+      "contents": "ninja.body.aabb"
+    },
+    {
+      "trigger": "p2.bodydebug.body\tbodydebug.body",
+      "contents": "p2.bodyDebug.body"
+    },
+    {
+      "trigger": "p2.contactmaterial.materiala\tcontactmaterial.materiala",
+      "contents": "p2.contactMaterial.materialA"
+    },
+    {
+      "trigger": "p2.contactmaterial.materialb\tcontactmaterial.materialb",
+      "contents": "p2.contactMaterial.materialB"
+    },
+    {
+      "trigger": "ninja.body.circle\tbody.circle",
+      "contents": "ninja.body.circle"
+    },
+    {
+      "trigger": "p2.boundscollisiongroup\tboundscollisiongroup",
+      "contents": "p2.boundsCollisionGroup"
+    },
+    {
+      "trigger": "p2.everythingcollisiongroup\teverythingcollisiongroup",
+      "contents": "p2.everythingCollisionGroup"
+    },
+    {
+      "trigger": "p2.gravity\tgravity",
+      "contents": "p2.gravity"
+    },
+    {
+      "trigger": "p2.nothingcollisiongroup\tnothingcollisiongroup",
+      "contents": "p2.nothingCollisionGroup"
+    },
+    {
+      "trigger": "p2.addconstraint\taddconstraint",
+      "contents": "p2.addConstraint(${1:constraint});"
+    },
+    {
+      "trigger": "p2.addcontactmaterial\taddcontactmaterial",
+      "contents": "p2.addContactMaterial(${1:material});"
+    },
+    {
+      "trigger": "p2.createbody\tcreatebody",
+      "contents": "p2.createBody(${1:x},${2:y},${3:mass},${4:addToWorld});"
+    },
+    {
+      "trigger": "p2.createcontactmaterial\tcreatecontactmaterial",
+      "contents": "p2.createContactMaterial(${1:materialA},${2:materialB},${3:options});"
+    },
+    {
+      "trigger": "p2.createdistanceconstraint\tcreatedistanceconstraint",
+      "contents": "p2.createDistanceConstraint(${1:bodyA},${2:bodyB},${3:distance},${4:localAnchorA},${5:localAnchorB},${6:maxForce});"
+    },
+    {
+      "trigger": "p2.creategearconstraint\tcreategearconstraint",
+      "contents": "p2.createGearConstraint(${1:bodyA},${2:bodyB},${3:angle},${4:ratio});"
+    },
+    {
+      "trigger": "p2.createlockconstraint\tcreatelockconstraint",
+      "contents": "p2.createLockConstraint(${1:bodyA},${2:bodyB},${3:offset},${4:angle},${5:maxForce});"
+    },
+    {
+      "trigger": "p2.creatematerial\tcreatematerial",
+      "contents": "p2.createMaterial(${1:name},${2:body});"
+    },
+    {
+      "trigger": "p2.createprismaticconstraint\tcreateprismaticconstraint",
+      "contents": "p2.createPrismaticConstraint(${1:bodyA},${2:bodyB},${3:lockRotation},${4:anchorA},${5:anchorB},${6:axis});"
+    },
+    {
+      "trigger": "p2.createrevoluteconstraint\tcreaterevoluteconstraint",
+      "contents": "p2.createRevoluteConstraint(${1:bodyA},${2:pivotA},${3:bodyB},${4:pivotB},${5:maxForce},${6:worldPivot});"
+    },
+    {
+      "trigger": "p2.createrotationalspring\tcreaterotationalspring",
+      "contents": "p2.createRotationalSpring(${1:bodyA},${2:bodyB},${3:restAngle},${4:stiffness},${5:damping});"
+    },
+    {
+      "trigger": "p2.createspring\tcreatespring",
+      "contents": "p2.createSpring(${1:bodyA},${2:bodyB},${3:restLength},${4:stiffness},${5:damping},${6:worldA});"
+    },
+    {
+      "trigger": "p2.removebody\tremovebody",
+      "contents": "p2.removeBody(${1:body});"
+    },
+    {
+      "trigger": "p2.removeconstraint\tremoveconstraint",
+      "contents": "p2.removeConstraint(${1:constraint});"
+    },
+    {
+      "trigger": "p2.removecontactmaterial\tremovecontactmaterial",
+      "contents": "p2.removeContactMaterial(${1:material});"
+    },
+    {
+      "trigger": "p2.removespring\tremovespring",
+      "contents": "p2.removeSpring(${1:spring});"
+    },
+    {
+      "trigger": "ninja.body.tile",
+      "contents": "ninja.body.tile"
+    },
+    {
+      "trigger": "particle.body",
+      "contents": "particle.body"
+    },
+    {
+      "trigger": "p2.body.debugbody",
+      "contents": "p2.body.debugBody"
+    },
+    {
+      "trigger": "p2.body.force",
+      "contents": "p2.body.force"
+    },
+    {
+      "trigger": "p2.body.velocity",
+      "contents": "p2.body.velocity"
+    },
+    {
+      "trigger": "p2.addspring\taddspring",
+      "contents": "p2.addSpring(${1:spring});"
+    },
+    {
+      "trigger": "spritebatch.physicsbodytype\tphysicsbodytype",
+      "contents": "spriteBatch.physicsBodyType"
+    },
+    {
+      "trigger": "world.physicsbodytype\tphysicsbodytype",
+      "contents": "world.physicsBodyType"
+    },
+    {
+      "trigger": "p2.pointproxy.y\tpointproxy",
+      "contents": "p2.pointProxy.y"
+    },
+    {
+      "trigger": "p2.pointproxy.x\tpointproxy",
+      "contents": "p2.pointProxy.x"
+    },
+    {
+      "trigger": "p2.pointproxy.my\tpointproxy",
+      "contents": "p2.pointProxy.my"
+    },
+    {
+      "trigger": "p2.pointproxy.mx\tpointproxy",
+      "contents": "p2.pointProxy.mx"
+    },
+    {
+      "trigger": "p2.material.name\tmaterial",
+      "contents": "p2.material.name"
+    },
+    {
+      "trigger": "p2.updateboundscollisiongroup\tupdateboundscollisiongroup",
+      "contents": "p2.updateBoundsCollisionGroup(${1:setCollisionGroup});"
+    },
+    {
+      "trigger": "p2.update();\tupdate();",
+      "contents": "p2.update();"
+    },
+    {
+      "trigger": "p2.tojson();\ttojson();",
+      "contents": "p2.toJSON();"
+    },
+    {
+      "trigger": "p2.setworldmaterial\tsetworldmaterial",
+      "contents": "p2.setWorldMaterial(${1:material},${2:left},${3:right},${4:top},${5:bottom});"
+    },
+    {
+      "trigger": "p2.setpostbroadphasecallback\tsetpostbroadphasecallback",
+      "contents": "p2.setPostBroadphaseCallback(${1:callback},${2:context});"
+    },
+    {
+      "trigger": "p2.setmaterial\tsetmaterial",
+      "contents": "p2.setMaterial(${1:material},${2:bodies});"
+    },
+    {
+      "trigger": "p2.setimpactevents\tsetimpactevents",
+      "contents": "p2.setImpactEvents(${1:state});"
+    },
+    {
+      "trigger": "p2.setcollisiongroup\tsetcollisiongroup",
+      "contents": "p2.setCollisionGroup(${1:object},${2:group});"
+    },
+    {
+      "trigger": "p2.setboundstoworld\tsetboundstoworld",
+      "contents": "p2.setBoundsToWorld(${1:left},${2:right},${3:top},${4:bottom},${5:setCollisionGroup});"
+    },
+    {
+      "trigger": "p2.setbounds\tsetbounds",
+      "contents": "p2.setBounds(${1:x},${2:y},${3:width},${4:height},${5:left},${6:right});"
+    },
+    {
+      "trigger": "p2.resume();\tresume();",
+      "contents": "p2.resume();"
+    },
+    {
+      "trigger": "p2.removebodynextstep\tremovebodynextstep",
+      "contents": "p2.removeBodyNextStep(${1:body});"
+    },
+    {
+      "trigger": "p2.pxmi\tpxmi",
+      "contents": "p2.pxmi(${1:v});"
+    },
+    {
+      "trigger": "p2.pxm\tpxm",
+      "contents": "p2.pxm(${1:v});"
+    },
+    {
+      "trigger": "p2.preupdate();\tpreupdate();",
+      "contents": "p2.preUpdate();"
+    },
+    {
+      "trigger": "p2.pause();\tpause();",
+      "contents": "p2.pause();"
+    },
+    {
+      "trigger": "p2.mpxi\tmpxi",
+      "contents": "p2.mpxi(${1:v});"
+    },
+    {
+      "trigger": "p2.mpx\tmpx",
+      "contents": "p2.mpx(${1:v});"
+    },
+    {
+      "trigger": "p2.hittest\thittest",
+      "contents": "p2.hitTest(${1:worldPoint},${2:bodies},${3:precision},${4:filterStatic});"
+    },
+    {
+      "trigger": "p2.getcontactmaterial\tgetcontactmaterial",
+      "contents": "p2.getContactMaterial(${1:materialA},${2:materialB});"
+    },
+    {
+      "trigger": "p2.endcontacthandler\tendcontacthandler",
+      "contents": "p2.endContactHandler(${1:event});"
+    },
+    {
+      "trigger": "p2.enablebody\tenablebody",
+      "contents": "p2.enableBody(${1:object},${2:debug});"
+    },
+    {
+      "trigger": "p2.enable\tenable",
+      "contents": "p2.enable(${1:object},${2:debug},${3:children});"
+    },
+    {
+      "trigger": "p2.destroy();\tdestroy();",
+      "contents": "p2.destroy();"
+    },
+    {
+      "trigger": "p2.createparticle\tcreateparticle",
+      "contents": "p2.createParticle(${1:x},${2:y},${3:mass},${4:addToWorld});"
+    },
+    {
+      "trigger": "p2.createcollisiongroup\tcreatecollisiongroup",
+      "contents": "p2.createCollisionGroup(${1:object});"
+    },
+    {
+      "trigger": "p2.converttilemap\tconverttilemap",
+      "contents": "p2.convertTilemap(${1:map},${2:layer},${3:addToWorld},${4:optimize});"
+    },
+    {
+      "trigger": "p2.convertcollisionobjects\tconvertcollisionobjects",
+      "contents": "p2.convertCollisionObjects(${1:map},${2:layer},${3:addToWorld});"
+    },
+    {
+      "trigger": "p2.cleartilemaplayerbodies\tcleartilemaplayerbodies",
+      "contents": "p2.clearTilemapLayerBodies(${1:map},${2:layer});"
+    },
+    {
+      "trigger": "p2.clear();\tclear();",
+      "contents": "p2.clear();"
+    },
+    {
+      "trigger": "p2.begincontacthandler\tbegincontacthandler",
+      "contents": "p2.beginContactHandler(${1:event});"
+    },
+    {
+      "trigger": "p2.addbody\taddbody",
+      "contents": "p2.addBody(${1:body});"
+    },
+    {
+      "trigger": "p2.config\tconfig",
+      "contents": "p2.config"
+    },
+    {
+      "trigger": "p2.walls\twalls",
+      "contents": "p2.walls"
+    },
+    {
+      "trigger": "p2.useelapsedtime\tuseelapsedtime",
+      "contents": "p2.useElapsedTime"
+    },
+    {
+      "trigger": "p2.total\ttotal",
+      "contents": "p2.total"
+    },
+    {
+      "trigger": "p2.time",
+      "contents": "p2.time"
+    },
+    {
+      "trigger": "p2.solveconstraints\tsolveconstraints",
+      "contents": "p2.solveConstraints"
+    },
+    {
+      "trigger": "p2.sleepmode\tsleepmode",
+      "contents": "p2.sleepMode"
     }
   ]
 }

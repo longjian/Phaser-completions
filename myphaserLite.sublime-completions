@@ -1,0 +1,5193 @@
+{
+  "scope": "source.js",
+  "completions": [
+    {
+      "trigger": "_cachemap\t_cacheMap",
+      "contents": "_cacheMap"
+    },
+    {
+      "trigger": "_definedsize\t_definedSize",
+      "contents": "_definedSize"
+    },
+    {
+      "trigger": "_targetposition\t_targetPosition",
+      "contents": "_targetPosition"
+    },
+    {
+      "trigger": "aabb\tAABB",
+      "contents": "AABB"
+    },
+    {
+      "trigger": "acceleration",
+      "contents": "acceleration"
+    },
+    {
+      "trigger": "accelerationfromrotation\t(rotation,speed,point)",
+      "contents": "accelerationFromRotation(${1:rotation},${2:speed},${3:point});"
+    },
+    {
+      "trigger": "active",
+      "contents": "active"
+    },
+    {
+      "trigger": "activepointer\tactivePointer",
+      "contents": "activePointer"
+    },
+    {
+      "trigger": "add\tanimationManager",
+      "contents": "add(${1:name},${2:frames},${3:frameRate},${4:loop},${5:useNumericIndex});"
+    },
+    {
+      "trigger": "add\tparticles/time/tweenManager",
+      "contents": "add(${1:key});"
+    },
+    {
+      "trigger": "add\temitter/world/group",
+      "contents": "add(${1:child},${2:silent});"
+    },
+    {
+      "trigger": "add\tpluginManager",
+      "contents": "add(${1:plugin},${2:parameter});"
+    },
+    {
+      "trigger": "add\tpoint",
+      "contents": "add(${1:a},${2:b},${3:out});"
+    },
+    {
+      "trigger": "add\tsoundManager",
+      "contents": "add(${1:key},${2:volume},${3:loop},${4:connect});"
+    },
+    {
+      "trigger": "add\tstateManager",
+      "contents": "add(${1:key},${2:state},${3:autoStart});"
+    },
+    {
+      "trigger": "add\ttimer",
+      "contents": "add(${1:delay},${2:callback},${3:callbackContext},${4:arguments});"
+    },
+    {
+      "trigger": "addall\t(property,amount,checkAlive,checkVisible)",
+      "contents": "addAll(${1:property},${2:amount},${3:checkAlive},${4:checkVisible});"
+    },
+    {
+      "trigger": "addat\t(child,index,silent)",
+      "contents": "addAt(${1:child},${2:index},${3:silent});"
+    },
+    {
+      "trigger": "addbinary\t(key,binaryData)",
+      "contents": "addBinary(${1:key},${2:binaryData});"
+    },
+    {
+      "trigger": "addbitmapdata\t(key,bitmapData,frameData)",
+      "contents": "addBitmapData(${1:key},${2:bitmapData},${3:frameData});"
+    },
+    {
+      "trigger": "addbitmapfont\t(key,url,data,xmlData,xSpacing,ySpacing)",
+      "contents": "addBitmapFont(${1:key},${2:url},${3:data},${4:xmlData},${5:xSpacing},${6:ySpacing});"
+    },
+    {
+      "trigger": "addbody\t(body)",
+      "contents": "addBody(${1:body});"
+    },
+    {
+      "trigger": "addcallbacks\t(context,onDown,onUp,onPress)",
+      "contents": "addCallbacks(${1:context},${2:onDown},${3:onUp},${4:onPress});"
+    },
+    {
+      "trigger": "addcanvas\t(key,canvas,context)",
+      "contents": "addCanvas(${1:key},${2:canvas},${3:context});"
+    },
+    {
+      "trigger": "addchild\t(child)",
+      "contents": "addChild(${1:child});"
+    },
+    {
+      "trigger": "addchildat\t(child,index)",
+      "contents": "addChildAt(${1:child},${2:index});"
+    },
+    {
+      "trigger": "addcolor\t(color,position)",
+      "contents": "addColor(${1:color},${2:position});"
+    },
+    {
+      "trigger": "addconstraint\t(constraint)",
+      "contents": "addConstraint(${1:constraint});"
+    },
+    {
+      "trigger": "addcontactmaterial\t(material)",
+      "contents": "addContactMaterial(${1:material});"
+    },
+    {
+      "trigger": "adddefaultimage\taddDefaultImage();",
+      "contents": "addDefaultImage();"
+    },
+    {
+      "trigger": "addframe\t(frame)",
+      "contents": "addFrame(${1:frame});"
+    },
+    {
+      "trigger": "addimage\t(key,url,data)",
+      "contents": "addImage(${1:key},${2:url},${3:data});"
+    },
+    {
+      "trigger": "addjson\t(key,url,data)",
+      "contents": "addJSON(${1:key},${2:url},${3:data});"
+    },
+    {
+      "trigger": "addkey\t(key)",
+      "contents": "addKey(${1:key});"
+    },
+    {
+      "trigger": "addkeycapture\t(keycode)",
+      "contents": "addKeyCapture(${1:keycode});"
+    },
+    {
+      "trigger": "addmarker\t(name,start,duration,volume,loop)",
+      "contents": "addMarker(${1:name},${2:start},${3:duration},${4:volume},${5:loop});"
+    },
+    {
+      "trigger": "addmissingimage();",
+      "contents": "addMissingImage();"
+    },
+    {
+      "trigger": "addmovecallback\t(callback,context)",
+      "contents": "addMoveCallback(${1:callback},${2:context});"
+    },
+    {
+      "trigger": "addmultiple\t(children,silent)",
+      "contents": "addMultiple(${1:children},${2:silent});"
+    },
+    {
+      "trigger": "addonce\t(listener,listenerContext)",
+      "contents": "addOnce(${1:listener},${2:listenerContext});"
+    },
+    {
+      "trigger": "addpointer();",
+      "contents": "addPointer();"
+    },
+    {
+      "trigger": "addrendertexture\t(key,texture)",
+      "contents": "addRenderTexture(${1:key},${2:texture});"
+    },
+    {
+      "trigger": "addsound\t(key,url,data,webAudio,audioTag)",
+      "contents": "addSound(${1:key},${2:url},${3:data},${4:webAudio},${5:audioTag});"
+    },
+    {
+      "trigger": "addspring\t(spring)",
+      "contents": "addSpring(${1:spring});"
+    },
+    {
+      "trigger": "addsprite\t(key)",
+      "contents": "addSprite(${1:key});"
+    },
+    {
+      "trigger": "addspritesheet\t(key,url,data,frameWidth,frameHeight,frameMax)",
+      "contents": "addSpriteSheet(${1:key},${2:url},${3:data},${4:frameWidth},${5:frameHeight},${6:frameMax});"
+    },
+    {
+      "trigger": "addtext\t(key,url,data)",
+      "contents": "addText(${1:key},${2:url},${3:data});"
+    },
+    {
+      "trigger": "addtextureatlas\t(key,url,data,atlasData,format)",
+      "contents": "addTextureAtlas(${1:key},${2:url},${3:data},${4:atlasData},${5:format});"
+    },
+    {
+      "trigger": "addtexturetocache\t(texture,id)",
+      "contents": "addTextureToCache(${1:texture},${2:id});"
+    },
+    {
+      "trigger": "addtilemap\t(key,url,JSONData,format)",
+      "contents": "addTilemap(${1:key},${2:url},${3:JSONData},${4:format});"
+    },
+    {
+      "trigger": "addtodom\t(canvas,parent,overflowHidden)",
+      "contents": "addToDOM(${1:canvas},${2:parent},${3:overflowHidden});"
+    },
+    {
+      "trigger": "addxml\t(key,url,data)",
+      "contents": "addXML(${1:key},${2:url},${3:data});"
+    },
+    {
+      "trigger": "adjustevents();",
+      "contents": "adjustEvents();"
+    },
+    {
+      "trigger": "advancedtiming",
+      "contents": "advancedTiming"
+    },
+    {
+      "trigger": "align",
+      "contents": "align"
+    },
+    {
+      "trigger": "alive",
+      "contents": "alive"
+    },
+    {
+      "trigger": "allowhorizontaldrag",
+      "contents": "allowHorizontalDrag"
+    },
+    {
+      "trigger": "allowmultiple",
+      "contents": "allowMultiple"
+    },
+    {
+      "trigger": "allowverticaldrag",
+      "contents": "allowVerticalDrag"
+    },
+    {
+      "trigger": "alpha",
+      "contents": "alpha"
+    },
+    {
+      "trigger": "altkey",
+      "contents": "altKey"
+    },
+    {
+      "trigger": "anchor",
+      "contents": "anchor"
+    },
+    {
+      "trigger": "android",
+      "contents": "android"
+    },
+    {
+      "trigger": "angle",
+      "contents": "angle"
+    },
+    {
+      "trigger": "anglebetween\t(x1,y1,x2,y2)",
+      "contents": "angleBetween(${1:x1},${2:y1},${3:x2},${4:y2});"
+    },
+    {
+      "trigger": "anglebetweenpoints\t(point1,point2)",
+      "contents": "angleBetweenPoints(${1:point1},${2:point2});"
+    },
+    {
+      "trigger": "anglebetweenpointsy\t(point1,point2)",
+      "contents": "angleBetweenPointsY(${1:point1},${2:point2});"
+    },
+    {
+      "trigger": "anglebetweeny\t(x1,y1,x2,y2)",
+      "contents": "angleBetweenY(${1:x1},${2:y1},${3:x2},${4:y2});"
+    },
+    {
+      "trigger": "anglelimit\t(angle,min,max)",
+      "contents": "angleLimit(${1:angle},${2:min},${3:max});"
+    },
+    {
+      "trigger": "angulardrag",
+      "contents": "angularDrag"
+    },
+    {
+      "trigger": "animation",
+      "contents": "animation"
+    },
+    {
+      "trigger": "animationmanager",
+      "contents": "animationManager"
+    },
+    {
+      "trigger": "animationparser",
+      "contents": "animationParser"
+    },
+    {
+      "trigger": "animations\ttileSprite",
+      "contents": "animations"
+    },
+    {
+      "trigger": "antialias",
+      "contents": "antialias"
+    },
+    {
+      "trigger": "arc\t(cx,cy,radius,startAngle,endAngle,anticlockwise)",
+      "contents": "arc(${1:cx},${2:cy},${3:radius},${4:startAngle},${5:endAngle},${6:anticlockwise});"
+    },
+    {
+      "trigger": "arcade",
+      "contents": "arcade"
+    },
+    {
+      "trigger": "arcade\tArcade",
+      "contents": "Arcade"
+    },
+    {
+      "trigger": "area",
+      "contents": "area"
+    },
+    {
+      "trigger": "arguments",
+      "contents": "arguments"
+    },
+    {
+      "trigger": "arora",
+      "contents": "arora"
+    },
+    {
+      "trigger": "ascendingsorthandler\t(a,b)",
+      "contents": "ascendingSortHandler(${1:a},${2:b});"
+    },
+    {
+      "trigger": "at\t(object)",
+      "contents": "at(${1:object});"
+    },
+    {
+      "trigger": "atlas\t(key,url)",
+      "contents": "atlas(${1:key},${2:url});"
+    },
+    {
+      "trigger": "atlas\t(key,textureURL,atlasURL,atlasData,format)",
+      "contents": "atlas(${1:key},${2:textureURL},${3:atlasURL},${4:atlasData},${5:format});"
+    },
+    {
+      "trigger": "atlasjsonarray\t(key,textureURL,atlasURL,atlasData)",
+      "contents": "atlasJSONArray(${1:key},${2:textureURL},${3:atlasURL},${4:atlasData});"
+    },
+    {
+      "trigger": "atlasjsonhash\t(key,textureURL,atlasURL,atlasData)",
+      "contents": "atlasJSONHash(${1:key},${2:textureURL},${3:atlasURL},${4:atlasData});"
+    },
+    {
+      "trigger": "atlasxml\t(key,textureURL,atlasURL,atlasData)",
+      "contents": "atlasXML(${1:key},${2:textureURL},${3:atlasURL},${4:atlasData});"
+    },
+    {
+      "trigger": "atlimit",
+      "contents": "atLimit"
+    },
+    {
+      "trigger": "audio",
+      "contents": "audio"
+    },
+    {
+      "trigger": "audio()\t(audio)",
+      "contents": "audio(${1:audio});"
+    },
+    {
+      "trigger": "audio\t(key,url)",
+      "contents": "audio(${1:key},${2:url});"
+    },
+    {
+      "trigger": "audio\t(key,urls,autoDecode)",
+      "contents": "audio(${1:key},${2:urls},${3:autoDecode});"
+    },
+    {
+      "trigger": "audio\t(key,volume,loop,connect)",
+      "contents": "audio(${1:key},${2:volume},${3:loop},${4:connect});"
+    },
+    {
+      "trigger": "audiodata",
+      "contents": "audioData"
+    },
+    {
+      "trigger": "audiosprite\t(key,urls,atlasURL)",
+      "contents": "audiosprite(${1:key},${2:urls},${3:atlasURL});"
+    },
+    {
+      "trigger": "audiosprite\t(key)",
+      "contents": "audioSprite(${1:key});"
+    },
+    {
+      "trigger": "autoalpha",
+      "contents": "autoAlpha"
+    },
+    {
+      "trigger": "autocull",
+      "contents": "autoCull"
+    },
+    {
+      "trigger": "autodestroy",
+      "contents": "autoDestroy"
+    },
+    {
+      "trigger": "autoplay",
+      "contents": "autoplay"
+    },
+    {
+      "trigger": "autoscale",
+      "contents": "autoScale"
+    },
+    {
+      "trigger": "average();\tMath",
+      "contents": "average();"
+    },
+    {
+      "trigger": "begincontacthandler\t(event)",
+      "contents": "beginContactHandler(${1:event});"
+    },
+    {
+      "trigger": "beginfill\t(color,alpha)",
+      "contents": "beginFill(${1:color},${2:alpha});"
+    },
+    {
+      "trigger": "bernstein\t(n,i)",
+      "contents": "bernstein(${1:n},${2:i});"
+    },
+    {
+      "trigger": "beziercurveto\t(cpX,cpY,cpX2,cpY2,toX,toY)",
+      "contents": "bezierCurveTo(${1:cpX},${2:cpY},${3:cpX2},${4:cpY2},${5:toX},${6:toY});"
+    },
+    {
+      "trigger": "bezierinterpolation\t(v,k)",
+      "contents": "bezierInterpolation(${1:v},${2:k});"
+    },
+    {
+      "trigger": "binary\t(key,url,callback,callbackContext)",
+      "contents": "binary(${1:key},${2:url},${3:callback},${4:callbackContext});"
+    },
+    {
+      "trigger": "binary\tBINARY",
+      "contents": "BINARY"
+    },
+    {
+      "trigger": "bitmapdata\t(width,height,key,addToCache)",
+      "contents": "bitmapData(${1:width},${2:height},${3:key},${4:addToCache});"
+    },
+    {
+      "trigger": "bitmapdata\tBITMAPDATA",
+      "contents": "BITMAPDATA"
+    },
+    {
+      "trigger": "bitmapfont\t(game,xml,cacheKey,xSpacing,ySpacing)",
+      "contents": "bitmapFont(${1:game},${2:xml},${3:cacheKey},${4:xSpacing},${5:ySpacing});"
+    },
+    {
+      "trigger": "bitmapfont\t(key,textureURL,xmlURL,xmlData,xSpacing,ySpacing)",
+      "contents": "bitmapFont(${1:key},${2:textureURL},${3:xmlURL},${4:xmlData},${5:xSpacing},${6:ySpacing});"
+    },
+    {
+      "trigger": "bitmapfont\tBITMAPFONT",
+      "contents": "BITMAPFONT"
+    },
+    {
+      "trigger": "bitmaptext\t(x,y,font,text,size,group)",
+      "contents": "bitmapText(${1:x},${2:y},${3:font},${4:text},${5:size},${6:group});"
+    },
+    {
+      "trigger": "blendmode",
+      "contents": "blendMode"
+    },
+    {
+      "trigger": "body\tvelocity",
+      "contents": "body"
+    },
+    {
+      "trigger": "bodydebug\tbody",
+      "contents": "bodyDebug"
+    },
+    {
+      "trigger": "boot",
+      "contents": "boot"
+    },
+    {
+      "trigger": "boot();",
+      "contents": "boot();"
+    },
+    {
+      "trigger": "bottom",
+      "contents": "bottom"
+    },
+    {
+      "trigger": "bounce",
+      "contents": "bounce"
+    },
+    {
+      "trigger": "bounds",
+      "contents": "bounds"
+    },
+    {
+      "trigger": "boundscollisiongroup",
+      "contents": "boundsCollisionGroup"
+    },
+    {
+      "trigger": "boundspadding",
+      "contents": "boundsPadding"
+    },
+    {
+      "trigger": "boundsrect",
+      "contents": "boundsRect"
+    },
+    {
+      "trigger": "boundssprite",
+      "contents": "boundsSprite"
+    },
+    {
+      "trigger": "box2d",
+      "contents": "box2d"
+    },
+    {
+      "trigger": "bringtotop\t(child)",
+      "contents": "bringToTop(${1:child});"
+    },
+    {
+      "trigger": "bringtotop();",
+      "contents": "bringToTop();"
+    },
+    {
+      "trigger": "button",
+      "contents": "button"
+    },
+    {
+      "trigger": "button\t(x,y,key,callback,callbackContext)",
+      "contents": "button(${1:x},${2:y},${3:key},${4:callback},${5:callbackContext});"
+    },
+    {
+      "trigger": "button-",
+      "contents": "button-"
+    },
+    {
+      "trigger": "buttoncode",
+      "contents": "buttonCode"
+    },
+    {
+      "trigger": "buttonmode",
+      "contents": "buttonMode"
+    },
+    {
+      "trigger": "buttonvalue\t(buttonCode)",
+      "contents": "buttonValue(${1:buttonCode});"
+    },
+    {
+      "trigger": "cache",
+      "contents": "cache"
+    },
+    {
+      "trigger": "cacheasbitmap",
+      "contents": "cacheAsBitmap"
+    },
+    {
+      "trigger": "callall\t(method,context,parameter)",
+      "contents": "callAll(${1:method},${2:context},${3:parameter});"
+    },
+    {
+      "trigger": "callallexists\t(callback,existsValue,parameter)",
+      "contents": "callAllExists(${1:callback},${2:existsValue},${3:parameter});"
+    },
+    {
+      "trigger": "callback",
+      "contents": "callback"
+    },
+    {
+      "trigger": "callbackcontext",
+      "contents": "callbackContext"
+    },
+    {
+      "trigger": "camera",
+      "contents": "camera"
+    },
+    {
+      "trigger": "cameraoffset",
+      "contents": "cameraOffset"
+    },
+    {
+      "trigger": "cancelfullscreen",
+      "contents": "cancelFullscreen"
+    },
+    {
+      "trigger": "canplayaudio\t(type)",
+      "contents": "canPlayAudio(${1:type});"
+    },
+    {
+      "trigger": "canvas",
+      "contents": "canvas"
+    },
+    {
+      "trigger": "canvas\tCANVAS",
+      "contents": "CANVAS"
+    },
+    {
+      "trigger": "capture",
+      "contents": "capture"
+    },
+    {
+      "trigger": "catmullrom\t(p0,p1,p2,p3,t)",
+      "contents": "catmullRom(${1:p0},${2:p1},${3:p2},${4:p3},${5:t});"
+    },
+    {
+      "trigger": "catmullrominterpolation\t(v,k)",
+      "contents": "catmullRomInterpolation(${1:v},${2:k});"
+    },
+    {
+      "trigger": "ceil\t(value)",
+      "contents": "ceil(${1:value});"
+    },
+    {
+      "trigger": "ceilto\t(value,place,base)",
+      "contents": "ceilTo(${1:value},${2:place},${3:base});"
+    },
+    {
+      "trigger": "center",
+      "contents": "center"
+    },
+    {
+      "trigger": "centerx",
+      "contents": "centerX"
+    },
+    {
+      "trigger": "centery",
+      "contents": "centerY"
+    },
+    {
+      "trigger": "centroid\t(points,out)",
+      "contents": "centroid(${1:points},${2:out});"
+    },
+    {
+      "trigger": "chain();",
+      "contents": "chain();"
+    },
+    {
+      "trigger": "chanceroll\t(chance)",
+      "contents": "chanceRoll(${1:chance});"
+    },
+    {
+      "trigger": "channels",
+      "contents": "channels"
+    },
+    {
+      "trigger": "checkall\t(key,value,checkAlive,checkVisible,force)",
+      "contents": "checkAll(${1:key},${2:value},${3:checkAlive},${4:checkVisible},${5:force});"
+    },
+    {
+      "trigger": "checkbinarykey\t(key)",
+      "contents": "checkBinaryKey(${1:key});"
+    },
+    {
+      "trigger": "checkbitmapdatakey\t(key)",
+      "contents": "checkBitmapDataKey(${1:key});"
+    },
+    {
+      "trigger": "checkbitmapfontkey\t(key)",
+      "contents": "checkBitmapFontKey(${1:key});"
+    },
+    {
+      "trigger": "checkboundsrect();",
+      "contents": "checkBoundsRect();"
+    },
+    {
+      "trigger": "checkboundssprite();",
+      "contents": "checkBoundsSprite();"
+    },
+    {
+      "trigger": "checkcanvaskey\t(key)",
+      "contents": "checkCanvasKey(${1:key});"
+    },
+    {
+      "trigger": "checked",
+      "contents": "checked"
+    },
+    {
+      "trigger": "checkframename\t(name)",
+      "contents": "checkFrameName(${1:name});"
+    },
+    {
+      "trigger": "checkfullscreensupport();",
+      "contents": "checkFullScreenSupport();"
+    },
+    {
+      "trigger": "checkimagekey\t(key)",
+      "contents": "checkImageKey(${1:key});"
+    },
+    {
+      "trigger": "checkjsonkey\t(key)",
+      "contents": "checkJSONKey(${1:key});"
+    },
+    {
+      "trigger": "checkkey\t(type,key)",
+      "contents": "checkKey(${1:type},${2:key});"
+    },
+    {
+      "trigger": "checkphysicskey\t(key)",
+      "contents": "checkPhysicsKey(${1:key});"
+    },
+    {
+      "trigger": "checkpixel\t(x,y,pointer)",
+      "contents": "checkPixel(${1:x},${2:y},${3:pointer});"
+    },
+    {
+      "trigger": "checkpointerdown\t(pointer,fastTest)",
+      "contents": "checkPointerDown(${1:pointer},${2:fastTest});"
+    },
+    {
+      "trigger": "checkpointerover\t(pointer,fastTest)",
+      "contents": "checkPointerOver(${1:pointer},${2:fastTest});"
+    },
+    {
+      "trigger": "checkproperty\t(child,key,value,force)",
+      "contents": "checkProperty(${1:child},${2:key},${3:value},${4:force});"
+    },
+    {
+      "trigger": "checksoundkey\t(key)",
+      "contents": "checkSoundKey(${1:key});"
+    },
+    {
+      "trigger": "checkstate\t(key)",
+      "contents": "checkState(${1:key});"
+    },
+    {
+      "trigger": "checktextkey\t(key)",
+      "contents": "checkTextKey(${1:key});"
+    },
+    {
+      "trigger": "checktexturekey\t(key)",
+      "contents": "checkTextureKey(${1:key});"
+    },
+    {
+      "trigger": "checktilemapkey\t(key)",
+      "contents": "checkTilemapKey(${1:key});"
+    },
+    {
+      "trigger": "checkurl\t(url)",
+      "contents": "checkUrl(${1:url});"
+    },
+    {
+      "trigger": "checkworldbounds();",
+      "contents": "checkWorldBounds();"
+    },
+    {
+      "trigger": "checkxmlkey\t(key)",
+      "contents": "checkXMLKey(${1:key});"
+    },
+    {
+      "trigger": "children",
+      "contents": "children"
+    },
+    {
+      "trigger": "chipmunk",
+      "contents": "chipmunk"
+    },
+    {
+      "trigger": "chrome",
+      "contents": "chrome"
+    },
+    {
+      "trigger": "chromeos",
+      "contents": "chromeOS"
+    },
+    {
+      "trigger": "circle",
+      "contents": "circle"
+    },
+    {
+      "trigger": "circumference();",
+      "contents": "circumference();"
+    },
+    {
+      "trigger": "circumferencepoint\t(a,angle,asDegrees,out)",
+      "contents": "circumferencePoint(${1:a},${2:angle},${3:asDegrees},${4:out});"
+    },
+    {
+      "trigger": "clamp\t(min,max)",
+      "contents": "clamp(${1:min},${2:max});"
+    },
+    {
+      "trigger": "clamp\t(x,a,b)",
+      "contents": "clamp(${1:x},${2:a},${3:b});"
+    },
+    {
+      "trigger": "clampbottom\t(x,a)",
+      "contents": "clampBottom(${1:x},${2:a});"
+    },
+    {
+      "trigger": "clampx\t(min,max)",
+      "contents": "clampX(${1:min},${2:max});"
+    },
+    {
+      "trigger": "clampy\t(min,max)",
+      "contents": "clampY(${1:min},${2:max});"
+    },
+    {
+      "trigger": "classtype",
+      "contents": "classType"
+    },
+    {
+      "trigger": "clear();",
+      "contents": "clear();"
+    },
+    {
+      "trigger": "clearcaptures();\tkeyboard",
+      "contents": "clearCaptures();"
+    },
+    {
+      "trigger": "clearcolors();",
+      "contents": "clearColors();"
+    },
+    {
+      "trigger": "clearcurrentstate();",
+      "contents": "clearCurrentState();"
+    },
+    {
+      "trigger": "clearframes();",
+      "contents": "clearFrames();"
+    },
+    {
+      "trigger": "clearpendingevents();",
+      "contents": "clearPendingEvents();"
+    },
+    {
+      "trigger": "cleartilemaplayerbodies\t(map,layer)",
+      "contents": "clearTilemapLayerBodies(${1:map},${2:layer});"
+    },
+    {
+      "trigger": "click\t(interactionData)",
+      "contents": "click(${1:interactionData});"
+    },
+    {
+      "trigger": "clone\t(output)",
+      "contents": "clone(${1:output});"
+    },
+    {
+      "trigger": "clone();",
+      "contents": "clone();"
+    },
+    {
+      "trigger": "cocoonjs",
+      "contents": "cocoonJS"
+    },
+    {
+      "trigger": "cocoonjsapp",
+      "contents": "cocoonJSApp"
+    },
+    {
+      "trigger": "colors",
+      "contents": "colors"
+    },
+    {
+      "trigger": "complete();\tanimation",
+      "contents": "complete();"
+    },
+    {
+      "trigger": "componenttohex\t(color)",
+      "contents": "componentToHex(${1:color});"
+    },
+    {
+      "trigger": "config",
+      "contents": "config"
+    },
+    {
+      "trigger": "consumepointerevent",
+      "contents": "consumePointerEvent"
+    },
+    {
+      "trigger": "consumetouchmove();",
+      "contents": "consumeTouchMove();"
+    },
+    {
+      "trigger": "contactmaterial\tmaterialA",
+      "contents": "contactMaterial"
+    },
+    {
+      "trigger": "contains\t(a,x,y)",
+      "contents": "contains(${1:a},${2:x},${3:y});"
+    },
+    {
+      "trigger": "context",
+      "contents": "context"
+    },
+    {
+      "trigger": "convertcollisionobjects\t(map,layer,addToWorld)",
+      "contents": "convertCollisionObjects(${1:map},${2:layer},${3:addToWorld});"
+    },
+    {
+      "trigger": "converttilemap\t(map,layer,addToWorld,optimize)",
+      "contents": "convertTilemap(${1:map},${2:layer},${3:addToWorld},${4:optimize});"
+    },
+    {
+      "trigger": "copyfrom\t(source)",
+      "contents": "copyFrom(${1:source});"
+    },
+    {
+      "trigger": "copyto\t(dest)",
+      "contents": "copyTo(${1:dest});"
+    },
+    {
+      "trigger": "cordova",
+      "contents": "cordova"
+    },
+    {
+      "trigger": "countdead();\tgroup",
+      "contents": "countDead();"
+    },
+    {
+      "trigger": "countliving();\tgroup",
+      "contents": "countLiving();"
+    },
+    {
+      "trigger": "create\tcreate/canvas",
+      "contents": "create(${1:width},${2:height},${3:id});"
+    },
+    {
+      "trigger": "create\temitter/world/group",
+      "contents": "create(${1:x},${2:y},${3:key},${4:frame},${5:exists});"
+    },
+    {
+      "trigger": "create\ttime",
+      "contents": "create(${1:autoDestroy});"
+    },
+    {
+      "trigger": "create\ttweenManager",
+      "contents": "create(${1:object});"
+    },
+    {
+      "trigger": "create();",
+      "contents": "create();"
+    },
+    {
+      "trigger": "createbody\t(x,y,mass,addToWorld)",
+      "contents": "createBody(${1:x},${2:y},${3:mass},${4:addToWorld});"
+    },
+    {
+      "trigger": "createcollisiongroup\t(object)",
+      "contents": "createCollisionGroup(${1:object});"
+    },
+    {
+      "trigger": "createcolor\t(r,g,b,a,h,s)",
+      "contents": "createColor(${1:r},${2:g},${3:b},${4:a},${5:h},${6:s});"
+    },
+    {
+      "trigger": "createcontactmaterial\t(materialA,materialB,options)",
+      "contents": "createContactMaterial(${1:materialA},${2:materialB},${3:options});"
+    },
+    {
+      "trigger": "createcursorkeys();\tkeyboard",
+      "contents": "createCursorKeys();"
+    },
+    {
+      "trigger": "createdistanceconstraint\t(bodyA,bodyB,distance,localAnchorA,localAnchorB,maxForce)",
+      "contents": "createDistanceConstraint(${1:bodyA},${2:bodyB},${3:distance},${4:localAnchorA},${5:localAnchorB},${6:maxForce});"
+    },
+    {
+      "trigger": "creategearconstraint\t(bodyA,bodyB,angle,ratio)",
+      "contents": "createGearConstraint(${1:bodyA},${2:bodyB},${3:angle},${4:ratio});"
+    },
+    {
+      "trigger": "createlockconstraint\t(bodyA,bodyB,offset,angle,maxForce)",
+      "contents": "createLockConstraint(${1:bodyA},${2:bodyB},${3:offset},${4:angle},${5:maxForce});"
+    },
+    {
+      "trigger": "creatematerial\t(name,body)",
+      "contents": "createMaterial(${1:name},${2:body});"
+    },
+    {
+      "trigger": "createmultiple\t(quantity,key,frame,exists)",
+      "contents": "createMultiple(${1:quantity},${2:key},${3:frame},${4:exists});"
+    },
+    {
+      "trigger": "createparticle\t(x,y,mass,addToWorld)",
+      "contents": "createParticle(${1:x},${2:y},${3:mass},${4:addToWorld});"
+    },
+    {
+      "trigger": "createprismaticconstraint\t(bodyA,bodyB,lockRotation,anchorA,anchorB,axis)",
+      "contents": "createPrismaticConstraint(${1:bodyA},${2:bodyB},${3:lockRotation},${4:anchorA},${5:anchorB},${6:axis});"
+    },
+    {
+      "trigger": "createrevoluteconstraint\t(bodyA,pivotA,bodyB,pivotB,maxForce,worldPivot)",
+      "contents": "createRevoluteConstraint(${1:bodyA},${2:pivotA},${3:bodyB},${4:pivotB},${5:maxForce},${6:worldPivot});"
+    },
+    {
+      "trigger": "createrotationalspring\t(bodyA,bodyB,restAngle,stiffness,damping)",
+      "contents": "createRotationalSpring(${1:bodyA},${2:bodyB},${3:restAngle},${4:stiffness},${5:damping});"
+    },
+    {
+      "trigger": "createspring\t(bodyA,bodyB,restLength,stiffness,damping,worldA)",
+      "contents": "createSpring(${1:bodyA},${2:bodyB},${3:restLength},${4:stiffness},${5:damping},${6:worldA});"
+    },
+    {
+      "trigger": "crop\t(rect,copy)",
+      "contents": "crop(${1:rect},${2:copy});"
+    },
+    {
+      "trigger": "croprect",
+      "contents": "cropRect"
+    },
+    {
+      "trigger": "crosswalk",
+      "contents": "crosswalk"
+    },
+    {
+      "trigger": "css3d",
+      "contents": "css3D"
+    },
+    {
+      "trigger": "ctrlkey",
+      "contents": "ctrlKey"
+    },
+    {
+      "trigger": "ctx",
+      "contents": "ctx"
+    },
+    {
+      "trigger": "current",
+      "contents": "current"
+    },
+    {
+      "trigger": "currentanim",
+      "contents": "currentAnim"
+    },
+    {
+      "trigger": "currentframe",
+      "contents": "currentFrame"
+    },
+    {
+      "trigger": "currentmarker",
+      "contents": "currentMarker"
+    },
+    {
+      "trigger": "currentpointers",
+      "contents": "currentPointers"
+    },
+    {
+      "trigger": "currenttime",
+      "contents": "currentTime"
+    },
+    {
+      "trigger": "cursor",
+      "contents": "cursor"
+    },
+    {
+      "trigger": "customsort\t(sortHandler,context)",
+      "contents": "customSort(${1:sortHandler},${2:context});"
+    },
+    {
+      "trigger": "deadzone",
+      "contents": "deadzone"
+    },
+    {
+      "trigger": "debug",
+      "contents": "debug"
+    },
+    {
+      "trigger": "debugbody",
+      "contents": "debugBody"
+    },
+    {
+      "trigger": "decode\t(key,sound)",
+      "contents": "decode(${1:key},${2:sound});"
+    },
+    {
+      "trigger": "decodedsound\t(key,data)",
+      "contents": "decodedSound(${1:key},${2:data});"
+    },
+    {
+      "trigger": "defaultcursor",
+      "contents": "defaultCursor"
+    },
+    {
+      "trigger": "degtorad();\tMath",
+      "contents": "degToRad();"
+    },
+    {
+      "trigger": "delay\t(amount)",
+      "contents": "delay(${1:amount});"
+    },
+    {
+      "trigger": "deletemovecallback\t(index)",
+      "contents": "deleteMoveCallback(${1:index});"
+    },
+    {
+      "trigger": "deltacap",
+      "contents": "deltaCap"
+    },
+    {
+      "trigger": "deltamax",
+      "contents": "deltaMax"
+    },
+    {
+      "trigger": "deltax",
+      "contents": "deltaX"
+    },
+    {
+      "trigger": "deltay",
+      "contents": "deltaY"
+    },
+    {
+      "trigger": "deltaz",
+      "contents": "deltaZ"
+    },
+    {
+      "trigger": "descendingsorthandler\t(a,b)",
+      "contents": "descendingSortHandler(${1:a},${2:b});"
+    },
+    {
+      "trigger": "destroy\t(destroyChildren)",
+      "contents": "destroy(${1:destroyChildren});"
+    },
+    {
+      "trigger": "destroy();\tdestroy",
+      "contents": "destroy();"
+    },
+    {
+      "trigger": "destroycachedsprite();",
+      "contents": "destroyCachedSprite();"
+    },
+    {
+      "trigger": "destroyphase",
+      "contents": "destroyPhase"
+    },
+    {
+      "trigger": "device",
+      "contents": "device"
+    },
+    {
+      "trigger": "diameter",
+      "contents": "diameter"
+    },
+    {
+      "trigger": "difference\t(a,b)",
+      "contents": "difference(${1:a},${2:b});"
+    },
+    {
+      "trigger": "dirty",
+      "contents": "dirty"
+    },
+    {
+      "trigger": "disabled",
+      "contents": "disabled"
+    },
+    {
+      "trigger": "disabledrag();",
+      "contents": "disableDrag();"
+    },
+    {
+      "trigger": "disablesnap();",
+      "contents": "disableSnap();"
+    },
+    {
+      "trigger": "disablestep();",
+      "contents": "disableStep();"
+    },
+    {
+      "trigger": "displayobject",
+      "contents": "displayObject"
+    },
+    {
+      "trigger": "distance\t(dest,round)",
+      "contents": "distance(${1:dest},${2:round});"
+    },
+    {
+      "trigger": "distanceconstraint\tgame",
+      "contents": "distanceConstraint"
+    },
+    {
+      "trigger": "distancepow\t(x1,y1,x2,y2,pow)",
+      "contents": "distancePow(${1:x1},${2:y1},${3:x2},${4:y2},${5:pow});"
+    },
+    {
+      "trigger": "distancerounded\t(x1,y1,x2,y2)",
+      "contents": "distanceRounded(${1:x1},${2:y1},${3:x2},${4:y2});"
+    },
+    {
+      "trigger": "divide\t(a,b,out)",
+      "contents": "divide(${1:a},${2:b},${3:out});"
+    },
+    {
+      "trigger": "divideall\t(property,amount,checkAlive,checkVisible)",
+      "contents": "divideAll(${1:property},${2:amount},${3:checkAlive},${4:checkVisible});"
+    },
+    {
+      "trigger": "doubletaprate",
+      "contents": "doubleTapRate"
+    },
+    {
+      "trigger": "downduration\t(pointer)",
+      "contents": "downDuration(${1:pointer});"
+    },
+    {
+      "trigger": "drag",
+      "contents": "drag"
+    },
+    {
+      "trigger": "draggable",
+      "contents": "draggable"
+    },
+    {
+      "trigger": "drawcircle\t(x,y,radius)",
+      "contents": "drawCircle(${1:x},${2:y},${3:radius});"
+    },
+    {
+      "trigger": "drawellipse\t(x,y,width,height)",
+      "contents": "drawEllipse(${1:x},${2:y},${3:width},${4:height});"
+    },
+    {
+      "trigger": "drawpolygon\t(path)",
+      "contents": "drawPolygon(${1:path});"
+    },
+    {
+      "trigger": "drawrect\t(x,y,width,height)",
+      "contents": "drawRect(${1:x},${2:y},${3:width},${4:height});"
+    },
+    {
+      "trigger": "drawroundedrect\t(x,y,width,height,radius)",
+      "contents": "drawRoundedRect(${1:x},${2:y},${3:width},${4:height},${5:radius});"
+    },
+    {
+      "trigger": "drawshape\t(shape)",
+      "contents": "drawShape(${1:shape});"
+    },
+    {
+      "trigger": "duration",
+      "contents": "duration"
+    },
+    {
+      "trigger": "durationms",
+      "contents": "durationMS"
+    },
+    {
+      "trigger": "easing\t(easing)",
+      "contents": "easing(${1:easing});"
+    },
+    {
+      "trigger": "ejecta",
+      "contents": "ejecta"
+    },
+    {
+      "trigger": "elapsed",
+      "contents": "elapsed"
+    },
+    {
+      "trigger": "elapsedsecondssince\t(since)",
+      "contents": "elapsedSecondsSince(${1:since});"
+    },
+    {
+      "trigger": "elapsedsince\t(since)",
+      "contents": "elapsedSince(${1:since});"
+    },
+    {
+      "trigger": "emitparticle();",
+      "contents": "emitParticle();"
+    },
+    {
+      "trigger": "emitter\t(x,y,maxParticles)",
+      "contents": "emitter(${1:x},${2:y},${3:maxParticles});"
+    },
+    {
+      "trigger": "emitters",
+      "contents": "emitters"
+    },
+    {
+      "trigger": "emitx",
+      "contents": "emitX"
+    },
+    {
+      "trigger": "emity",
+      "contents": "emitY"
+    },
+    {
+      "trigger": "empty",
+      "contents": "empty"
+    },
+    {
+      "trigger": "enable\t(object,debug,children)",
+      "contents": "enable(${1:object},${2:debug},${3:children});"
+    },
+    {
+      "trigger": "enablebody\t(object,debug)",
+      "contents": "enableBody(${1:object},${2:debug});"
+    },
+    {
+      "trigger": "enablebodydebug",
+      "contents": "enableBodyDebug"
+    },
+    {
+      "trigger": "enabled",
+      "contents": "enabled"
+    },
+    {
+      "trigger": "enabledrag\t(lockCenter,bringToTop,pixelPerfect,alphaThreshold,boundsRect,boundsSprite)",
+      "contents": "enableDrag(${1:lockCenter},${2:bringToTop},${3:pixelPerfect},${4:alphaThreshold},${5:boundsRect},${6:boundsSprite});"
+    },
+    {
+      "trigger": "enablesnap\t(snapX,snapY,onDrag,onRelease,snapOffsetX,snapOffsetX)",
+      "contents": "enableSnap(${1:snapX},${2:snapY},${3:onDrag},${4:onRelease},${5:snapOffsetX},${6:snapOffsetX});"
+    },
+    {
+      "trigger": "enablestep\tenableStep",
+      "contents": "enableStep"
+    },
+    {
+      "trigger": "enableupdate",
+      "contents": "enableUpdate"
+    },
+    {
+      "trigger": "endcontacthandler\t(event)",
+      "contents": "endContactHandler(${1:event});"
+    },
+    {
+      "trigger": "endfill();",
+      "contents": "endFill();"
+    },
+    {
+      "trigger": "epiphany",
+      "contents": "epiphany"
+    },
+    {
+      "trigger": "equals\t(a,b)",
+      "contents": "equals(${1:a},${2:b});"
+    },
+    {
+      "trigger": "event",
+      "contents": "event"
+    },
+    {
+      "trigger": "events",
+      "contents": "events"
+    },
+    {
+      "trigger": "everythingcollisiongroup",
+      "contents": "everythingCollisionGroup"
+    },
+    {
+      "trigger": "exists",
+      "contents": "exists"
+    },
+    {
+      "trigger": "expired",
+      "contents": "expired"
+    },
+    {
+      "trigger": "explode\t(lifespan,quantity)",
+      "contents": "explode(${1:lifespan},${2:quantity});"
+    },
+    {
+      "trigger": "extend\t(deep,target)",
+      "contents": "extend(${1:deep},${2:target});"
+    },
+    {
+      "trigger": "externalnode",
+      "contents": "externalNode"
+    },
+    {
+      "trigger": "factorial\t(value)",
+      "contents": "factorial(${1:value});"
+    },
+    {
+      "trigger": "fadein\t(duration,loop)",
+      "contents": "fadeIn(${1:duration},${2:loop});"
+    },
+    {
+      "trigger": "fadeout\t(duration)",
+      "contents": "fadeOut(${1:duration});"
+    },
+    {
+      "trigger": "fadeto\t(duration,volume)",
+      "contents": "fadeTo(${1:duration},${2:volume});"
+    },
+    {
+      "trigger": "file",
+      "contents": "file"
+    },
+    {
+      "trigger": "filesystem",
+      "contents": "fileSystem"
+    },
+    {
+      "trigger": "fill",
+      "contents": "fill"
+    },
+    {
+      "trigger": "fillalpha",
+      "contents": "fillAlpha"
+    },
+    {
+      "trigger": "filter\t(predicate,checkExists)",
+      "contents": "filter(${1:predicate},${2:checkExists});"
+    },
+    {
+      "trigger": "filter\t(filter,-)",
+      "contents": "filter(${1:filter},${2:-});"
+    },
+    {
+      "trigger": "filterarea",
+      "contents": "filterArea"
+    },
+    {
+      "trigger": "filters",
+      "contents": "filters"
+    },
+    {
+      "trigger": "firefox",
+      "contents": "firefox"
+    },
+    {
+      "trigger": "fixedtocamera",
+      "contents": "fixedToCamera"
+    },
+    {
+      "trigger": "floor\t(Value)",
+      "contents": "floor(${1:Value});"
+    },
+    {
+      "trigger": "floorto\t(value,place,base)",
+      "contents": "floorTo(${1:value},${2:place},${3:base});"
+    },
+    {
+      "trigger": "flow\t(lifespan,frequency,quantity)",
+      "contents": "flow(${1:lifespan},${2:frequency},${3:quantity});"
+    },
+    {
+      "trigger": "focusgain\t(event)",
+      "contents": "focusGain(${1:event});"
+    },
+    {
+      "trigger": "focusloss\t(event)",
+      "contents": "focusLoss(${1:event});"
+    },
+    {
+      "trigger": "focuson\t(displayObject)",
+      "contents": "focusOn(${1:displayObject});"
+    },
+    {
+      "trigger": "focusonxy\t(x,y)",
+      "contents": "focusOnXY(${1:x},${2:y});"
+    },
+    {
+      "trigger": "follow\t(target,style)",
+      "contents": "follow(${1:target},${2:style});"
+    },
+    {
+      "trigger": "follow_lockon\tFOLLOW_LOCKON",
+      "contents": "FOLLOW_LOCKON"
+    },
+    {
+      "trigger": "follow_platformer\tFOLLOW_PLATFORMER",
+      "contents": "FOLLOW_PLATFORMER"
+    },
+    {
+      "trigger": "follow_topdown\tFOLLOW_TOPDOWN",
+      "contents": "FOLLOW_TOPDOWN"
+    },
+    {
+      "trigger": "follow_topdown_tight\tFOLLOW_TOPDOWN_TIGHT",
+      "contents": "FOLLOW_TOPDOWN_TIGHT"
+    },
+    {
+      "trigger": "font",
+      "contents": "font"
+    },
+    {
+      "trigger": "fontsize",
+      "contents": "fontSize"
+    },
+    {
+      "trigger": "fontweight",
+      "contents": "fontWeight"
+    },
+    {
+      "trigger": "force",
+      "contents": "force"
+    },
+    {
+      "trigger": "forceout",
+      "contents": "forceOut"
+    },
+    {
+      "trigger": "forcesettimeout",
+      "contents": "forceSetTimeOut"
+    },
+    {
+      "trigger": "foreach\t(callback,callbackContext,checkExists)",
+      "contents": "forEach(${1:callback},${2:callbackContext},${3:checkExists});"
+    },
+    {
+      "trigger": "foreachalive\t(callback,callbackContext)",
+      "contents": "forEachAlive(${1:callback},${2:callbackContext});"
+    },
+    {
+      "trigger": "foreachdead\t(callback,callbackContext)",
+      "contents": "forEachDead(${1:callback},${2:callbackContext});"
+    },
+    {
+      "trigger": "foreachexists\t(callback,callbackContext)",
+      "contents": "forEachExists(${1:callback},${2:callbackContext});"
+    },
+    {
+      "trigger": "fps",
+      "contents": "fps"
+    },
+    {
+      "trigger": "fpsmax",
+      "contents": "fpsMax"
+    },
+    {
+      "trigger": "fpsmin",
+      "contents": "fpsMin"
+    },
+    {
+      "trigger": "fragmentsrc",
+      "contents": "fragmentSrc"
+    },
+    {
+      "trigger": "frame",
+      "contents": "frame"
+    },
+    {
+      "trigger": "framedata",
+      "contents": "frameData"
+    },
+    {
+      "trigger": "framename",
+      "contents": "frameName"
+    },
+    {
+      "trigger": "framerate",
+      "contents": "frameRate"
+    },
+    {
+      "trigger": "frames",
+      "contents": "frames"
+    },
+    {
+      "trigger": "frametotal",
+      "contents": "frameTotal"
+    },
+    {
+      "trigger": "freezeframes",
+      "contents": "freezeFrames"
+    },
+    {
+      "trigger": "frequency",
+      "contents": "frequency"
+    },
+    {
+      "trigger": "friction",
+      "contents": "friction"
+    },
+    {
+      "trigger": "from\t(properties,duration,ease,autoStart,delay)",
+      "contents": "from(${1:properties},${2:duration},${3:ease},${4:autoStart},${5:delay});"
+    },
+    {
+      "trigger": "fromcanvas\t(canvas,scaleMode)",
+      "contents": "fromCanvas(${1:canvas},${2:scaleMode});"
+    },
+    {
+      "trigger": "fromframe\t(frameId)",
+      "contents": "fromFrame(${1:frameId});"
+    },
+    {
+      "trigger": "fromimage\t(imageId)",
+      "contents": "fromImage(${1:imageId});"
+    },
+    {
+      "trigger": "fromrgba\t(rgba,out)",
+      "contents": "fromRGBA(${1:rgba},${2:out});"
+    },
+    {
+      "trigger": "fullscreen",
+      "contents": "fullscreen"
+    },
+    {
+      "trigger": "fullscreenkeyboard",
+      "contents": "fullscreenKeyboard"
+    },
+    {
+      "trigger": "fuzzyceil\t(val,epsilon)",
+      "contents": "fuzzyCeil(${1:val},${2:epsilon});"
+    },
+    {
+      "trigger": "fuzzyequal\t(a,b,epsilon)",
+      "contents": "fuzzyEqual(${1:a},${2:b},${3:epsilon});"
+    },
+    {
+      "trigger": "fuzzyfloor\t(val,epsilon)",
+      "contents": "fuzzyFloor(${1:val},${2:epsilon});"
+    },
+    {
+      "trigger": "fuzzygreaterthan\t(a,b,epsilon)",
+      "contents": "fuzzyGreaterThan(${1:a},${2:b},${3:epsilon});"
+    },
+    {
+      "trigger": "fuzzylessthan\t(a,b,epsilon)",
+      "contents": "fuzzyLessThan(${1:a},${2:b},${3:epsilon});"
+    },
+    {
+      "trigger": "gainnode",
+      "contents": "gainNode"
+    },
+    {
+      "trigger": "game",
+      "contents": "game"
+    },
+    {
+      "trigger": "gamepad",
+      "contents": "gamepad"
+    },
+    {
+      "trigger": "gamepaused\tgamePaused",
+      "contents": "gamePaused"
+    },
+    {
+      "trigger": "gameresumed();\t(event)",
+      "contents": "gameResumed();(${1:event});"
+    },
+    {
+      "trigger": "gearconstraint",
+      "contents": "gearConstraint"
+    },
+    {
+      "trigger": "generatedata\t(frameRate,data)",
+      "contents": "generateData(${1:frameRate},${2:data});"
+    },
+    {
+      "trigger": "generateframenames\t(prefix,start,stop,suffix,zeroPad)",
+      "contents": "generateFrameNames(${1:prefix},${2:start},${3:stop},${4:suffix},${5:zeroPad});"
+    },
+    {
+      "trigger": "generatetexture\t(resolution,scaleMode,renderer)",
+      "contents": "generateTexture(${1:resolution},${2:scaleMode},${3:renderer});"
+    },
+    {
+      "trigger": "getall();",
+      "contents": "getAll();"
+    },
+    {
+      "trigger": "getalpha\t(color)",
+      "contents": "getAlpha(${1:color});"
+    },
+    {
+      "trigger": "getalphafloat\t(color)",
+      "contents": "getAlphaFloat(${1:color});"
+    },
+    {
+      "trigger": "getanimation\t(name)",
+      "contents": "getAnimation(${1:name});"
+    },
+    {
+      "trigger": "getaspectratio\t(canvas)",
+      "contents": "getAspectRatio(${1:canvas});"
+    },
+    {
+      "trigger": "getat\t(index)",
+      "contents": "getAt(${1:index});"
+    },
+    {
+      "trigger": "getbinary\t(key)",
+      "contents": "getBinary(${1:key});"
+    },
+    {
+      "trigger": "getbitmapfont\t(key)",
+      "contents": "getBitmapFont(${1:key});"
+    },
+    {
+      "trigger": "getblue\t(color)",
+      "contents": "getBlue(${1:color});"
+    },
+    {
+      "trigger": "getbottom();",
+      "contents": "getBottom();"
+    },
+    {
+      "trigger": "getbounds\t(matrix)",
+      "contents": "getBounds(${1:matrix});"
+    },
+    {
+      "trigger": "getbounds();\tcircle",
+      "contents": "getBounds();"
+    },
+    {
+      "trigger": "getbutton\t(buttonCode)",
+      "contents": "getButton(${1:buttonCode});"
+    },
+    {
+      "trigger": "getcanvas\t(key)",
+      "contents": "getCanvas(${1:key});"
+    },
+    {
+      "trigger": "getcanvas();",
+      "contents": "getCanvas();"
+    },
+    {
+      "trigger": "getchildat\t(index)",
+      "contents": "getChildAt(${1:index});"
+    },
+    {
+      "trigger": "getchildindex\t(index)",
+      "contents": "getChildIndex(${1:index});"
+    },
+    {
+      "trigger": "getcolor\t(r,g,b)",
+      "contents": "getColor(${1:r},${2:g},${3:b});"
+    },
+    {
+      "trigger": "getcolor32\t(a,r,g,b)",
+      "contents": "getColor32(${1:a},${2:r},${3:g},${4:b});"
+    },
+    {
+      "trigger": "getcontactmaterial\t(materialA,materialB)",
+      "contents": "getContactMaterial(${1:materialA},${2:materialB});"
+    },
+    {
+      "trigger": "getcurrentstate();",
+      "contents": "getCurrentState();"
+    },
+    {
+      "trigger": "getfirstalive();",
+      "contents": "getFirstAlive();"
+    },
+    {
+      "trigger": "getfirstdead();",
+      "contents": "getFirstDead();"
+    },
+    {
+      "trigger": "getfirstexists\t(state)",
+      "contents": "getFirstExists(${1:state});"
+    },
+    {
+      "trigger": "getframe\t(key)",
+      "contents": "getFrame(${1:key});"
+    },
+    {
+      "trigger": "getframebyindex\t(key)",
+      "contents": "getFrameByIndex(${1:key});"
+    },
+    {
+      "trigger": "getframebyname\t(key)",
+      "contents": "getFrameByName(${1:key});"
+    },
+    {
+      "trigger": "getframecount\t(key)",
+      "contents": "getFrameCount(${1:key});"
+    },
+    {
+      "trigger": "getframedata\t(key,map)",
+      "contents": "getFrameData(${1:key},${2:map});"
+    },
+    {
+      "trigger": "getframeindexes\t(frames,useNumericIndex,output)",
+      "contents": "getFrameIndexes(${1:frames},${2:useNumericIndex},${3:output});"
+    },
+    {
+      "trigger": "getframerange\t(start,end,output)",
+      "contents": "getFrameRange(${1:start},${2:end},${3:output});"
+    },
+    {
+      "trigger": "getframes\t(frames,useNumericIndex,output)",
+      "contents": "getFrames(${1:frames},${2:useNumericIndex},${3:output});"
+    },
+    {
+      "trigger": "getgreen\t(color)",
+      "contents": "getGreen(${1:color});"
+    },
+    {
+      "trigger": "getimage\t(key)",
+      "contents": "getImage(${1:key});"
+    },
+    {
+      "trigger": "getindex\t(child)",
+      "contents": "getIndex(${1:child});"
+    },
+    {
+      "trigger": "getjson\t(key)",
+      "contents": "getJSON(${1:key});"
+    },
+    {
+      "trigger": "getkeys\t(type)",
+      "contents": "getKeys(${1:type});"
+    },
+    {
+      "trigger": "getlocalbounds();",
+      "contents": "getLocalBounds();"
+    },
+    {
+      "trigger": "getlocalposition\t(displayObject,pointer)",
+      "contents": "getLocalPosition(${1:displayObject},${2:pointer});"
+    },
+    {
+      "trigger": "getoffset\t(element,point)",
+      "contents": "getOffset(${1:element},${2:point});"
+    },
+    {
+      "trigger": "getphysicsdata\t(key,object,fixtureKey)",
+      "contents": "getPhysicsData(${1:key},${2:object},${3:fixtureKey});"
+    },
+    {
+      "trigger": "getpointer\t(state)",
+      "contents": "getPointer(${1:state});"
+    },
+    {
+      "trigger": "getpointerfromid\t(pointerId)",
+      "contents": "getPointerFromId(${1:pointerId});"
+    },
+    {
+      "trigger": "getpointerfromidentifier\t(identifier)",
+      "contents": "getPointerFromIdentifier(${1:identifier});"
+    },
+    {
+      "trigger": "getproperty\t(obj,prop)",
+      "contents": "getProperty(${1:obj},${2:prop});"
+    },
+    {
+      "trigger": "getrandom\t(startIndex,length)",
+      "contents": "getRandom(${1:startIndex},${2:length});"
+    },
+    {
+      "trigger": "getrandom\t(objects,startIndex,length)",
+      "contents": "getRandom(${1:objects},${2:startIndex},${3:length});"
+    },
+    {
+      "trigger": "getrandomcolor\t(min,max,alpha)",
+      "contents": "getRandomColor(${1:min},${2:max},${3:alpha});"
+    },
+    {
+      "trigger": "getrect\t(out)",
+      "contents": "getRect(${1:out});"
+    },
+    {
+      "trigger": "getred\t(color)",
+      "contents": "getRed(${1:color});"
+    },
+    {
+      "trigger": "getrgb\t(color)",
+      "contents": "getRGB(${1:color});"
+    },
+    {
+      "trigger": "getsmoothingenabled\t(context)",
+      "contents": "getSmoothingEnabled(${1:context});"
+    },
+    {
+      "trigger": "getsound\t(key)",
+      "contents": "getSound(${1:key});"
+    },
+    {
+      "trigger": "getsounddata\t(key)",
+      "contents": "getSoundData(${1:key});"
+    },
+    {
+      "trigger": "gettext\t(key)",
+      "contents": "getText(${1:key});"
+    },
+    {
+      "trigger": "gettexture\t(key)",
+      "contents": "getTexture(${1:key});"
+    },
+    {
+      "trigger": "gettextureframe\t(key)",
+      "contents": "getTextureFrame(${1:key});"
+    },
+    {
+      "trigger": "gettilemapdata\t(key)",
+      "contents": "getTilemapData(${1:key});"
+    },
+    {
+      "trigger": "gettop();",
+      "contents": "getTop();"
+    },
+    {
+      "trigger": "geturl\t(url)",
+      "contents": "getUrl(${1:url});"
+    },
+    {
+      "trigger": "getusermedia",
+      "contents": "getUserMedia"
+    },
+    {
+      "trigger": "getwebrgb\t(color)",
+      "contents": "getWebRGB(${1:color});"
+    },
+    {
+      "trigger": "getxml\t(key)",
+      "contents": "getXML(${1:key});"
+    },
+    {
+      "trigger": "globaltolocalx\t(x)",
+      "contents": "globalToLocalX(${1:x});"
+    },
+    {
+      "trigger": "globaltolocaly\t(y)",
+      "contents": "globalToLocalY(${1:y});"
+    },
+    {
+      "trigger": "graphics\t(x,y)",
+      "contents": "graphics(${1:x},${2:y});"
+    },
+    {
+      "trigger": "graphics\t(x,y,group)",
+      "contents": "graphics(${1:x},${2:y},${3:group});"
+    },
+    {
+      "trigger": "gravity",
+      "contents": "gravity"
+    },
+    {
+      "trigger": "group",
+      "contents": "group"
+    },
+    {
+      "trigger": "group\t(parent,name,addToStage,enableBody,physicsBodyType)",
+      "contents": "group(${1:parent},${2:name},${3:addToStage},${4:enableBody},${5:physicsBodyType});"
+    },
+    {
+      "trigger": "half\tHALF",
+      "contents": "HALF"
+    },
+    {
+      "trigger": "haspostrender",
+      "contents": "hasPostRender"
+    },
+    {
+      "trigger": "haspostupdate",
+      "contents": "hasPostUpdate"
+    },
+    {
+      "trigger": "haspreupdate",
+      "contents": "hasPreUpdate"
+    },
+    {
+      "trigger": "hasproperty\t(child,key)",
+      "contents": "hasProperty(${1:child},${2:key});"
+    },
+    {
+      "trigger": "hasrender",
+      "contents": "hasRender"
+    },
+    {
+      "trigger": "hasupdate",
+      "contents": "hasUpdate"
+    },
+    {
+      "trigger": "height",
+      "contents": "height"
+    },
+    {
+      "trigger": "hextocolor\t(hex,out)",
+      "contents": "hexToColor(${1:hex},${2:out});"
+    },
+    {
+      "trigger": "hextorgb\t(hex)",
+      "contents": "hexToRGB(${1:hex});"
+    },
+    {
+      "trigger": "hitarea",
+      "contents": "hitArea"
+    },
+    {
+      "trigger": "hitcanvas",
+      "contents": "hitCanvas"
+    },
+    {
+      "trigger": "hitcontext",
+      "contents": "hitContext"
+    },
+    {
+      "trigger": "hittest\t(x,y)",
+      "contents": "hitTest(${1:x},${2:y});"
+    },
+    {
+      "trigger": "hittest\t(worldPoint,bodies,precision,filterStatic)",
+      "contents": "hitTest(${1:worldPoint},${2:bodies},${3:precision},${4:filterStatic});"
+    },
+    {
+      "trigger": "hittest\t(displayObject,pointer,localPoint)",
+      "contents": "hitTest(${1:displayObject},${2:pointer},${3:localPoint});"
+    },
+    {
+      "trigger": "holdrate",
+      "contents": "holdRate"
+    },
+    {
+      "trigger": "hslcolorwheel\t(s,l)",
+      "contents": "hSLColorWheel(${1:s},${2:l});"
+    },
+    {
+      "trigger": "hsltorgb\t(h,s,l,out)",
+      "contents": "hSLtoRGB(${1:h},${2:s},${3:l},${4:out});"
+    },
+    {
+      "trigger": "hsvcolorwheel\t(s,v)",
+      "contents": "hSVColorWheel(${1:s},${2:v});"
+    },
+    {
+      "trigger": "hsvtorgb\t(h,s,v,out)",
+      "contents": "hSVtoRGB(${1:h},${2:s},${3:v},${4:out});"
+    },
+    {
+      "trigger": "huetocolor\t(p,q,t)",
+      "contents": "hueToColor(${1:p},${2:q},${3:t});"
+    },
+    {
+      "trigger": "id",
+      "contents": "id"
+    },
+    {
+      "trigger": "id\tID",
+      "contents": "ID"
+    },
+    {
+      "trigger": "ie",
+      "contents": "ie"
+    },
+    {
+      "trigger": "ieversion",
+      "contents": "ieVersion"
+    },
+    {
+      "trigger": "ignoredestroy",
+      "contents": "ignoreDestroy"
+    },
+    {
+      "trigger": "image",
+      "contents": "image"
+    },
+    {
+      "trigger": "image\t(key,url)",
+      "contents": "image(${1:key},${2:url});"
+    },
+    {
+      "trigger": "image\t(key,url,overwrite)",
+      "contents": "image(${1:key},${2:url},${3:overwrite});"
+    },
+    {
+      "trigger": "image\tIMAGE",
+      "contents": "IMAGE"
+    },
+    {
+      "trigger": "incamera",
+      "contents": "inCamera"
+    },
+    {
+      "trigger": "index",
+      "contents": "index"
+    },
+    {
+      "trigger": "init();",
+      "contents": "init();"
+    },
+    {
+      "trigger": "input",
+      "contents": "input"
+    },
+    {
+      "trigger": "inputenable\tinputEnable",
+      "contents": "inputEnable"
+    },
+    {
+      "trigger": "interactive",
+      "contents": "interactive"
+    },
+    {
+      "trigger": "interactiveitems",
+      "contents": "interactiveItems"
+    },
+    {
+      "trigger": "interpolate\t(a,b,f,out)",
+      "contents": "interpolate(${1:a},${2:b},${3:f},${4:out});"
+    },
+    {
+      "trigger": "interpolatecolor\t(color1,color2,steps,currentStep,alpha)",
+      "contents": "interpolateColor(${1:color1},${2:color2},${3:steps},${4:currentStep},${5:alpha});"
+    },
+    {
+      "trigger": "interpolatecolorwithrgb\t(color,r,g,b,steps,currentStep)",
+      "contents": "interpolateColorWithRGB(${1:color},${2:r},${3:g},${4:b},${5:steps},${6:currentStep});"
+    },
+    {
+      "trigger": "interpolatefloat\t(a,b,weight)",
+      "contents": "interpolateFloat(${1:a},${2:b},${3:weight});"
+    },
+    {
+      "trigger": "interpolatergb\t(r1,g1,b1,r2,g2,b2)",
+      "contents": "interpolateRGB(${1:r1},${2:g1},${3:b1},${4:r2},${5:g2},${6:b2});"
+    },
+    {
+      "trigger": "interpolation\t(interpolation)",
+      "contents": "interpolation(${1:interpolation});"
+    },
+    {
+      "trigger": "intersects\t(a,b)",
+      "contents": "intersects(${1:a},${2:b});"
+    },
+    {
+      "trigger": "intersectsrectangle\t(c,r)",
+      "contents": "intersectsRectangle(${1:c},${2:r});"
+    },
+    {
+      "trigger": "invert();\tpoint",
+      "contents": "invert();"
+    },
+    {
+      "trigger": "inworld\tinWorld",
+      "contents": "inWorld"
+    },
+    {
+      "trigger": "ios\tiOS",
+      "contents": "iOS"
+    },
+    {
+      "trigger": "ipad\tiPad",
+      "contents": "iPad"
+    },
+    {
+      "trigger": "iphone\tiPhone",
+      "contents": "iPhone"
+    },
+    {
+      "trigger": "iphone4\tiPhone4",
+      "contents": "iPhone4"
+    },
+    {
+      "trigger": "isbooted\tisBooted",
+      "contents": "isBooted"
+    },
+    {
+      "trigger": "isconsoleopen();",
+      "contents": "isConsoleOpen();"
+    },
+    {
+      "trigger": "isdecoded",
+      "contents": "isDecoded"
+    },
+    {
+      "trigger": "isdecoding",
+      "contents": "isDecoding"
+    },
+    {
+      "trigger": "isdown\t(keycode)",
+      "contents": "isDown(${1:keycode});"
+    },
+    {
+      "trigger": "isdragged",
+      "contents": "isDragged"
+    },
+    {
+      "trigger": "iseven\t(n)",
+      "contents": "isEven(${1:n});"
+    },
+    {
+      "trigger": "isfinished",
+      "contents": "isFinished"
+    },
+    {
+      "trigger": "isloaded",
+      "contents": "isLoaded"
+    },
+    {
+      "trigger": "ismask",
+      "contents": "isMask"
+    },
+    {
+      "trigger": "isodd\t(n)",
+      "contents": "isOdd(${1:n});"
+    },
+    {
+      "trigger": "ispaused",
+      "contents": "isPaused"
+    },
+    {
+      "trigger": "ispixelperfect();",
+      "contents": "isPixelPerfect();"
+    },
+    {
+      "trigger": "isplainobject\t(obj)",
+      "contents": "isPlainObject(${1:obj});"
+    },
+    {
+      "trigger": "isplaying",
+      "contents": "isPlaying"
+    },
+    {
+      "trigger": "israf();",
+      "contents": "isRAF();"
+    },
+    {
+      "trigger": "isrunning",
+      "contents": "isRunning"
+    },
+    {
+      "trigger": "issettimeout();",
+      "contents": "isSetTimeOut();"
+    },
+    {
+      "trigger": "issounddecoded\t(key)",
+      "contents": "isSoundDecoded(${1:key});"
+    },
+    {
+      "trigger": "issoundready\t(key)",
+      "contents": "isSoundReady(${1:key});"
+    },
+    {
+      "trigger": "istweening\t(object)",
+      "contents": "isTweening(${1:object});"
+    },
+    {
+      "trigger": "isup\t(buttonCode)",
+      "contents": "isUp(${1:buttonCode});"
+    },
+    {
+      "trigger": "iterate\t(key,value,returnType,callback,callbackContext)",
+      "contents": "iterate(${1:key},${2:value},${3:returnType},${4:callback},${5:callbackContext});"
+    },
+    {
+      "trigger": "json\t(key,url)",
+      "contents": "json(${1:key},${2:url});"
+    },
+    {
+      "trigger": "json\t(key,url,overwrite)",
+      "contents": "json(${1:key},${2:url},${3:overwrite});"
+    },
+    {
+      "trigger": "json\tJSON",
+      "contents": "JSON"
+    },
+    {
+      "trigger": "jsondata\t(game,json,cacheKey)",
+      "contents": "jSONData(${1:game},${2:json},${3:cacheKey});"
+    },
+    {
+      "trigger": "jsondatahash\t(game,json,cacheKey)",
+      "contents": "jSONDataHash(${1:game},${2:json},${3:cacheKey});"
+    },
+    {
+      "trigger": "justout\t(pointer,delay)",
+      "contents": "justOut(${1:pointer},${2:delay});"
+    },
+    {
+      "trigger": "justover\t(pointer,delay)",
+      "contents": "justOver(${1:pointer},${2:delay});"
+    },
+    {
+      "trigger": "justpressed\t(buttonCode,duration)",
+      "contents": "justPressed(${1:buttonCode},${2:duration});"
+    },
+    {
+      "trigger": "justpressedrate",
+      "contents": "justPressedRate"
+    },
+    {
+      "trigger": "justreleased\t(buttonCode,duration)",
+      "contents": "justReleased(${1:buttonCode},${2:duration});"
+    },
+    {
+      "trigger": "justreleasedrate",
+      "contents": "justReleasedRate"
+    },
+    {
+      "trigger": "key",
+      "contents": "key"
+    },
+    {
+      "trigger": "keyboard",
+      "contents": "keyboard"
+    },
+    {
+      "trigger": "keycode",
+      "contents": "keyCode"
+    },
+    {
+      "trigger": "kill();",
+      "contents": "kill();"
+    },
+    {
+      "trigger": "killoncomplete",
+      "contents": "killOnComplete"
+    },
+    {
+      "trigger": "lastchar",
+      "contents": "lastChar"
+    },
+    {
+      "trigger": "lastkey",
+      "contents": "lastKey"
+    },
+    {
+      "trigger": "lasttime",
+      "contents": "lastTime"
+    },
+    {
+      "trigger": "left",
+      "contents": "left"
+    },
+    {
+      "trigger": "left_button\tLEFT_BUTTON",
+      "contents": "LEFT_BUTTON"
+    },
+    {
+      "trigger": "length",
+      "contents": "length"
+    },
+    {
+      "trigger": "lifespan",
+      "contents": "lifespan"
+    },
+    {
+      "trigger": "limitvalue\t(value,min,max)",
+      "contents": "limitValue(${1:value},${2:min},${3:max});"
+    },
+    {
+      "trigger": "linear\t(p0,p1,t)",
+      "contents": "linear(${1:p0},${2:p1},${3:t});"
+    },
+    {
+      "trigger": "linearinterpolation\t(v,k)",
+      "contents": "linearInterpolation(${1:v},${2:k});"
+    },
+    {
+      "trigger": "linecolor",
+      "contents": "lineColor"
+    },
+    {
+      "trigger": "linespacing",
+      "contents": "lineSpacing"
+    },
+    {
+      "trigger": "linestyle\t(lineWidth,color,alpha)",
+      "contents": "lineStyle(${1:lineWidth},${2:color},${3:alpha});"
+    },
+    {
+      "trigger": "lineto\t(x,y)",
+      "contents": "lineTo(${1:x},${2:y});"
+    },
+    {
+      "trigger": "linewidth",
+      "contents": "lineWidth"
+    },
+    {
+      "trigger": "link\t(key)",
+      "contents": "link(${1:key});"
+    },
+    {
+      "trigger": "linux",
+      "contents": "linux"
+    },
+    {
+      "trigger": "littleendian",
+      "contents": "littleEndian"
+    },
+    {
+      "trigger": "load",
+      "contents": "load"
+    },
+    {
+      "trigger": "loadcomplete();",
+      "contents": "loadComplete();"
+    },
+    {
+      "trigger": "loadrender();",
+      "contents": "loadRender();"
+    },
+    {
+      "trigger": "loadtexture\t(key,frame,stopAnimation)",
+      "contents": "loadTexture(${1:key},${2:frame},${3:stopAnimation});"
+    },
+    {
+      "trigger": "loadtexture\t(key,frame)",
+      "contents": "loadTexture(${1:key},${2:frame});"
+    },
+    {
+      "trigger": "loadupdate();",
+      "contents": "loadUpdate();"
+    },
+    {
+      "trigger": "localstorage",
+      "contents": "localStorage"
+    },
+    {
+      "trigger": "lockconstraint",
+      "contents": "lockConstraint"
+    },
+    {
+      "trigger": "locked",
+      "contents": "locked"
+    },
+    {
+      "trigger": "loop\t(delay,callback,callbackContext,arguments)",
+      "contents": "loop(${1:delay},${2:callback},${3:callbackContext},${4:arguments});"
+    },
+    {
+      "trigger": "loop();",
+      "contents": "loop();"
+    },
+    {
+      "trigger": "loopcount",
+      "contents": "loopCount"
+    },
+    {
+      "trigger": "m4a",
+      "contents": "m4a"
+    },
+    {
+      "trigger": "macos",
+      "contents": "macOS"
+    },
+    {
+      "trigger": "make",
+      "contents": "make"
+    },
+    {
+      "trigger": "makeparticles\t(keys,frames,quantity,collide,collideWorldBounds)",
+      "contents": "makeParticles(${1:keys},${2:frames},${3:quantity},${4:collide},${5:collideWorldBounds});"
+    },
+    {
+      "trigger": "maplinear\t(x,a1,a2,b1,b2)",
+      "contents": "mapLinear(${1:x},${2:a1},${3:a2},${4:b1},${5:b2});"
+    },
+    {
+      "trigger": "markers",
+      "contents": "markers"
+    },
+    {
+      "trigger": "mask",
+      "contents": "mask"
+    },
+    {
+      "trigger": "mastergainnode",
+      "contents": "masterGainNode"
+    },
+    {
+      "trigger": "material\tname",
+      "contents": "material"
+    },
+    {
+      "trigger": "math",
+      "contents": "math"
+    },
+    {
+      "trigger": "max();\tMath",
+      "contents": "max();"
+    },
+    {
+      "trigger": "maxadd\t(value,amount,max-)",
+      "contents": "maxAdd(${1:value},${2:amount},${3:max-});"
+    },
+    {
+      "trigger": "maxparticlealpha",
+      "contents": "maxParticleAlpha"
+    },
+    {
+      "trigger": "maxparticles",
+      "contents": "maxParticles"
+    },
+    {
+      "trigger": "maxparticlescale",
+      "contents": "maxParticleScale"
+    },
+    {
+      "trigger": "maxparticlespeed",
+      "contents": "maxParticleSpeed"
+    },
+    {
+      "trigger": "maxpointers",
+      "contents": "maxPointers"
+    },
+    {
+      "trigger": "maxproperty();\tMath",
+      "contents": "maxProperty();"
+    },
+    {
+      "trigger": "maxrotation",
+      "contents": "maxRotation"
+    },
+    {
+      "trigger": "maxvelocity",
+      "contents": "maxVelocity"
+    },
+    {
+      "trigger": "middle_button\tMIDDLE_BUTTON",
+      "contents": "MIDDLE_BUTTON"
+    },
+    {
+      "trigger": "midori",
+      "contents": "midori"
+    },
+    {
+      "trigger": "min();\tMath",
+      "contents": "min();"
+    },
+    {
+      "trigger": "minparticlealpha",
+      "contents": "minParticleAlpha"
+    },
+    {
+      "trigger": "minparticlescale",
+      "contents": "minParticleScale"
+    },
+    {
+      "trigger": "minparticlespeed",
+      "contents": "minParticleSpeed"
+    },
+    {
+      "trigger": "minpriorityid",
+      "contents": "minPriorityID"
+    },
+    {
+      "trigger": "minproperty();\tMath",
+      "contents": "minProperty();"
+    },
+    {
+      "trigger": "minrotation",
+      "contents": "minRotation"
+    },
+    {
+      "trigger": "minsub\t(value,amount,min)",
+      "contents": "minSub(${1:value},${2:amount},${3:min});"
+    },
+    {
+      "trigger": "minute\tMINUTE",
+      "contents": "MINUTE"
+    },
+    {
+      "trigger": "mixin\t(from,to)",
+      "contents": "mixin(${1:from},${2:to});"
+    },
+    {
+      "trigger": "mobilesafari",
+      "contents": "mobileSafari"
+    },
+    {
+      "trigger": "mouse",
+      "contents": "mouse"
+    },
+    {
+      "trigger": "mouse_overrides_touch",
+      "contents": "MOUSE_OVERRIDES_TOUCH"
+    },
+    {
+      "trigger": "mouse_touch_combine",
+      "contents": "MOUSE_TOUCH_COMBINE"
+    },
+    {
+      "trigger": "mousedown\t(interactionData)",
+      "contents": "mousedown(${1:interactionData});"
+    },
+    {
+      "trigger": "mousedowncallback",
+      "contents": "mouseDownCallback"
+    },
+    {
+      "trigger": "mousemovecallback",
+      "contents": "mouseMoveCallback"
+    },
+    {
+      "trigger": "mouseout\t(interactionData)",
+      "contents": "mouseout(${1:interactionData});"
+    },
+    {
+      "trigger": "mouseoutcallback",
+      "contents": "mouseOutCallback"
+    },
+    {
+      "trigger": "mouseover\t(interactionData)",
+      "contents": "mouseover(${1:interactionData});"
+    },
+    {
+      "trigger": "mouseovercallback",
+      "contents": "mouseOverCallback"
+    },
+    {
+      "trigger": "mousepointer",
+      "contents": "mousePointer"
+    },
+    {
+      "trigger": "mouseup\t(interactionData)",
+      "contents": "mouseup(${1:interactionData});"
+    },
+    {
+      "trigger": "mouseupcallback",
+      "contents": "mouseUpCallback"
+    },
+    {
+      "trigger": "mouseupoutside\t(interactionData)",
+      "contents": "mouseupoutside(${1:interactionData});"
+    },
+    {
+      "trigger": "mousewheelcallback",
+      "contents": "mouseWheelCallback"
+    },
+    {
+      "trigger": "movecallback",
+      "contents": "moveCallback"
+    },
+    {
+      "trigger": "movecallbackcontext",
+      "contents": "moveCallbackContext"
+    },
+    {
+      "trigger": "movecallbacks",
+      "contents": "moveCallbacks"
+    },
+    {
+      "trigger": "movedown\t(child)",
+      "contents": "moveDown(${1:child});"
+    },
+    {
+      "trigger": "moveto\t(x,y)",
+      "contents": "moveTo(${1:x},${2:y});"
+    },
+    {
+      "trigger": "moveup\t(child)",
+      "contents": "moveUp(${1:child});"
+    },
+    {
+      "trigger": "mp3",
+      "contents": "mp3"
+    },
+    {
+      "trigger": "mpx\t(v)",
+      "contents": "mpx(${1:v});"
+    },
+    {
+      "trigger": "mpxi\t(v)",
+      "contents": "mpxi(${1:v});"
+    },
+    {
+      "trigger": "ms",
+      "contents": "ms"
+    },
+    {
+      "trigger": "msmax",
+      "contents": "msMax"
+    },
+    {
+      "trigger": "msmin",
+      "contents": "msMin"
+    },
+    {
+      "trigger": "mspointer",
+      "contents": "mspointer"
+    },
+    {
+      "trigger": "multiinputoverride",
+      "contents": "multiInputOverride"
+    },
+    {
+      "trigger": "multiply\t(a,b,out)",
+      "contents": "multiply(${1:a},${2:b},${3:out});"
+    },
+    {
+      "trigger": "multiplyadd\t(a,b,s,out)",
+      "contents": "multiplyAdd(${1:a},${2:b},${3:s},${4:out});"
+    },
+    {
+      "trigger": "multiplyall\t(property,amount,checkAlive,checkVisible)",
+      "contents": "multiplyAll(${1:property},${2:amount},${3:checkAlive},${4:checkVisible});"
+    },
+    {
+      "trigger": "mute",
+      "contents": "mute"
+    },
+    {
+      "trigger": "name",
+      "contents": "name"
+    },
+    {
+      "trigger": "negative\t(a,out)",
+      "contents": "negative(${1:a},${2:out});"
+    },
+    {
+      "trigger": "net",
+      "contents": "net"
+    },
+    {
+      "trigger": "newvelocity",
+      "contents": "newVelocity"
+    },
+    {
+      "trigger": "next\t(quantity)",
+      "contents": "next(${1:quantity});"
+    },
+    {
+      "trigger": "next();",
+      "contents": "next();"
+    },
+    {
+      "trigger": "nexttick",
+      "contents": "nextTick"
+    },
+    {
+      "trigger": "ninja",
+      "contents": "ninja"
+    },
+    {
+      "trigger": "ninja\tNinja",
+      "contents": "Ninja"
+    },
+    {
+      "trigger": "no_button\tNO_BUTTON",
+      "contents": "NO_BUTTON"
+    },
+    {
+      "trigger": "noaudio",
+      "contents": "noAudio"
+    },
+    {
+      "trigger": "node",
+      "contents": "node"
+    },
+    {
+      "trigger": "nodewebkit",
+      "contents": "nodeWebkit"
+    },
+    {
+      "trigger": "normalize\t(a,out)",
+      "contents": "normalize(${1:a},${2:out});"
+    },
+    {
+      "trigger": "normalizeangle\t(angleRad)",
+      "contents": "normalizeAngle(${1:angleRad});"
+    },
+    {
+      "trigger": "normalizelatitude\t(lat)",
+      "contents": "normalizeLatitude(${1:lat});"
+    },
+    {
+      "trigger": "normalizelongitude\t(lng)",
+      "contents": "normalizeLongitude(${1:lng});"
+    },
+    {
+      "trigger": "normalrighthand\t(a,out)",
+      "contents": "normalRightHand(${1:a},${2:out});"
+    },
+    {
+      "trigger": "nothingcollisiongroup",
+      "contents": "nothingCollisionGroup"
+    },
+    {
+      "trigger": "now",
+      "contents": "now"
+    },
+    {
+      "trigger": "numberarray\t(min,max)",
+      "contents": "numberArray(${1:min},${2:max});"
+    },
+    {
+      "trigger": "numberarraystep\t(start,end,step)",
+      "contents": "numberArrayStep(${1:start},${2:end},${3:step});"
+    },
+    {
+      "trigger": "offset\t(dx,dy)",
+      "contents": "offset(${1:dx},${2:dy});"
+    },
+    {
+      "trigger": "offsetpoint\t(point)",
+      "contents": "offsetPoint(${1:point});"
+    },
+    {
+      "trigger": "ogg",
+      "contents": "ogg"
+    },
+    {
+      "trigger": "on",
+      "contents": "on"
+    },
+    {
+      "trigger": "onaddedtogroup",
+      "contents": "onAddedToGroup"
+    },
+    {
+      "trigger": "onanimationcomplete",
+      "contents": "onAnimationComplete"
+    },
+    {
+      "trigger": "onanimationloop",
+      "contents": "onAnimationLoop"
+    },
+    {
+      "trigger": "onanimationstart",
+      "contents": "onAnimationStart"
+    },
+    {
+      "trigger": "onbegincontact",
+      "contents": "onBeginContact"
+    },
+    {
+      "trigger": "onblur\tonBlur",
+      "contents": "onBlur"
+    },
+    {
+      "trigger": "onbodyadded",
+      "contents": "onBodyAdded"
+    },
+    {
+      "trigger": "onbodyremoved",
+      "contents": "onBodyRemoved"
+    },
+    {
+      "trigger": "oncomplete\tanimation",
+      "contents": "onComplete"
+    },
+    {
+      "trigger": "onconstraintadded",
+      "contents": "onConstraintAdded"
+    },
+    {
+      "trigger": "onconstraintremoved",
+      "contents": "onConstraintRemoved"
+    },
+    {
+      "trigger": "oncontactmaterialadded",
+      "contents": "onContactMaterialAdded"
+    },
+    {
+      "trigger": "oncontactmaterialremoved",
+      "contents": "onContactMaterialRemoved"
+    },
+    {
+      "trigger": "oncreatecallback",
+      "contents": "onCreateCallback"
+    },
+    {
+      "trigger": "ondecoded",
+      "contents": "onDecoded"
+    },
+    {
+      "trigger": "ondestroy",
+      "contents": "onDestroy"
+    },
+    {
+      "trigger": "ondown",
+      "contents": "onDown"
+    },
+    {
+      "trigger": "ondowncallback",
+      "contents": "onDownCallback"
+    },
+    {
+      "trigger": "ondownsound",
+      "contents": "onDownSound"
+    },
+    {
+      "trigger": "ondownsoundmarker",
+      "contents": "onDownSoundMarker"
+    },
+    {
+      "trigger": "ondragstart",
+      "contents": "onDragStart"
+    },
+    {
+      "trigger": "ondragstop",
+      "contents": "onDragStop"
+    },
+    {
+      "trigger": "onendcontact",
+      "contents": "onEndContact"
+    },
+    {
+      "trigger": "onenterbounds",
+      "contents": "onEnterBounds"
+    },
+    {
+      "trigger": "onfadecomplete",
+      "contents": "onFadeComplete"
+    },
+    {
+      "trigger": "onfloat",
+      "contents": "onFloat"
+    },
+    {
+      "trigger": "onfocus\tonFocus",
+      "contents": "onFocus"
+    },
+    {
+      "trigger": "onhold",
+      "contents": "onHold"
+    },
+    {
+      "trigger": "onholdcallback",
+      "contents": "onHoldCallback"
+    },
+    {
+      "trigger": "onholdcontext",
+      "contents": "onHoldContext"
+    },
+    {
+      "trigger": "oninitcallback",
+      "contents": "onInitCallback"
+    },
+    {
+      "trigger": "oninputdown\tonInputDown",
+      "contents": "onInputDown"
+    },
+    {
+      "trigger": "oninputdownhandler\t(sprite,pointer)",
+      "contents": "onInputDownHandler(${1:sprite},${2:pointer});"
+    },
+    {
+      "trigger": "oninputout\tonInputOut",
+      "contents": "onInputOut"
+    },
+    {
+      "trigger": "oninputouthandler\t(sprite,pointer)",
+      "contents": "onInputOutHandler(${1:sprite},${2:pointer});"
+    },
+    {
+      "trigger": "oninputover\tonInputOver",
+      "contents": "onInputOver"
+    },
+    {
+      "trigger": "oninputoverhandler\t(sprite,pointer)",
+      "contents": "onInputOverHandler(${1:sprite},${2:pointer});"
+    },
+    {
+      "trigger": "oninputup\tonInputUp",
+      "contents": "onInputUp"
+    },
+    {
+      "trigger": "oninputuphandler\t(sprite,pointer)",
+      "contents": "onInputUpHandler(${1:sprite},${2:pointer});"
+    },
+    {
+      "trigger": "onkilled",
+      "contents": "onKilled"
+    },
+    {
+      "trigger": "onloadrendercallback",
+      "contents": "onLoadRenderCallback"
+    },
+    {
+      "trigger": "onloadupdatecallback",
+      "contents": "onLoadUpdateCallback"
+    },
+    {
+      "trigger": "onloop\tanimation",
+      "contents": "onLoop"
+    },
+    {
+      "trigger": "onmarkercomplete",
+      "contents": "onMarkerComplete"
+    },
+    {
+      "trigger": "onmousedown\t(event)",
+      "contents": "onMouseDown(${1:event});"
+    },
+    {
+      "trigger": "onmousemove\t(event)",
+      "contents": "onMouseMove(${1:event});"
+    },
+    {
+      "trigger": "onmouseout\t(event)",
+      "contents": "onMouseOut(${1:event});"
+    },
+    {
+      "trigger": "onmouseover\t(event)",
+      "contents": "onMouseOver(${1:event});"
+    },
+    {
+      "trigger": "onmouseup\t(event)",
+      "contents": "onMouseUp(${1:event});"
+    },
+    {
+      "trigger": "onmouseupglobal\t(event)",
+      "contents": "onMouseUpGlobal(${1:event});"
+    },
+    {
+      "trigger": "onmousewheel\t(event)",
+      "contents": "onMouseWheel(${1:event});"
+    },
+    {
+      "trigger": "onmute",
+      "contents": "onMute"
+    },
+    {
+      "trigger": "onoutofbounds",
+      "contents": "onOutOfBounds"
+    },
+    {
+      "trigger": "onoutsound",
+      "contents": "onOutSound"
+    },
+    {
+      "trigger": "onoutsoundmarker",
+      "contents": "onOutSoundMarker"
+    },
+    {
+      "trigger": "onovermouseonly",
+      "contents": "onOverMouseOnly"
+    },
+    {
+      "trigger": "onoversound",
+      "contents": "onOverSound"
+    },
+    {
+      "trigger": "onoversoundmarker",
+      "contents": "onOverSoundMarker"
+    },
+    {
+      "trigger": "onpause\tonPause",
+      "contents": "onPause"
+    },
+    {
+      "trigger": "onpause();\tanimation",
+      "contents": "onPause();"
+    },
+    {
+      "trigger": "onpausedcallback",
+      "contents": "onPausedCallback"
+    },
+    {
+      "trigger": "onpauseupdatecallback",
+      "contents": "onPauseUpdateCallback"
+    },
+    {
+      "trigger": "onplay",
+      "contents": "onPlay"
+    },
+    {
+      "trigger": "onpreloadcallback",
+      "contents": "onPreloadCallback"
+    },
+    {
+      "trigger": "onprerendercallback",
+      "contents": "onPreRenderCallback"
+    },
+    {
+      "trigger": "onpresscallback",
+      "contents": "onPressCallback"
+    },
+    {
+      "trigger": "onremovedfromgroup",
+      "contents": "onRemovedFromGroup"
+    },
+    {
+      "trigger": "onrendercallback",
+      "contents": "onRenderCallback"
+    },
+    {
+      "trigger": "onresizecallback",
+      "contents": "onResizeCallback"
+    },
+    {
+      "trigger": "onresume\tonResume",
+      "contents": "onResume"
+    },
+    {
+      "trigger": "onresume();\tanimation",
+      "contents": "onResume();"
+    },
+    {
+      "trigger": "onresumedcallback",
+      "contents": "onResumedCallback"
+    },
+    {
+      "trigger": "onrevived",
+      "contents": "onRevived"
+    },
+    {
+      "trigger": "onshutdowncallback",
+      "contents": "onShutDownCallback"
+    },
+    {
+      "trigger": "onsounddecode",
+      "contents": "onSoundDecode"
+    },
+    {
+      "trigger": "onsoundunlock",
+      "contents": "onSoundUnlock"
+    },
+    {
+      "trigger": "onspringadded",
+      "contents": "onSpringAdded"
+    },
+    {
+      "trigger": "onspringremoved",
+      "contents": "onSpringRemoved"
+    },
+    {
+      "trigger": "onstart\tanimation",
+      "contents": "onStart"
+    },
+    {
+      "trigger": "onstop",
+      "contents": "onStop"
+    },
+    {
+      "trigger": "ontap",
+      "contents": "onTap"
+    },
+    {
+      "trigger": "ontouchcancel\t(event)",
+      "contents": "onTouchCancel(${1:event});"
+    },
+    {
+      "trigger": "ontouchend\t(event)",
+      "contents": "onTouchEnd(${1:event});"
+    },
+    {
+      "trigger": "ontouchenter\t(event)",
+      "contents": "onTouchEnter(${1:event});"
+    },
+    {
+      "trigger": "ontouchleave\t(event)",
+      "contents": "onTouchLeave(${1:event});"
+    },
+    {
+      "trigger": "ontouchmove\t(event)",
+      "contents": "onTouchMove(${1:event});"
+    },
+    {
+      "trigger": "ontouchstart\t(event)",
+      "contents": "onTouchStart(${1:event});"
+    },
+    {
+      "trigger": "onup",
+      "contents": "onUp"
+    },
+    {
+      "trigger": "onupcallback",
+      "contents": "onUpCallback"
+    },
+    {
+      "trigger": "onupdate\tanimation",
+      "contents": "onUpdate"
+    },
+    {
+      "trigger": "onupdatecallback\t(callback,callbackContext)",
+      "contents": "onUpdateCallback(${1:callback},${2:callbackContext});"
+    },
+    {
+      "trigger": "onupsound",
+      "contents": "onUpSound"
+    },
+    {
+      "trigger": "onupsoundmarker",
+      "contents": "onUpSoundMarker"
+    },
+    {
+      "trigger": "opera",
+      "contents": "opera"
+    },
+    {
+      "trigger": "opus",
+      "contents": "opus"
+    },
+    {
+      "trigger": "order();",
+      "contents": "order();"
+    },
+    {
+      "trigger": "overduration\t(pointer)",
+      "contents": "overDuration(${1:pointer});"
+    },
+    {
+      "trigger": "override",
+      "contents": "override"
+    },
+    {
+      "trigger": "p2",
+      "contents": "p2"
+    },
+    {
+      "trigger": "p2\tP2",
+      "contents": "P2"
+    },
+    {
+      "trigger": "pack\t(key,url,data,callbackContext)",
+      "contents": "pack(${1:key},${2:url},${3:data},${4:callbackContext});"
+    },
+    {
+      "trigger": "packpixel\t(r,g,b,a)",
+      "contents": "packPixel(${1:r},${2:g},${3:b},${4:a});"
+    },
+    {
+      "trigger": "pad\t(str,len,pad,dir)",
+      "contents": "pad(${1:str},${2:len},${3:pad},${4:dir});"
+    },
+    {
+      "trigger": "pad",
+      "contents": "pad"
+    },
+    {
+      "trigger": "padding",
+      "contents": "padding"
+    },
+    {
+      "trigger": "parent",
+      "contents": "parent"
+    },
+    {
+      "trigger": "parse\t(obj,xProp,yProp)",
+      "contents": "parse(${1:obj},${2:xProp},${3:yProp});"
+    },
+    {
+      "trigger": "parseconfig();\tparseConfig",
+      "contents": "parseConfig();"
+    },
+    {
+      "trigger": "parsedimension\t(size,dimension)",
+      "contents": "parseDimension(${1:size},${2:dimension});"
+    },
+    {
+      "trigger": "parseint\t(number)",
+      "contents": "parseInt(${1:number});"
+    },
+    {
+      "trigger": "particleanchor",
+      "contents": "particleAnchor"
+    },
+    {
+      "trigger": "particlebringtotop",
+      "contents": "particleBringToTop"
+    },
+    {
+      "trigger": "particleclass",
+      "contents": "particleClass"
+    },
+    {
+      "trigger": "particledrag",
+      "contents": "particleDrag"
+    },
+    {
+      "trigger": "particles",
+      "contents": "particles"
+    },
+    {
+      "trigger": "particlesendtoback",
+      "contents": "particleSendToBack"
+    },
+    {
+      "trigger": "pause();",
+      "contents": "pause();"
+    },
+    {
+      "trigger": "pauseall();",
+      "contents": "pauseAll();"
+    },
+    {
+      "trigger": "paused",
+      "contents": "paused"
+    },
+    {
+      "trigger": "paused();",
+      "contents": "paused();"
+    },
+    {
+      "trigger": "pausedposition",
+      "contents": "pausedPosition"
+    },
+    {
+      "trigger": "pausedtime",
+      "contents": "pausedTime"
+    },
+    {
+      "trigger": "pauseduration",
+      "contents": "pauseDuration"
+    },
+    {
+      "trigger": "pauseupdate();",
+      "contents": "pauseUpdate();"
+    },
+    {
+      "trigger": "pendingdelete",
+      "contents": "pendingDelete"
+    },
+    {
+      "trigger": "pendingplayback",
+      "contents": "pendingPlayback"
+    },
+    {
+      "trigger": "pendingstep\tpendingStep",
+      "contents": "pendingStep"
+    },
+    {
+      "trigger": "percent\t(a,b,base)",
+      "contents": "percent(${1:a},${2:b},${3:base});"
+    },
+    {
+      "trigger": "perp\t(a,out)",
+      "contents": "perp(${1:a},${2:out});"
+    },
+    {
+      "trigger": "physics",
+      "contents": "physics"
+    },
+    {
+      "trigger": "physics\t(key,url,data,format)",
+      "contents": "physics(${1:key},${2:url},${3:data},${4:format});"
+    },
+    {
+      "trigger": "physics\tPHYSICS",
+      "contents": "PHYSICS"
+    },
+    {
+      "trigger": "physicsbodytype",
+      "contents": "physicsBodyType"
+    },
+    {
+      "trigger": "physicsconfig\tphysicsConfig",
+      "contents": "physicsConfig"
+    },
+    {
+      "trigger": "physicselapsed",
+      "contents": "physicsElapsed"
+    },
+    {
+      "trigger": "physicsgroup\t(physicsBodyType,parent,name,addToStage)",
+      "contents": "physicsGroup(${1:physicsBodyType},${2:parent},${3:name},${4:addToStage});"
+    },
+    {
+      "trigger": "pi2();\tMath",
+      "contents": "PI2();"
+    },
+    {
+      "trigger": "pivot",
+      "contents": "pivot"
+    },
+    {
+      "trigger": "pixelperfectalpha",
+      "contents": "pixelPerfectAlpha"
+    },
+    {
+      "trigger": "pixelperfectclick",
+      "contents": "pixelPerfectClick"
+    },
+    {
+      "trigger": "pixelperfectover",
+      "contents": "pixelPerfectOver"
+    },
+    {
+      "trigger": "pixelratio",
+      "contents": "pixelRatio"
+    },
+    {
+      "trigger": "play\tanimation",
+      "contents": "play(${1:frameRate},${2:loop},${3:killOnComplete});"
+    },
+    {
+      "trigger": "play\tanimationManager",
+      "contents": "play(${1:name},${2:frameRate},${3:loop},${4:killOnComplete});"
+    },
+    {
+      "trigger": "play\tsound",
+      "contents": "play(${1:marker},${2:position},${3:volume},${4:loop},${5:forceRestart});"
+    },
+    {
+      "trigger": "plugin",
+      "contents": "plugin(${1:plugin},${2:parameter});"
+    },
+    {
+      "trigger": "plugins",
+      "contents": "plugins"
+    },
+    {
+      "trigger": "pointer",
+      "contents": "pointer"
+    },
+    {
+      "trigger": "pointerdown\t(pointer)",
+      "contents": "pointerDown(${1:pointer});"
+    },
+    {
+      "trigger": "pointerdragged\t(pointer)",
+      "contents": "pointerDragged(${1:pointer});"
+    },
+    {
+      "trigger": "pointerlock",
+      "contents": "pointerLock"
+    },
+    {
+      "trigger": "pointerlockchange\t(event)",
+      "contents": "pointerLockChange(${1:event});"
+    },
+    {
+      "trigger": "pointerout\t(index)",
+      "contents": "pointerOut(${1:index});"
+    },
+    {
+      "trigger": "pointerover\t(index)",
+      "contents": "pointerOver(${1:index});"
+    },
+    {
+      "trigger": "pointertimedown\t(pointer)",
+      "contents": "pointerTimeDown(${1:pointer});"
+    },
+    {
+      "trigger": "pointertimeout\t(pointer)",
+      "contents": "pointerTimeOut(${1:pointer});"
+    },
+    {
+      "trigger": "pointertimeover\t(pointer)",
+      "contents": "pointerTimeOver(${1:pointer});"
+    },
+    {
+      "trigger": "pointertimeup\t(pointer)",
+      "contents": "pointerTimeUp(${1:pointer});"
+    },
+    {
+      "trigger": "pointerup\t(pointer)",
+      "contents": "pointerUp(${1:pointer});"
+    },
+    {
+      "trigger": "pointerx\t(pointer)",
+      "contents": "pointerX(${1:pointer});"
+    },
+    {
+      "trigger": "pointery\t(pointer)",
+      "contents": "pointerY(${1:pointer});"
+    },
+    {
+      "trigger": "pointproxy",
+      "contents": "pointProxy"
+    },
+    {
+      "trigger": "polllocked",
+      "contents": "pollLocked"
+    },
+    {
+      "trigger": "pollrate",
+      "contents": "pollRate"
+    },
+    {
+      "trigger": "position",
+      "contents": "position"
+    },
+    {
+      "trigger": "positiondown",
+      "contents": "positionDown"
+    },
+    {
+      "trigger": "positionup",
+      "contents": "positionUp"
+    },
+    {
+      "trigger": "postbroadphasecallback",
+      "contents": "postBroadphaseCallback"
+    },
+    {
+      "trigger": "postrender();",
+      "contents": "postRender();"
+    },
+    {
+      "trigger": "postupdate();",
+      "contents": "postUpdate();"
+    },
+    {
+      "trigger": "preload();",
+      "contents": "preload();"
+    },
+    {
+      "trigger": "prerender();",
+      "contents": "preRender();"
+    },
+    {
+      "trigger": "preservedrawingbuffer\tpreserveDrawingBuffer",
+      "contents": "preserveDrawingBuffer"
+    },
+    {
+      "trigger": "pressevent",
+      "contents": "pressEvent"
+    },
+    {
+      "trigger": "preupdate();",
+      "contents": "preUpdate();"
+    },
+    {
+      "trigger": "prev",
+      "contents": "prev"
+    },
+    {
+      "trigger": "preventdefault",
+      "contents": "preventDefault"
+    },
+    {
+      "trigger": "previous\t(quantity)",
+      "contents": "previous(${1:quantity});"
+    },
+    {
+      "trigger": "previous();",
+      "contents": "previous();"
+    },
+    {
+      "trigger": "prevpoint",
+      "contents": "prevPoint"
+    },
+    {
+      "trigger": "prevtime",
+      "contents": "prevTime"
+    },
+    {
+      "trigger": "priorityid",
+      "contents": "priorityID"
+    },
+    {
+      "trigger": "prismaticconstraint",
+      "contents": "prismaticConstraint"
+    },
+    {
+      "trigger": "processbuttondown\t(buttonCode,value)",
+      "contents": "processButtonDown(${1:buttonCode},${2:value});"
+    },
+    {
+      "trigger": "processbuttondown\t(value)",
+      "contents": "processButtonDown(${1:value});"
+    },
+    {
+      "trigger": "processbuttonfloat\t(buttonCode,value)",
+      "contents": "processButtonFloat(${1:buttonCode},${2:value});"
+    },
+    {
+      "trigger": "processbuttonfloat\t(value)",
+      "contents": "processButtonFloat(${1:value});"
+    },
+    {
+      "trigger": "processbuttonup\t(buttonCode,value)",
+      "contents": "processButtonUp(${1:buttonCode},${2:value});"
+    },
+    {
+      "trigger": "processbuttonup\t(value)",
+      "contents": "processButtonUp(${1:value});"
+    },
+    {
+      "trigger": "processkeydown\t(event)",
+      "contents": "processKeyDown(${1:event});"
+    },
+    {
+      "trigger": "processkeypress\t(event)",
+      "contents": "processKeyPress(${1:event});"
+    },
+    {
+      "trigger": "processkeyup\t(event)",
+      "contents": "processKeyUp(${1:event});"
+    },
+    {
+      "trigger": "project\t(a,b,out)",
+      "contents": "project(${1:a},${2:b},${3:out});"
+    },
+    {
+      "trigger": "projectunit\t(a,b,out)",
+      "contents": "projectUnit(${1:a},${2:b},${3:out});"
+    },
+    {
+      "trigger": "pxm\t(v)",
+      "contents": "pxm(${1:v});"
+    },
+    {
+      "trigger": "pxmi\t(v)",
+      "contents": "pxmi(${1:v});"
+    },
+    {
+      "trigger": "quadraticcurveto\t(cpX,cpY,toX,toY)",
+      "contents": "quadraticCurveTo(${1:cpX},${2:cpY},${3:toX},${4:toY});"
+    },
+    {
+      "trigger": "quadtree",
+      "contents": "quadTree"
+    },
+    {
+      "trigger": "quarter\tQUARTER",
+      "contents": "QUARTER"
+    },
+    {
+      "trigger": "quirksmode",
+      "contents": "quirksMode"
+    },
+    {
+      "trigger": "radius",
+      "contents": "radius"
+    },
+    {
+      "trigger": "radtodeg();\tMath",
+      "contents": "radToDeg();"
+    },
+    {
+      "trigger": "raf",
+      "contents": "raf"
+    },
+    {
+      "trigger": "randomsign();\tMath",
+      "contents": "randomSign();"
+    },
+    {
+      "trigger": "randomx",
+      "contents": "randomX"
+    },
+    {
+      "trigger": "randomy",
+      "contents": "randomY"
+    },
+    {
+      "trigger": "recordlimit",
+      "contents": "recordLimit"
+    },
+    {
+      "trigger": "recordpointerhistory",
+      "contents": "recordPointerHistory"
+    },
+    {
+      "trigger": "recordrate",
+      "contents": "recordRate"
+    },
+    {
+      "trigger": "refreshframe();",
+      "contents": "refreshFrame();"
+    },
+    {
+      "trigger": "releasepointerlock();",
+      "contents": "releasePointerLock();"
+    },
+    {
+      "trigger": "reloadsound\t(key)",
+      "contents": "reloadSound(${1:key});"
+    },
+    {
+      "trigger": "reloadsoundcomplete\t(key)",
+      "contents": "reloadSoundComplete(${1:key});"
+    },
+    {
+      "trigger": "remove\t(key)",
+      "contents": "remove(${1:key});"
+    },
+    {
+      "trigger": "remove\t(child,destroy,silent)",
+      "contents": "remove(${1:child},${2:destroy},${3:silent});"
+    },
+    {
+      "trigger": "removeall\t(destroy,silent)",
+      "contents": "removeAll(${1:destroy},${2:silent});"
+    },
+    {
+      "trigger": "removeall();",
+      "contents": "removeAll();"
+    },
+    {
+      "trigger": "removebetween\t(startIndex,endIndex,destroy,silent)",
+      "contents": "removeBetween(${1:startIndex},${2:endIndex},${3:destroy},${4:silent});"
+    },
+    {
+      "trigger": "removebinary\t(key)",
+      "contents": "removeBinary(${1:key});"
+    },
+    {
+      "trigger": "removebitmapdata\t(key)",
+      "contents": "removeBitmapData(${1:key});"
+    },
+    {
+      "trigger": "removebitmapfont\t(key)",
+      "contents": "removeBitmapFont(${1:key});"
+    },
+    {
+      "trigger": "removebody\t(body)",
+      "contents": "removeBody(${1:body});"
+    },
+    {
+      "trigger": "removebodynextstep\t(body)",
+      "contents": "removeBodyNextStep(${1:body});"
+    },
+    {
+      "trigger": "removebykey\t(key)",
+      "contents": "removeByKey(${1:key});"
+    },
+    {
+      "trigger": "removecanvas\t(key)",
+      "contents": "removeCanvas(${1:key});"
+    },
+    {
+      "trigger": "removechild\t(child)",
+      "contents": "removeChild(${1:child});"
+    },
+    {
+      "trigger": "removechildat\t(index)",
+      "contents": "removeChildAt(${1:index});"
+    },
+    {
+      "trigger": "removechildren\t(beginIndex,endIndex)",
+      "contents": "removeChildren(${1:beginIndex},${2:endIndex});"
+    },
+    {
+      "trigger": "removechildren();\tremovechildren",
+      "contents": "removeChildren();"
+    },
+    {
+      "trigger": "removeconstraint\t(constraint)",
+      "contents": "removeConstraint(${1:constraint});"
+    },
+    {
+      "trigger": "removecontactmaterial\t(material)",
+      "contents": "removeContactMaterial(${1:material});"
+    },
+    {
+      "trigger": "removefromdom\t(canvas)",
+      "contents": "removeFromDOM(${1:canvas});"
+    },
+    {
+      "trigger": "removeimage\t(key,removeFromPixi)",
+      "contents": "removeImage(${1:key},${2:removeFromPixi});"
+    },
+    {
+      "trigger": "removejson\t(key)",
+      "contents": "removeJSON(${1:key});"
+    },
+    {
+      "trigger": "removekey\t(keycode)",
+      "contents": "removeKey(${1:keycode});"
+    },
+    {
+      "trigger": "removekeycapture\t(keycode)",
+      "contents": "removeKeyCapture(${1:keycode});"
+    },
+    {
+      "trigger": "removemarker\t(name)",
+      "contents": "removeMarker(${1:name});"
+    },
+    {
+      "trigger": "removephysics\t(key)",
+      "contents": "removePhysics(${1:key});"
+    },
+    {
+      "trigger": "removerandom\t(objects,startIndex,length)",
+      "contents": "removeRandom(${1:objects},${2:startIndex},${3:length});"
+    },
+    {
+      "trigger": "removesound\t(key)",
+      "contents": "removeSound(${1:key});"
+    },
+    {
+      "trigger": "removespring\t(spring)",
+      "contents": "removeSpring(${1:spring});"
+    },
+    {
+      "trigger": "removestagereference();\tgraphics",
+      "contents": "removeStageReference();"
+    },
+    {
+      "trigger": "removetext\t(key)",
+      "contents": "removeText(${1:key});"
+    },
+    {
+      "trigger": "removetilemap\t(key)",
+      "contents": "removeTilemap(${1:key});"
+    },
+    {
+      "trigger": "removexml\t(key)",
+      "contents": "removeXML(${1:key});"
+    },
+    {
+      "trigger": "render();",
+      "contents": "render();"
+    },
+    {
+      "trigger": "renderable",
+      "contents": "renderable"
+    },
+    {
+      "trigger": "renderer",
+      "contents": "renderer"
+    },
+    {
+      "trigger": "renderorderid",
+      "contents": "renderOrderID"
+    },
+    {
+      "trigger": "rendertexture\t(width,height,key,addToCache)",
+      "contents": "renderTexture(${1:width},${2:height},${3:key},${4:addToCache});"
+    },
+    {
+      "trigger": "rendertype\trenderType",
+      "contents": "renderType"
+    },
+    {
+      "trigger": "repeat\t(delay,repeatCount,callback,callbackContext,arguments)",
+      "contents": "repeat(${1:delay},${2:repeatCount},${3:callback},${4:callbackContext},${5:arguments});"
+    },
+    {
+      "trigger": "repeat\t(times)",
+      "contents": "repeat(${1:times});"
+    },
+    {
+      "trigger": "repeatcount",
+      "contents": "repeatCount"
+    },
+    {
+      "trigger": "repeats",
+      "contents": "repeats"
+    },
+    {
+      "trigger": "replace\t(oldChild,newChild)",
+      "contents": "replace(${1:oldChild},${2:newChild});"
+    },
+    {
+      "trigger": "requestanimationframe",
+      "contents": "requestAnimationFrame"
+    },
+    {
+      "trigger": "requestfullscreen",
+      "contents": "requestFullscreen"
+    },
+    {
+      "trigger": "requestpointerlock();",
+      "contents": "requestPointerLock();"
+    },
+    {
+      "trigger": "reset\t(x,y)",
+      "contents": "reset(${1:x},${2:y});"
+    },
+    {
+      "trigger": "reset\t(hard)",
+      "contents": "reset(${1:hard});"
+    },
+    {
+      "trigger": "reset();",
+      "contents": "reset();"
+    },
+    {
+      "trigger": "resetcursor\t(index)",
+      "contents": "resetCursor(${1:index});"
+    },
+    {
+      "trigger": "resetframe();",
+      "contents": "resetFrame();"
+    },
+    {
+      "trigger": "resetlocked",
+      "contents": "resetLocked"
+    },
+    {
+      "trigger": "resetspeed\t(x,y)",
+      "contents": "resetSpeed(${1:x},${2:y});"
+    },
+    {
+      "trigger": "resize();",
+      "contents": "resize();"
+    },
+    {
+      "trigger": "resolution",
+      "contents": "resolution"
+    },
+    {
+      "trigger": "restart\t(marker,position,volume,loop)",
+      "contents": "restart(${1:marker},${2:position},${3:volume},${4:loop});"
+    },
+    {
+      "trigger": "restart\t(clearWorld,clearCache,parameter)",
+      "contents": "restart(${1:clearWorld},${2:clearCache},${3:parameter});"
+    },
+    {
+      "trigger": "restart();",
+      "contents": "restart();"
+    },
+    {
+      "trigger": "restitution",
+      "contents": "restitution"
+    },
+    {
+      "trigger": "resume();",
+      "contents": "resume();"
+    },
+    {
+      "trigger": "resumeall();",
+      "contents": "resumeAll();"
+    },
+    {
+      "trigger": "retrofont\t(font,characterWidth,characterHeight,chars,charsPerRow,xSpacing)",
+      "contents": "retroFont(${1:font},${2:characterWidth},${3:characterHeight},${4:chars},${5:charsPerRow},${6:xSpacing});"
+    },
+    {
+      "trigger": "return_child\tRETURN_CHILD",
+      "contents": "RETURN_CHILD"
+    },
+    {
+      "trigger": "return_none\tRETURN_NONE",
+      "contents": "RETURN_NONE"
+    },
+    {
+      "trigger": "return_total\tRETURN_TOTAL",
+      "contents": "RETURN_TOTAL"
+    },
+    {
+      "trigger": "reverse();",
+      "contents": "reverse();"
+    },
+    {
+      "trigger": "reverseangle\t(angleRad)",
+      "contents": "reverseAngle(${1:angleRad});"
+    },
+    {
+      "trigger": "revoluteconstraint",
+      "contents": "revoluteConstraint"
+    },
+    {
+      "trigger": "rgbtohsl\t(r,g,b,out)",
+      "contents": "RGBtoHSL(${1:r},${2:g},${3:b},${4:out});"
+    },
+    {
+      "trigger": "rgbtohsv\t(r,g,b,out)",
+      "contents": "RGBtoHSV(${1:r},${2:g},${3:b},${4:out});"
+    },
+    {
+      "trigger": "rgbtostring\t(r,g,b,a,prefix)",
+      "contents": "RGBtoString(${1:r},${2:g},${3:b},${4:a},${5:prefix});"
+    },
+    {
+      "trigger": "right",
+      "contents": "right"
+    },
+    {
+      "trigger": "right_button\tRIGHT_BUTTON",
+      "contents": "RIGHT_BUTTON"
+    },
+    {
+      "trigger": "rightclick\t(interactionData)",
+      "contents": "rightclick(${1:interactionData});"
+    },
+    {
+      "trigger": "rightdown\t(interactionData)",
+      "contents": "rightdown(${1:interactionData});"
+    },
+    {
+      "trigger": "rightup\t(interactionData)",
+      "contents": "rightup(${1:interactionData});"
+    },
+    {
+      "trigger": "rightupoutside\t(interactionData)",
+      "contents": "rightupoutside(${1:interactionData});"
+    },
+    {
+      "trigger": "rnd",
+      "contents": "rnd"
+    },
+    {
+      "trigger": "rope\t(x,y,key,frame,points,group)",
+      "contents": "rope(${1:x},${2:y},${3:key},${4:frame},${5:points},${6:group});"
+    },
+    {
+      "trigger": "rotate\t(a,x,y,angle,asDegrees,distance)",
+      "contents": "rotate(${1:a},${2:x},${3:y},${4:angle},${5:asDegrees},${6:distance});"
+    },
+    {
+      "trigger": "rotatearray\t(matrix,direction)",
+      "contents": "rotateArray(${1:matrix},${2:direction});"
+    },
+    {
+      "trigger": "rotated",
+      "contents": "rotated"
+    },
+    {
+      "trigger": "rotation",
+      "contents": "rotation"
+    },
+    {
+      "trigger": "rotationalspring",
+      "contents": "rotationalSpring"
+    },
+    {
+      "trigger": "rotationdirection",
+      "contents": "rotationDirection"
+    },
+    {
+      "trigger": "roundpx",
+      "contents": "roundPx"
+    },
+    {
+      "trigger": "roundto\t(value,place,base)",
+      "contents": "roundTo(${1:value},${2:place},${3:base});"
+    },
+    {
+      "trigger": "rperp\t(a,out)",
+      "contents": "rperp(${1:a},${2:out});"
+    },
+    {
+      "trigger": "running",
+      "contents": "running"
+    },
+    {
+      "trigger": "safari",
+      "contents": "safari"
+    },
+    {
+      "trigger": "scale",
+      "contents": "scale"
+    },
+    {
+      "trigger": "scaledata",
+      "contents": "scaleData"
+    },
+    {
+      "trigger": "scalelayer",
+      "contents": "scaleLayer"
+    },
+    {
+      "trigger": "screenview",
+      "contents": "screenView"
+    },
+    {
+      "trigger": "script\t(key,url,callback,callbackContext)",
+      "contents": "script(${1:key},${2:url},${3:callback},${4:callbackContext});"
+    },
+    {
+      "trigger": "second\tSECOND",
+      "contents": "SECOND"
+    },
+    {
+      "trigger": "seconds",
+      "contents": "seconds"
+    },
+    {
+      "trigger": "sendtoback\t(child)",
+      "contents": "sendToBack(${1:child});"
+    },
+    {
+      "trigger": "set\t(child,key,value,checkAlive,checkVisible)",
+      "contents": "set(${1:child},${2:key},${3:value},${4:checkAlive},${5:checkVisible});"
+    },
+    {
+      "trigger": "set\t(x,y)",
+      "contents": "set(${1:x},${2:y});"
+    },
+    {
+      "trigger": "setall\t(key,value,checkAlive,checkVisible,operation,force)",
+      "contents": "setAll(${1:key},${2:value},${3:checkAlive},${4:checkVisible},${5:operation},${6:force});"
+    },
+    {
+      "trigger": "setallchildren\t(key,value,checkAlive,checkVisible,operation,force)",
+      "contents": "setAllChildren(${1:key},${2:value},${3:checkAlive},${4:checkVisible},${5:operation},${6:force});"
+    },
+    {
+      "trigger": "setalpha\t(min,max,rate,ease,yoyo)",
+      "contents": "setAlpha(${1:min},${2:max},${3:rate},${4:ease},${5:yoyo});"
+    },
+    {
+      "trigger": "setbackgroundcolor\t(canvas,color)",
+      "contents": "setBackgroundColor(${1:canvas},${2:color});"
+    },
+    {
+      "trigger": "setbounds\t(x,y,width,height,left,right)",
+      "contents": "setBounds(${1:x},${2:y},${3:width},${4:height},${5:left},${6:right});"
+    },
+    {
+      "trigger": "setboundstoworld\t(left,right,top,bottom,setCollisionGroup)",
+      "contents": "setBoundsToWorld(${1:left},${2:right},${3:top},${4:bottom},${5:setCollisionGroup});"
+    },
+    {
+      "trigger": "setboundstoworld();",
+      "contents": "setBoundsToWorld();"
+    },
+    {
+      "trigger": "setchildindex\t(child,index)",
+      "contents": "setChildIndex(${1:child},${2:index});"
+    },
+    {
+      "trigger": "setcollisiongroup\t(object,group)",
+      "contents": "setCollisionGroup(${1:object},${2:group});"
+    },
+    {
+      "trigger": "setdownsound\t(sound,marker)",
+      "contents": "setDownSound(${1:sound},${2:marker});"
+    },
+    {
+      "trigger": "setdraglock\t(allowHorizontal,allowVertical)",
+      "contents": "setDragLock(${1:allowHorizontal},${2:allowVertical});"
+    },
+    {
+      "trigger": "setframe\t(frameId,useLocalFrameIndex)",
+      "contents": "setFrame(${1:frameId},${2:useLocalFrameIndex});"
+    },
+    {
+      "trigger": "setframe\t(frame)",
+      "contents": "setFrame(${1:frame});"
+    },
+    {
+      "trigger": "setframes\t(overFrame,outFrame,downFrame,upFrame)",
+      "contents": "setFrames(${1:overFrame},${2:outFrame},${3:downFrame},${4:upFrame});"
+    },
+    {
+      "trigger": "setimagerenderingbicubic\t(canvas)",
+      "contents": "setImageRenderingBicubic(${1:canvas});"
+    },
+    {
+      "trigger": "setimagerenderingcrisp\t(canvas)",
+      "contents": "setImageRenderingCrisp(${1:canvas});"
+    },
+    {
+      "trigger": "setimpactevents\t(state)",
+      "contents": "setImpactEvents(${1:state});"
+    },
+    {
+      "trigger": "setmagnitude\t(magnitude)",
+      "contents": "setMagnitude(${1:magnitude});"
+    },
+    {
+      "trigger": "setmaterial\t(material,bodies)",
+      "contents": "setMaterial(${1:material},${2:bodies});"
+    },
+    {
+      "trigger": "setoutsound\t(sound,marker)",
+      "contents": "setOutSound(${1:sound},${2:marker});"
+    },
+    {
+      "trigger": "setoversound\t(sound,marker)",
+      "contents": "setOverSound(${1:sound},${2:marker});"
+    },
+    {
+      "trigger": "setposition\t(x,y)",
+      "contents": "setPosition(${1:x},${2:y});"
+    },
+    {
+      "trigger": "setpostbroadphasecallback\t(callback,context)",
+      "contents": "setPostBroadphaseCallback(${1:callback},${2:context});"
+    },
+    {
+      "trigger": "setproperty\t(child,key,value,operation,force)",
+      "contents": "setProperty(${1:child},${2:key},${3:value},${4:operation},${5:force});"
+    },
+    {
+      "trigger": "setproperty\t(obj,prop)",
+      "contents": "setProperty(${1:obj},${2:prop});"
+    },
+    {
+      "trigger": "setresolution\t(width,height)",
+      "contents": "setResolution(${1:width},${2:height});"
+    },
+    {
+      "trigger": "setrotation\t(min,max)",
+      "contents": "setRotation(${1:min},${2:max});"
+    },
+    {
+      "trigger": "setscale\t(minX,maxX,minY,maxY,rate,ease)",
+      "contents": "setScale(${1:minX},${2:maxX},${3:minY},${4:maxY},${5:rate},${6:ease});"
+    },
+    {
+      "trigger": "setshadow\t(x,y,color,blur)",
+      "contents": "setShadow(${1:x},${2:y},${3:color},${4:blur});"
+    },
+    {
+      "trigger": "setsize\t(width,height)",
+      "contents": "setSize(${1:width},${2:height});"
+    },
+    {
+      "trigger": "setsmoothingenabled\t(context,value)",
+      "contents": "setSmoothingEnabled(${1:context},${2:value});"
+    },
+    {
+      "trigger": "setsounds\t(overSound,overMarker,downSound,downMarker,outSound,outMarker)",
+      "contents": "setSounds(${1:overSound},${2:overMarker},${3:downSound},${4:downMarker},${5:outSound},${6:outMarker});"
+    },
+    {
+      "trigger": "setstagereference\t(stage)",
+      "contents": "setStageReference(${1:stage});"
+    },
+    {
+      "trigger": "setstate\t(newState)",
+      "contents": "setState(${1:newState});"
+    },
+    {
+      "trigger": "setstyle\t(style,style.font,style.fill,style.align,style.stroke,style.strokeThickness)",
+      "contents": "setStyle(${1:style},${2:style.font},${3:style.fill},${4:style.align},${5:style.stroke},${6:style.strokeThickness});"
+    },
+    {
+      "trigger": "setstyle\t(style)",
+      "contents": "setStyle(${1:style});"
+    },
+    {
+      "trigger": "settext\t(string)",
+      "contents": "setText(${1:string});"
+    },
+    {
+      "trigger": "settexture\t(texture)",
+      "contents": "setTexture(${1:texture});"
+    },
+    {
+      "trigger": "setto\t(x,y)",
+      "contents": "setTo(${1:x},${2:y});"
+    },
+    {
+      "trigger": "setto\t(x,y,diameter)",
+      "contents": "setTo(${1:x},${2:y},${3:diameter});"
+    },
+    {
+      "trigger": "settouchaction\t(canvas,value)",
+      "contents": "setTouchAction(${1:canvas},${2:value});"
+    },
+    {
+      "trigger": "settransform\t(context,translateX,translateY,scaleX,scaleY,skewX)",
+      "contents": "setTransform(${1:context},${2:translateX},${3:translateY},${4:scaleX},${5:scaleY},${6:skewX});"
+    },
+    {
+      "trigger": "settrim\t(trimmed,actualWidth,actualHeight,destX,destY,destWidth)",
+      "contents": "setTrim(${1:trimmed},${2:actualWidth},${3:actualHeight},${4:destX},${5:destY},${6:destWidth});"
+    },
+    {
+      "trigger": "setuprenderer();\tsetUpRenderer",
+      "contents": "setUpRenderer();"
+    },
+    {
+      "trigger": "setupsound\t(sound,marker)",
+      "contents": "setUpSound(${1:sound},${2:marker});"
+    },
+    {
+      "trigger": "setuserselect\t(canvas,value)",
+      "contents": "setUserSelect(${1:canvas},${2:value});"
+    },
+    {
+      "trigger": "setworldmaterial\t(material,left,right,top,bottom)",
+      "contents": "setWorldMaterial(${1:material},${2:left},${3:right},${4:top},${5:bottom});"
+    },
+    {
+      "trigger": "setxspeed\t(min,max)",
+      "contents": "setXSpeed(${1:min},${2:max});"
+    },
+    {
+      "trigger": "setyspeed\t(min,max)",
+      "contents": "setYSpeed(${1:min},${2:max});"
+    },
+    {
+      "trigger": "shader",
+      "contents": "shader"
+    },
+    {
+      "trigger": "shadowblur",
+      "contents": "shadowBlur"
+    },
+    {
+      "trigger": "shadowcolor",
+      "contents": "shadowColor"
+    },
+    {
+      "trigger": "shadowoffsetx",
+      "contents": "shadowOffsetX"
+    },
+    {
+      "trigger": "shadowoffsety",
+      "contents": "shadowOffsetY"
+    },
+    {
+      "trigger": "shear\t(n)",
+      "contents": "shear(${1:n});"
+    },
+    {
+      "trigger": "shift\t(stack)",
+      "contents": "shift(${1:stack});"
+    },
+    {
+      "trigger": "shiftkey",
+      "contents": "shiftKey"
+    },
+    {
+      "trigger": "showdebugheader();\tshowDebugHeader",
+      "contents": "showDebugHeader();"
+    },
+    {
+      "trigger": "shuffle\t(array)",
+      "contents": "shuffle(${1:array});"
+    },
+    {
+      "trigger": "shufflearray\t(array)",
+      "contents": "shuffleArray(${1:array});"
+    },
+    {
+      "trigger": "shutdown();",
+      "contents": "shutdown();"
+    },
+    {
+      "trigger": "sign\t(x)",
+      "contents": "sign(${1:x});"
+    },
+    {
+      "trigger": "silk",
+      "contents": "silk"
+    },
+    {
+      "trigger": "sincosgenerator\t(length,sinAmplitude,cosAmplitude,frequency)",
+      "contents": "sinCosGenerator(${1:length},${2:sinAmplitude},${3:cosAmplitude},${4:frequency});"
+    },
+    {
+      "trigger": "sleepmode",
+      "contents": "sleepMode"
+    },
+    {
+      "trigger": "smoothed",
+      "contents": "smoothed"
+    },
+    {
+      "trigger": "smootherstep\t(x,min,max)",
+      "contents": "smootherstep(${1:x},${2:min},${3:max});"
+    },
+    {
+      "trigger": "smoothstep\t(x,min,max)",
+      "contents": "smoothstep(${1:x},${2:min},${3:max});"
+    },
+    {
+      "trigger": "snapoffset",
+      "contents": "snapOffset"
+    },
+    {
+      "trigger": "snapoffsetx",
+      "contents": "snapOffsetX"
+    },
+    {
+      "trigger": "snapoffsety",
+      "contents": "snapOffsetY"
+    },
+    {
+      "trigger": "snapondrag",
+      "contents": "snapOnDrag"
+    },
+    {
+      "trigger": "snaponrelease",
+      "contents": "snapOnRelease"
+    },
+    {
+      "trigger": "snapto\t(input,gap,start)",
+      "contents": "snapTo(${1:input},${2:gap},${3:start});"
+    },
+    {
+      "trigger": "snaptoceil\t(input,gap,start)",
+      "contents": "snapToCeil(${1:input},${2:gap},${3:start});"
+    },
+    {
+      "trigger": "snaptofloor\t(input,gap,start)",
+      "contents": "snapToFloor(${1:input},${2:gap},${3:start});"
+    },
+    {
+      "trigger": "snaptoinarray\t(input,arr,sort)",
+      "contents": "snapToInArray(${1:input},${2:arr},${3:sort});"
+    },
+    {
+      "trigger": "snapx",
+      "contents": "snapX"
+    },
+    {
+      "trigger": "snapy",
+      "contents": "snapY"
+    },
+    {
+      "trigger": "solveconstraints",
+      "contents": "solveConstraints"
+    },
+    {
+      "trigger": "sort\t(index,order)",
+      "contents": "sort(${1:index},${2:order});"
+    },
+    {
+      "trigger": "sort_ascending",
+      "contents": "SORT_ASCENDING"
+    },
+    {
+      "trigger": "sort_descending",
+      "contents": "SORT_DESCENDING"
+    },
+    {
+      "trigger": "sorthandler();",
+      "contents": "sortHandler();"
+    },
+    {
+      "trigger": "sound",
+      "contents": "sound"
+    },
+    {
+      "trigger": "sound\t(key,volume,loop,connect)",
+      "contents": "sound(${1:key},${2:volume},${3:loop},${4:connect});"
+    },
+    {
+      "trigger": "sound\tSOUND",
+      "contents": "SOUND"
+    },
+    {
+      "trigger": "soundhasunlocked\t(key)",
+      "contents": "soundHasUnlocked(${1:key});"
+    },
+    {
+      "trigger": "sourcesizeh",
+      "contents": "sourceSizeH"
+    },
+    {
+      "trigger": "sourcesizew",
+      "contents": "sourceSizeW"
+    },
+    {
+      "trigger": "speed",
+      "contents": "speed"
+    },
+    {
+      "trigger": "spring",
+      "contents": "spring"
+    },
+    {
+      "trigger": "sprite",
+      "contents": "sprite"
+    },
+    {
+      "trigger": "sprite\t(x,y,key)",
+      "contents": "sprite(${1:x},${2:y},${3:key});"
+    },
+    {
+      "trigger": "spritebatch\t(parent,name,addToStage)",
+      "contents": "spriteBatch(${1:parent},${2:name},${3:addToStage});"
+    },
+    {
+      "trigger": "spritesheet\t(game,key,frameWidth,frameHeight,frameMax,margin)",
+      "contents": "spriteSheet(${1:game},${2:key},${3:frameWidth},${4:frameHeight},${5:frameMax},${6:margin});"
+    },
+    {
+      "trigger": "spritesheet\t(key,url,frameWidth,frameHeight,frameMax)",
+      "contents": "spritesheet(${1:key},${2:url},${3:frameWidth},${4:frameHeight},${5:frameMax});"
+    },
+    {
+      "trigger": "spritesourcesizeh",
+      "contents": "spriteSourceSizeH"
+    },
+    {
+      "trigger": "spritesourcesizew",
+      "contents": "spriteSourceSizeW"
+    },
+    {
+      "trigger": "spritesourcesizex",
+      "contents": "spriteSourceSizeX"
+    },
+    {
+      "trigger": "spritesourcesizey",
+      "contents": "spriteSourceSizeY"
+    },
+    {
+      "trigger": "stage",
+      "contents": "stage"
+    },
+    {
+      "trigger": "start",
+      "contents": "start(${1:priority},${2:useHandCursor});"
+    },
+    {
+      "trigger": "start\temitter",
+      "contents": "start(${1:explode},${2:lifespan},${3:frequency},${4:quantity},${5:forceQuantity});"
+    },
+    {
+      "trigger": "start\tstateManager",
+      "contents": "start(${1:key},${2:clearWorld},${3:clearCache},${4:parameter});"
+    },
+    {
+      "trigger": "start\ttimer",
+      "contents": "start(${1:delay});"
+    },
+    {
+      "trigger": "start\tstate",
+      "contents": "start(${1:name});"
+    },
+    {
+      "trigger": "start\tinputHandler",
+      "contents": "start(${1:priority},${2:useHandCursor});"
+    },
+    {
+      "trigger": "start();",
+      "contents": "start();"
+    },
+    {
+      "trigger": "startdrag\t(pointer)",
+      "contents": "startDrag(${1:pointer});"
+    },
+    {
+      "trigger": "startpointer\t(event)",
+      "contents": "startPointer(${1:event});"
+    },
+    {
+      "trigger": "starttime",
+      "contents": "startTime"
+    },
+    {
+      "trigger": "state",
+      "contents": "state"
+    },
+    {
+      "trigger": "states",
+      "contents": "states"
+    },
+    {
+      "trigger": "step",
+      "contents": "step"
+    },
+    {
+      "trigger": "stepcount\tstepCount",
+      "contents": "stepCount"
+    },
+    {
+      "trigger": "stepping",
+      "contents": "stepping"
+    },
+    {
+      "trigger": "stop\t(name,resetFrame)",
+      "contents": "stop(${1:name},${2:resetFrame});"
+    },
+    {
+      "trigger": "stop\t(clearEvents)",
+      "contents": "stop(${1:clearEvents});"
+    },
+    {
+      "trigger": "stop\t(resetFrame,dispatchComplete)",
+      "contents": "stop(${1:resetFrame},${2:dispatchComplete});"
+    },
+    {
+      "trigger": "stop();",
+      "contents": "stop();"
+    },
+    {
+      "trigger": "stopall();",
+      "contents": "stopAll();"
+    },
+    {
+      "trigger": "stopdrag\t(pointer)",
+      "contents": "stopDrag(${1:pointer});"
+    },
+    {
+      "trigger": "stopongameout",
+      "contents": "stopOnGameOut"
+    },
+    {
+      "trigger": "stoppointer\t(event)",
+      "contents": "stopPointer(${1:event});"
+    },
+    {
+      "trigger": "stoptime",
+      "contents": "stopTime"
+    },
+    {
+      "trigger": "stroke",
+      "contents": "stroke"
+    },
+    {
+      "trigger": "strokethickness",
+      "contents": "strokeThickness"
+    },
+    {
+      "trigger": "suball\t(property,amount,checkAlive,checkVisible)",
+      "contents": "subAll(${1:property},${2:amount},${3:checkAlive},${4:checkVisible});"
+    },
+    {
+      "trigger": "subtract\t(a,b,out)",
+      "contents": "subtract(${1:a},${2:b},${3:out});"
+    },
+    {
+      "trigger": "support32bit",
+      "contents": "support32bit"
+    },
+    {
+      "trigger": "swap\t(child1,child2)",
+      "contents": "swap(${1:child1},${2:child2});"
+    },
+    {
+      "trigger": "swapchildren\t(child,child2)",
+      "contents": "swapChildren(${1:child},${2:child2});"
+    },
+    {
+      "trigger": "tap\t(interactionData)",
+      "contents": "tap(${1:interactionData});"
+    },
+    {
+      "trigger": "taprate",
+      "contents": "tapRate"
+    },
+    {
+      "trigger": "target",
+      "contents": "target"
+    },
+    {
+      "trigger": "text",
+      "contents": "text"
+    },
+    {
+      "trigger": "text\t(key,url)",
+      "contents": "text(${1:key},${2:url});"
+    },
+    {
+      "trigger": "text\tTEXT",
+      "contents": "TEXT"
+    },
+    {
+      "trigger": "text\t(x,y,text,style,group)",
+      "contents": "text(${1:x},${2:y},${3:text},${4:style},${5:group});"
+    },
+    {
+      "trigger": "text\t(x,y,text,style)",
+      "contents": "text(${1:x},${2:y},${3:text},${4:style});"
+    },
+    {
+      "trigger": "text\t(key,url,overwrite)",
+      "contents": "text(${1:key},${2:url},${3:overwrite});"
+    },
+    {
+      "trigger": "texture",
+      "contents": "texture"
+    },
+    {
+      "trigger": "texture\tTEXTURE",
+      "contents": "TEXTURE"
+    },
+    {
+      "trigger": "tick",
+      "contents": "tick"
+    },
+    {
+      "trigger": "tile",
+      "contents": "tile"
+    },
+    {
+      "trigger": "tilemap\t(key,url,data,format)",
+      "contents": "tilemap(${1:key},${2:url},${3:data},${4:format});"
+    },
+    {
+      "trigger": "tilemap\t(key,tileWidth,tileHeight,width,height)",
+      "contents": "tilemap(${1:key},${2:tileWidth},${3:tileHeight},${4:width},${5:height});"
+    },
+    {
+      "trigger": "tilemap\tTILEMAP",
+      "contents": "TILEMAP"
+    },
+    {
+      "trigger": "tilepadding",
+      "contents": "tilePadding"
+    },
+    {
+      "trigger": "tilesprite\t(x,y,width,height,key,frame)",
+      "contents": "tileSprite(${1:x},${2:y},${3:width},${4:height},${5:key},${6:frame});"
+    },
+    {
+      "trigger": "time",
+      "contents": "time"
+    },
+    {
+      "trigger": "timecap",
+      "contents": "timeCap"
+    },
+    {
+      "trigger": "timedown",
+      "contents": "timeDown"
+    },
+    {
+      "trigger": "timer",
+      "contents": "timer"
+    },
+    {
+      "trigger": "timetocall",
+      "contents": "timeToCall"
+    },
+    {
+      "trigger": "timeup",
+      "contents": "timeUp"
+    },
+    {
+      "trigger": "tint",
+      "contents": "tint"
+    },
+    {
+      "trigger": "to\t(properties,duration,ease,autoStart,delay,repeat)",
+      "contents": "to(${1:properties},${2:duration},${3:ease},${4:autoStart},${5:delay},${6:repeat});"
+    },
+    {
+      "trigger": "toglobal\t(position)",
+      "contents": "toGlobal(${1:position});"
+    },
+    {
+      "trigger": "tojson();",
+      "contents": "toJSON();"
+    },
+    {
+      "trigger": "tolocal\t(position,[from])",
+      "contents": "toLocal(${1:position},${2:[from]});"
+    },
+    {
+      "trigger": "top",
+      "contents": "top"
+    },
+    {
+      "trigger": "torgba\t(r,g,b,a)",
+      "contents": "toRGBA(${1:r},${2:g},${3:b},${4:a});"
+    },
+    {
+      "trigger": "tostring();\tcircle",
+      "contents": "toString();"
+    },
+    {
+      "trigger": "total",
+      "contents": "total"
+    },
+    {
+      "trigger": "totalactivepointers",
+      "contents": "totalActivePointers"
+    },
+    {
+      "trigger": "totalduration",
+      "contents": "totalDuration"
+    },
+    {
+      "trigger": "totalelapsedseconds();",
+      "contents": "totalElapsedSeconds();"
+    },
+    {
+      "trigger": "totalinactivepointers",
+      "contents": "totalInactivePointers"
+    },
+    {
+      "trigger": "touch",
+      "contents": "touch"
+    },
+    {
+      "trigger": "touch_overrides_mouse",
+      "contents": "TOUCH_OVERRIDES_MOUSE"
+    },
+    {
+      "trigger": "touchcancelcallback",
+      "contents": "touchCancelCallback"
+    },
+    {
+      "trigger": "touchend\t(interactionData)",
+      "contents": "touchend(${1:interactionData});"
+    },
+    {
+      "trigger": "touchendcallback",
+      "contents": "touchEndCallback"
+    },
+    {
+      "trigger": "touchendoutside\t(interactionData)",
+      "contents": "touchendoutside(${1:interactionData});"
+    },
+    {
+      "trigger": "touchentercallback",
+      "contents": "touchEnterCallback"
+    },
+    {
+      "trigger": "touchleavecallback",
+      "contents": "touchLeaveCallback"
+    },
+    {
+      "trigger": "touchlocked",
+      "contents": "touchLocked"
+    },
+    {
+      "trigger": "touchmovecallback",
+      "contents": "touchMoveCallback"
+    },
+    {
+      "trigger": "touchstart\t(interactionData)",
+      "contents": "touchstart(${1:interactionData});"
+    },
+    {
+      "trigger": "touchstartcallback",
+      "contents": "touchStartCallback"
+    },
+    {
+      "trigger": "transparent",
+      "contents": "transparent"
+    },
+    {
+      "trigger": "transposearray\t(array)",
+      "contents": "transposeArray(${1:array});"
+    },
+    {
+      "trigger": "trident",
+      "contents": "trident"
+    },
+    {
+      "trigger": "tridentversion",
+      "contents": "tridentVersion"
+    },
+    {
+      "trigger": "trimmed",
+      "contents": "trimmed"
+    },
+    {
+      "trigger": "truncate\t(n)",
+      "contents": "truncate(${1:n});"
+    },
+    {
+      "trigger": "tween",
+      "contents": "tween"
+    },
+    {
+      "trigger": "tween\t(object)",
+      "contents": "tween(${1:object});"
+    },
+    {
+      "trigger": "tweens",
+      "contents": "tweens"
+    },
+    {
+      "trigger": "type",
+      "contents": "type"
+    },
+    {
+      "trigger": "typedarray",
+      "contents": "typedArray"
+    },
+    {
+      "trigger": "unfollow();",
+      "contents": "unfollow();"
+    },
+    {
+      "trigger": "uniforms",
+      "contents": "uniforms"
+    },
+    {
+      "trigger": "unlink\t(key)",
+      "contents": "unlink(${1:key});"
+    },
+    {
+      "trigger": "unlock();",
+      "contents": "unlock();"
+    },
+    {
+      "trigger": "unpackpixel\t(rgba,out,hsl,hsv)",
+      "contents": "unpackPixel(${1:rgba},${2:out},${3:hsl},${4:hsv});"
+    },
+    {
+      "trigger": "update\t(time)",
+      "contents": "update(${1:time});"
+    },
+    {
+      "trigger": "update();\tanimation",
+      "contents": "update();"
+    },
+    {
+      "trigger": "updateanimation",
+      "contents": "updateAnimation"
+    },
+    {
+      "trigger": "updatebounds();",
+      "contents": "updateBounds();"
+    },
+    {
+      "trigger": "updateboundscollisiongroup\t(setCollisionGroup)",
+      "contents": "updateBoundsCollisionGroup(${1:setCollisionGroup});"
+    },
+    {
+      "trigger": "updatecache();",
+      "contents": "updateCache();"
+    },
+    {
+      "trigger": "updatecolor\t(out)",
+      "contents": "updateColor(${1:out});"
+    },
+    {
+      "trigger": "updatecrop();",
+      "contents": "updateCrop();"
+    },
+    {
+      "trigger": "updatedrag\t(pointer)",
+      "contents": "updateDrag(${1:pointer});"
+    },
+    {
+      "trigger": "updateframedata\t(frameData)",
+      "contents": "updateFrameData(${1:frameData});"
+    },
+    {
+      "trigger": "updateframedata\t(key,frameData)",
+      "contents": "updateFrameData(${1:key},${2:frameData});"
+    },
+    {
+      "trigger": "updateifvisible",
+      "contents": "updateIfVisible"
+    },
+    {
+      "trigger": "updatepointer\t(event)",
+      "contents": "updatePointer(${1:event});"
+    },
+    {
+      "trigger": "updateraf();",
+      "contents": "updateRAF();"
+    },
+    {
+      "trigger": "updatesettimeout();",
+      "contents": "updateSetTimeout();"
+    },
+    {
+      "trigger": "updatesound\t(key)",
+      "contents": "updateSound(${1:key});"
+    },
+    {
+      "trigger": "useelapsedtime",
+      "contents": "useElapsedTime"
+    },
+    {
+      "trigger": "usehandcursor",
+      "contents": "useHandCursor"
+    },
+    {
+      "trigger": "usingaudiotag",
+      "contents": "usingAudioTag"
+    },
+    {
+      "trigger": "usingwebaudio",
+      "contents": "usingWebAudio"
+    },
+    {
+      "trigger": "uuid",
+      "contents": "uuid"
+    },
+    {
+      "trigger": "validateframes\t(frames,useNumericIndex)",
+      "contents": "validateFrames(${1:frames},${2:useNumericIndex});"
+    },
+    {
+      "trigger": "validforinput\t(highestID,highestRenderID,includePixelPerfect)",
+      "contents": "validForInput(${1:highestID},${2:highestRenderID},${3:includePixelPerfect});"
+    },
+    {
+      "trigger": "value",
+      "contents": "value"
+    },
+    {
+      "trigger": "velocity",
+      "contents": "velocity"
+    },
+    {
+      "trigger": "velocityfromangle\t(angle,speed,point)",
+      "contents": "velocityFromAngle(${1:angle},${2:speed},${3:point});"
+    },
+    {
+      "trigger": "velocityfromrotation\t(rotation,speed,point)",
+      "contents": "velocityFromRotation(${1:rotation},${2:speed},${3:point});"
+    },
+    {
+      "trigger": "vibration",
+      "contents": "vibration"
+    },
+    {
+      "trigger": "view",
+      "contents": "view"
+    },
+    {
+      "trigger": "visible",
+      "contents": "visible"
+    },
+    {
+      "trigger": "volume",
+      "contents": "volume"
+    },
+    {
+      "trigger": "walls",
+      "contents": "walls"
+    },
+    {
+      "trigger": "wav",
+      "contents": "wav"
+    },
+    {
+      "trigger": "webapp",
+      "contents": "webApp"
+    },
+    {
+      "trigger": "webaudio",
+      "contents": "webAudio"
+    },
+    {
+      "trigger": "webgl",
+      "contents": "webGL"
+    },
+    {
+      "trigger": "webm",
+      "contents": "webm"
+    },
+    {
+      "trigger": "webtocolor\t(web,out)",
+      "contents": "webToColor(${1:web},${2:out});"
+    },
+    {
+      "trigger": "wheel_down\tWHEEL_DOWN",
+      "contents": "WHEEL_DOWN"
+    },
+    {
+      "trigger": "wheel_up\tWHEEL_UP",
+      "contents": "WHEEL_UP"
+    },
+    {
+      "trigger": "wheeldelta",
+      "contents": "wheelDelta"
+    },
+    {
+      "trigger": "width",
+      "contents": "width"
+    },
+    {
+      "trigger": "windows",
+      "contents": "windows"
+    },
+    {
+      "trigger": "windowsphone",
+      "contents": "windowsPhone"
+    },
+    {
+      "trigger": "within\t(a,b,tolerance)",
+      "contents": "within(${1:a},${2:b},${3:tolerance});"
+    },
+    {
+      "trigger": "wordwrap",
+      "contents": "wordWrap"
+    },
+    {
+      "trigger": "wordwrapwidth",
+      "contents": "wordWrapWidth"
+    },
+    {
+      "trigger": "worker",
+      "contents": "worker"
+    },
+    {
+      "trigger": "world",
+      "contents": "world"
+    },
+    {
+      "trigger": "worldalpha",
+      "contents": "worldAlpha"
+    },
+    {
+      "trigger": "worldvisible",
+      "contents": "worldVisible"
+    },
+    {
+      "trigger": "worldx",
+      "contents": "worldX"
+    },
+    {
+      "trigger": "worldy",
+      "contents": "worldY"
+    },
+    {
+      "trigger": "wrap\t(sprite,padding,useBounds,horizontal,vertical)",
+      "contents": "wrap(${1:sprite},${2:padding},${3:useBounds},${4:horizontal},${5:vertical});"
+    },
+    {
+      "trigger": "wrapangle\t(angle,radians)",
+      "contents": "wrapAngle(${1:angle},${2:radians});"
+    },
+    {
+      "trigger": "wrapvalue\t(value,amount,max)",
+      "contents": "wrapValue(${1:value},${2:amount},${3:max});"
+    },
+    {
+      "trigger": "x",
+      "contents": "x"
+    },
+    {
+      "trigger": "xml\t(key,url,overwrite)",
+      "contents": "xml(${1:key},${2:url},${3:overwrite});"
+    },
+    {
+      "trigger": "xml\tXML",
+      "contents": "XML"
+    },
+    {
+      "trigger": "xmldata\t(game,xml,cacheKey)",
+      "contents": "XMLData(${1:game},${2:xml},${3:cacheKey});"
+    },
+    {
+      "trigger": "xy\t(index,x,y)",
+      "contents": "xy(${1:index},${2:x},${3:y});"
+    },
+    {
+      "trigger": "y",
+      "contents": "y"
+    },
+    {
+      "trigger": "yoyo\t(yoyo)",
+      "contents": "yoyo(${1:yoyo});"
+    },
+    {
+      "trigger": "z",
+      "contents": "z"
+    },
+    {
+      "trigger": "particle",
+      "contents": "particle"
+    },
+    {
+      "trigger": "loader",
+      "contents": "loader"
+    },
+    {
+      "trigger": "singlepad",
+      "contents": "singlePad"
+    },
+    {
+      "trigger": "gamepadbutton",
+      "contents": "gamepadButton"
+    },
+    {
+      "trigger": "gameobjectfactory",
+      "contents": "gameObjectFactory"
+    },
+    {
+      "trigger": "gameobjectcreator",
+      "contents": "gameObjectCreator"
+    },
+    {
+      "trigger": "flexlayer",
+      "contents": "flexLayer"
+    },
+    {
+      "trigger": "loaderparser",
+      "contents": "loaderParser"
+    },
+    {
+      "trigger": "tilemaplayer",
+      "contents": "tilemapLayer"
+    },
+    {
+      "trigger": "utils",
+      "contents": "utils"
+    },
+    {
+      "trigger": "color",
+      "contents": "color"
+    },
+    {
+      "trigger": "inputhandler",
+      "contents": "inputHandler"
+    },
+    {
+      "trigger": "pluginmanager",
+      "contents": "pluginManager"
+    },
+    {
+      "trigger": "point",
+      "contents": "point"
+    },
+    {
+      "trigger": "soundmanager",
+      "contents": "soundManager"
+    },
+    {
+      "trigger": "statemanager",
+      "contents": "stateManager"
+    },
+    {
+      "trigger": "timerevent",
+      "contents": "timerEvent"
+    },
+    {
+      "trigger": "tweenmanager",
+      "contents": "tweenManager"
+    },
+    {
+      "trigger": "backgroudcolor",
+      "contents": "backgroudColor"
+    },
+    {
+      "trigger": "pos",
+      "contents": "pos"
+    },
+    {
+      "trigger": "oldpos",
+      "contents": "oldpos"
+    },
+    {
+      "trigger": "system",
+      "contents": "system"
+    },
+    {
+      "trigger": "materiala",
+      "contents": "materialA"
+    },
+    {
+      "trigger": "materialb",
+      "contents": "materialB"
+    },
+    {
+      "trigger": "my",
+      "contents": "my"
+    },
+    {
+      "trigger": "mx",
+      "contents": "mx"
+    },
+    {
+      "trigger": "revive();",
+      "contents": "revive();"
+    },
+    {
+      "trigger": "inputenabled",
+      "contents": "inputEnabled"
+    },
+    {
+      "trigger": "desktop",
+      "contents": "desktop"
+    },
+    {
+      "trigger": "connecttomaster",
+      "contents": "connectToMaster"
+    }
+  ]
+}

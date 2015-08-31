@@ -1411,7 +1411,7 @@
     },
     {
       "trigger": "fixedtocamera",
-      "contents": "fixedToCamera"
+      "contents": "fixedToCamera = ${1:true};"
     },
     {
       "trigger": "floor\t(Value)",
@@ -5203,7 +5203,7 @@
     },
     {
       "trigger": "function",
-      "contents": "function ${1:name}(){\n}"
+      "contents": "function ${1:name}(){\n\t${2:detail}\n}"
     },
     {
       "trigger": "maxwidth",
@@ -5568,6 +5568,626 @@
     {
       "trigger": "updaterender",
       "contents": "updateRender"
+    },
+    {
+      "trigger": "Math.abs($0)\tMath",
+      "contents": "Math.abs($0)"
+    },
+    {
+      "trigger": "Math.PI\tMath",
+      "contents": "Math.PI"
+    },
+    {
+      "trigger": "Math.sin($0)\tMath",
+      "contents": "Math.sin($0)"
+    },
+    {
+      "trigger": "Math.cos($0)\tMath",
+      "contents": "Math.cos($0)"
+    },
+    {
+      "trigger": "Math.tan($0)\tMath",
+      "contents": "Math.tan($0)"
+    },
+    {
+      "trigger": "Math.acos($0)\tMath",
+      "contents": "Math.acos($0)"
+    },
+    {
+      "trigger": "Math.asin($0)\tMath",
+      "contents": "Math.asin($0)"
+    },
+    {
+      "trigger": "Math.atan($0)\tMath",
+      "contents": "Math.atan($0)"
+    },
+    {
+      "trigger": "Math.atan2(${0:y}, x)\tMath",
+      "contents": "Math.atan2(${0:y}, x)"
+    },
+    {
+      "trigger": "Math.exp($0)\tMath",
+      "contents": "Math.exp($0)"
+    },
+    {
+      "trigger": "Math.log($0)\tMath",
+      "contents": "Math.log($0)"
+    },
+    {
+      "trigger": "Math.ceil($0)\tMath",
+      "contents": "Math.ceil($0)"
+    },
+    {
+      "trigger": "Math.floor($0)\tMath",
+      "contents": "Math.floor($0)"
+    },
+    {
+      "trigger": "Math.min(${0:value1}, value2)\tMath",
+      "contents": "Math.min(${0:value1}, value2)"
+    },
+    {
+      "trigger": "Math.max(${0:value1}, value2)\tMath",
+      "contents": "Math.max(${0:value1}, value2)"
+    },
+    {
+      "trigger": "Math.pow(${0:base}, exponent)\tMath",
+      "contents": "Math.pow(${0:base}, exponent)"
+    },
+    {
+      "trigger": "Math.random()\tMath",
+      "contents": "Math.random()"
+    },
+    {
+      "trigger": "Math.round($0)\tMath",
+      "contents": "Math.round($0)"
+    },
+    {
+      "trigger": "Math.sqrt($0)\tMath",
+      "contents": "Math.sqrt($0)"
+    },
+    {
+      "trigger": "Math.E\tMath",
+      "contents": "Math.E"
+    },
+    {
+      "trigger": "Math.LN2\tMath",
+      "contents": "Math.LN2"
+    },
+    {
+      "trigger": "Math.LN10\tMath",
+      "contents": "Math.LN10"
+    },
+    {
+      "trigger": "Math.LOG2E\tMath",
+      "contents": "Math.LOG2E"
+    },
+    {
+      "trigger": "Math.LOG10E\tMath",
+      "contents": "Math.LOG10E"
+    },
+    {
+      "trigger": "Math.SQRT1_2\tMath",
+      "contents": "Math.SQRT1_2"
+    },
+    {
+      "trigger": "Math.SQRT2\tMath",
+      "contents": "Math.SQRT2"
+    },
+    {
+      "trigger": "big();\tstring",
+      "contents": "big();"
+    },
+    {
+      "trigger": "blink();\tstring",
+      "contents": "blink();"
+    },
+    {
+      "trigger": "bold();\tstring",
+      "contents": "bold();"
+    },
+    {
+      "trigger": "charAt\tstring",
+      "contents": "charAt(${1:index});"
+    },
+    {
+      "trigger": "charCodeAt\tstring",
+      "contents": "charCodeAt(${1:index});"
+    },
+    {
+      "trigger": "concat\tstring",
+      "contents": "concat(${1:string…});"
+    },
+    {
+      "trigger": "fixed();\tstring",
+      "contents": "fixed();"
+    },
+    {
+      "trigger": "fontcolor\tstring",
+      "contents": "fontcolor(${1:color});"
+    },
+    {
+      "trigger": "fontsize\tstring",
+      "contents": "fontsize(${1:1~7});"
+    },
+    {
+      "trigger": "fromCharCode\tstring",
+      "contents": "fromCharCode(${1:num…});"
+    },
+    {
+      "trigger": "indexOf\tstring",
+      "contents": "indexOf(${1:searchvalue},${2:fromindex});"
+    },
+    {
+      "trigger": "italics\tstring",
+      "contents": "italics"
+    },
+    {
+      "trigger": "lastIndexOf\tstring",
+      "contents": "lastIndexOf(${1:searchvalue},${2:fromindex});"
+    },
+    {
+      "trigger": "link\tstring",
+      "contents": "link(${1:url});"
+    },
+    {
+      "trigger": "localeCompare\tstring",
+      "contents": "localeCompare(${1:target});"
+    },
+    {
+      "trigger": "match\tstring",
+      "contents": "match(${1:searchvalue});"
+    },
+    {
+      "trigger": "replace\tstring",
+      "contents": "replace(${1:substr},${2:replacement});"
+    },
+    {
+      "trigger": "search\tstring",
+      "contents": "search(${1:regexp});"
+    },
+    {
+      "trigger": "slice\tstring",
+      "contents": "slice(${1:start},${2:end});"
+    },
+    {
+      "trigger": "small();\tstring",
+      "contents": "small();"
+    },
+    {
+      "trigger": "split\tstring",
+      "contents": "split(${1:separator},${2:howmany});"
+    },
+    {
+      "trigger": "strike();\tstring",
+      "contents": "strike();"
+    },
+    {
+      "trigger": "sub();\tstring",
+      "contents": "sub();"
+    },
+    {
+      "trigger": "substr\tstring",
+      "contents": "substr(${1:start},${2:length});"
+    },
+    {
+      "trigger": "substring\tstring",
+      "contents": "substring(${1:start},${2:stop});"
+    },
+    {
+      "trigger": "sup();\tstring",
+      "contents": "sup();"
+    },
+    {
+      "trigger": "toLocaleLowerCase();\tstring",
+      "contents": "toLocaleLowerCase();"
+    },
+    {
+      "trigger": "toLocaleUpperCase();\tstring",
+      "contents": "toLocaleUpperCase();"
+    },
+    {
+      "trigger": "toLowerCase();\tstring",
+      "contents": "toLowerCase();"
+    },
+    {
+      "trigger": "toUpperCase();\tstring",
+      "contents": "toUpperCase();"
+    },
+    {
+      "trigger": "toSource();\tstring",
+      "contents": "toSource();"
+    },
+    {
+      "trigger": "toString();\tstring",
+      "contents": "toString();"
+    },
+    {
+      "trigger": "valueOf();\tstring",
+      "contents": "valueOf();"
+    },
+    {
+      "trigger": "visible",
+      "contents": "visible = ${1:false};"
+    },
+    {
+      "trigger": "fixedtocamera",
+      "contents": "fixedToCamera = ${1:true};"
+    },
+    {
+      "trigger": "else",
+      "contents": "else{\n\t${1:detail}\n}"
+    },
+    {
+      "trigger": "push",
+      "contents": "push(${1:item});"
+    },
+    {
+      "trigger": "unshift",
+      "contents": "unshift(${1:item});"
+    },
+    {
+      "trigger": "splice",
+      "contents": "splice(${1:insertPos},${2:0},${3:item});"
+    },
+    {
+      "trigger": "pop",
+      "contents": "pop(${1:item});"
+    },
+    {
+      "trigger": "shift",
+      "contents": "shift(${1:item});"
+    },
+    {
+      "trigger": "splice",
+      "contents": "splice(${1:deletePos},${2:count});"
+    },
+    {
+      "trigger": "slice",
+      "contents": "slice(${1:start},${2:[end]});"
+    },
+    {
+      "trigger": "concat",
+      "contents": "concat(${1:item1},${2:item2});"
+    },
+    {
+      "trigger": "reverse\treverse();",
+      "contents": "reverse();"
+    },
+    {
+      "trigger": "sort\tsort();",
+      "contents": "sort();"
+    },
+    {
+      "trigger": "join",
+      "contents": "join(${1:separator});"
+    },
+    {
+      "trigger": "phototype",
+      "contents": "phototype"
+    },
+    {
+      "trigger": "constructor",
+      "contents": "constructor"
+    },
+    {
+      "trigger": "return",
+      "contents": "return ${1:option};"
+    },
+    {
+      "trigger": "decodeURI",
+      "contents": "decodeURI(${1:URIstring});"
+    },
+    {
+      "trigger": "decodeURIComponent",
+      "contents": "decodeURIComponent(${1:URIstring});"
+    },
+    {
+      "trigger": "encodeURI",
+      "contents": "encodeURI(${1:URIstring});"
+    },
+    {
+      "trigger": "encodeURIComponent",
+      "contents": "encodeURIComponent(${1:URIstring});"
+    },
+    {
+      "trigger": "escape",
+      "contents": "escape(${1:string});"
+    },
+    {
+      "trigger": "eval",
+      "contents": "eval(${1:string});"
+    },
+    {
+      "trigger": "getClass",
+      "contents": "getClass(${1:javaobj});"
+    },
+    {
+      "trigger": "isFinite",
+      "contents": "isFinite(${1:number});"
+    },
+    {
+      "trigger": "isNaN",
+      "contents": "isNaN(${1:x});"
+    },
+    {
+      "trigger": "Number",
+      "contents": "Number(${1:object});"
+    },
+    {
+      "trigger": "parseFloat",
+      "contents": "parseFloat(${1:string});"
+    },
+    {
+      "trigger": "parseInt",
+      "contents": "parseInt(${1:string});"
+    },
+    {
+      "trigger": "String",
+      "contents": "String(${1:object});"
+    },
+    {
+      "trigger": "unescape",
+      "contents": "unescape(${1:string});"
+    },
+    {
+      "trigger": "onabort",
+      "contents": "onabort"
+    },
+    {
+      "trigger": "onblur",
+      "contents": "onblur"
+    },
+    {
+      "trigger": "onchange",
+      "contents": "onchange"
+    },
+    {
+      "trigger": "onclick",
+      "contents": "onclick"
+    },
+    {
+      "trigger": "ondblclick",
+      "contents": "ondblclick"
+    },
+    {
+      "trigger": "onerror",
+      "contents": "onerror"
+    },
+    {
+      "trigger": "onfocus",
+      "contents": "onfocus"
+    },
+    {
+      "trigger": "onkeydown",
+      "contents": "onkeydown"
+    },
+    {
+      "trigger": "onkeypress",
+      "contents": "onkeypress"
+    },
+    {
+      "trigger": "onkeyup",
+      "contents": "onkeyup"
+    },
+    {
+      "trigger": "onload",
+      "contents": "onload"
+    },
+    {
+      "trigger": "onmousedown",
+      "contents": "onmousedown"
+    },
+    {
+      "trigger": "onmousemove",
+      "contents": "onmousemove"
+    },
+    {
+      "trigger": "onmouseout",
+      "contents": "onmouseout"
+    },
+    {
+      "trigger": "onmouseover",
+      "contents": "onmouseover"
+    },
+    {
+      "trigger": "onmouseup",
+      "contents": "onmouseup"
+    },
+    {
+      "trigger": "onreset",
+      "contents": "onreset"
+    },
+    {
+      "trigger": "onresize",
+      "contents": "onresize"
+    },
+    {
+      "trigger": "onselect",
+      "contents": "onselect"
+    },
+    {
+      "trigger": "onsubmit",
+      "contents": "onsubmit"
+    },
+    {
+      "trigger": "onunload",
+      "contents": "onunload"
+    },
+    {
+      "trigger": "Date()",
+      "contents": "Date()"
+    },
+    {
+      "trigger": "getDate()",
+      "contents": "getDate()"
+    },
+    {
+      "trigger": "getDay()",
+      "contents": "getDay()"
+    },
+    {
+      "trigger": "getMonth()",
+      "contents": "getMonth()"
+    },
+    {
+      "trigger": "getFullYear()",
+      "contents": "getFullYear()"
+    },
+    {
+      "trigger": "getYear()",
+      "contents": "getYear()"
+    },
+    {
+      "trigger": "getHours()",
+      "contents": "getHours()"
+    },
+    {
+      "trigger": "getMinutes()",
+      "contents": "getMinutes()"
+    },
+    {
+      "trigger": "getSeconds()",
+      "contents": "getSeconds()"
+    },
+    {
+      "trigger": "getMilliseconds()",
+      "contents": "getMilliseconds()"
+    },
+    {
+      "trigger": "getTime()",
+      "contents": "getTime()"
+    },
+    {
+      "trigger": "getTimezoneOffset()",
+      "contents": "getTimezoneOffset()"
+    },
+    {
+      "trigger": "getUTCDate()",
+      "contents": "getUTCDate()"
+    },
+    {
+      "trigger": "getUTCDay()",
+      "contents": "getUTCDay()"
+    },
+    {
+      "trigger": "getUTCMonth()",
+      "contents": "getUTCMonth()"
+    },
+    {
+      "trigger": "getUTCFullYear()",
+      "contents": "getUTCFullYear()"
+    },
+    {
+      "trigger": "getUTCHours()",
+      "contents": "getUTCHours()"
+    },
+    {
+      "trigger": "getUTCMinutes()",
+      "contents": "getUTCMinutes()"
+    },
+    {
+      "trigger": "getUTCSeconds()",
+      "contents": "getUTCSeconds()"
+    },
+    {
+      "trigger": "getUTCMilliseconds()",
+      "contents": "getUTCMilliseconds()"
+    },
+    {
+      "trigger": "parse()",
+      "contents": "parse()"
+    },
+    {
+      "trigger": "setDate()",
+      "contents": "setDate()"
+    },
+    {
+      "trigger": "setMonth()",
+      "contents": "setMonth()"
+    },
+    {
+      "trigger": "setFullYear()",
+      "contents": "setFullYear()"
+    },
+    {
+      "trigger": "setYear()",
+      "contents": "setYear()"
+    },
+    {
+      "trigger": "setHours()",
+      "contents": "setHours()"
+    },
+    {
+      "trigger": "setMinutes()",
+      "contents": "setMinutes()"
+    },
+    {
+      "trigger": "setSeconds()",
+      "contents": "setSeconds()"
+    },
+    {
+      "trigger": "setMilliseconds()",
+      "contents": "setMilliseconds()"
+    },
+    {
+      "trigger": "setTime()",
+      "contents": "setTime()"
+    },
+    {
+      "trigger": "setUTCDate()",
+      "contents": "setUTCDate()"
+    },
+    {
+      "trigger": "setUTCMonth()",
+      "contents": "setUTCMonth()"
+    },
+    {
+      "trigger": "setUTCFullYear()",
+      "contents": "setUTCFullYear()"
+    },
+    {
+      "trigger": "setUTCHours()",
+      "contents": "setUTCHours()"
+    },
+    {
+      "trigger": "setUTCMinutes()",
+      "contents": "setUTCMinutes()"
+    },
+    {
+      "trigger": "setUTCSeconds()",
+      "contents": "setUTCSeconds()"
+    },
+    {
+      "trigger": "setUTCMilliseconds()",
+      "contents": "setUTCMilliseconds()"
+    },
+    {
+      "trigger": "toTimeString()",
+      "contents": "toTimeString()"
+    },
+    {
+      "trigger": "toDateString()",
+      "contents": "toDateString()"
+    },
+    {
+      "trigger": "toGMTString()",
+      "contents": "toGMTString()"
+    },
+    {
+      "trigger": "toUTCString()",
+      "contents": "toUTCString()"
+    },
+    {
+      "trigger": "toLocaleTimeString()",
+      "contents": "toLocaleTimeString()"
+    },
+    {
+      "trigger": "toLocaleDateString()",
+      "contents": "toLocaleDateString()"
+    },
+    {
+      "trigger": "UTC()",
+      "contents": "UTC()"
     }
   ]
 }
